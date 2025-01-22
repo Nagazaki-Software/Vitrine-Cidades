@@ -65,6 +65,188 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
       }(RecuperarStatusCall.status(
         (_model.recuperarStatus?.jsonBody ?? ''),
       )!)) {
+        if (widget!.tipoDePlano == 'profissional') {
+          FFAppState().tipoDeAssinatura = 'profissional';
+          safeSetState(() {});
+
+          await PagamentoRecord.createDoc(currentUserReference!)
+              .set(createPagamentoRecordData(
+            plano: 'profissional',
+            metodo: 'PIX',
+            nomeDaPessoa: currentUserDisplayName,
+            cpfcnpj: widget!.cpf,
+            statusDoPagamento: getJsonField(
+              (_model.recuperarStatus?.jsonBody ?? ''),
+              r'''$.status''',
+            ).toString().toString(),
+            valor: widget!.valorDouble,
+            dia: getCurrentTimestamp,
+          ));
+
+          await PagamentoRecord.createDoc(currentUserReference!)
+              .set(createPagamentoRecordData(
+            plano: 'Profissional',
+            metodo: 'PIX',
+            nomeDaPessoa: currentUserDisplayName,
+            cpfcnpj: widget!.cpf,
+            valor: widget!.valorDouble,
+            statusDoPagamento: 'Aprovado',
+            invoiceNumber: getJsonField(
+              (_model.recuperarStatus?.jsonBody ?? ''),
+              r'''$.invoiceNumber''',
+            ).toString().toString(),
+            invoiceUrl: getJsonField(
+              (_model.recuperarStatus?.jsonBody ?? ''),
+              r'''$.invoiceUrl''',
+            ).toString().toString(),
+            dia: getCurrentTimestamp,
+          ));
+
+          await NotificacoesRecord.collection
+              .doc()
+              .set(createNotificacoesRecordData(
+                name: 'Seu pagamento foi realizado com sucesso!',
+                dia: getCurrentTimestamp,
+                description:
+                    'Seu pagamento da assinatura profissional foi realizada com sucesso no método PIX.',
+                uidUsuario: currentUserReference?.id,
+              ));
+          triggerPushNotification(
+            notificationTitle:
+                '${currentUserDisplayName} efetuou a compra da assinatura profissional.',
+            notificationText:
+                '${currentUserDisplayName}efetuou a compra da assinatura profissional, há ${dateTimeFormat(
+              "relative",
+              getCurrentTimestamp,
+              locale: FFLocalizations.of(context).languageCode,
+            )}com a forma de pagamento PIX, entre no app para ver mais detalhes.',
+            notificationSound: 'default',
+            userRefs: widget!.admin!.toList(),
+            initialPageName: 'pagamentosModoAdmin',
+            parameterData: {},
+          );
+        } else if (widget!.tipoDePlano == 'premium') {
+          FFAppState().tipoDeAssinatura = 'premium';
+          safeSetState(() {});
+
+          await PagamentoRecord.createDoc(currentUserReference!)
+              .set(createPagamentoRecordData(
+            plano: 'premium',
+            metodo: 'PIX',
+            nomeDaPessoa: currentUserDisplayName,
+            cpfcnpj: widget!.cpf,
+            statusDoPagamento: getJsonField(
+              (_model.recuperarStatus?.jsonBody ?? ''),
+              r'''$.status''',
+            ).toString().toString(),
+            valor: widget!.valorDouble,
+            dia: getCurrentTimestamp,
+          ));
+
+          await PagamentoRecord.createDoc(currentUserReference!)
+              .set(createPagamentoRecordData(
+            plano: 'Premium',
+            metodo: 'PIX',
+            nomeDaPessoa: currentUserDisplayName,
+            cpfcnpj: widget!.cpf,
+            valor: widget!.valorDouble,
+            statusDoPagamento: 'Aprovado',
+            invoiceNumber: getJsonField(
+              (_model.recuperarStatus?.jsonBody ?? ''),
+              r'''$.invoiceNumber''',
+            ).toString().toString(),
+            invoiceUrl: getJsonField(
+              (_model.recuperarStatus?.jsonBody ?? ''),
+              r'''$.invoiceUrl''',
+            ).toString().toString(),
+            dia: getCurrentTimestamp,
+          ));
+
+          await NotificacoesRecord.collection
+              .doc()
+              .set(createNotificacoesRecordData(
+                name: 'Seu pagamento foi realizado com sucesso!',
+                dia: getCurrentTimestamp,
+                description:
+                    'Seu pagamento da assinatura premium foi realizada com sucesso no método PIX.',
+                uidUsuario: currentUserReference?.id,
+              ));
+          triggerPushNotification(
+            notificationTitle:
+                '${currentUserDisplayName} efetuou a compra da assinatura premium.',
+            notificationText:
+                '${currentUserDisplayName}efetuou a compra da assinatura premium, há ${dateTimeFormat(
+              "relative",
+              getCurrentTimestamp,
+              locale: FFLocalizations.of(context).languageCode,
+            )}com a forma de pagamento PIX, entre no app para ver mais detalhes.',
+            notificationSound: 'default',
+            userRefs: widget!.admin!.toList(),
+            initialPageName: 'PainelAdministrativoDoApp',
+            parameterData: {},
+          );
+        } else if (widget!.tipoDePlano == 'basico') {
+          FFAppState().tipoDeAssinatura = 'basico';
+          safeSetState(() {});
+
+          await PagamentoRecord.createDoc(currentUserReference!)
+              .set(createPagamentoRecordData(
+            plano: 'basico',
+            metodo: 'PIX',
+            nomeDaPessoa: currentUserDisplayName,
+            cpfcnpj: widget!.cpf,
+            statusDoPagamento: getJsonField(
+              (_model.recuperarStatus?.jsonBody ?? ''),
+              r'''$.status''',
+            ).toString().toString(),
+            valor: widget!.valorDouble,
+            dia: getCurrentTimestamp,
+          ));
+
+          await PagamentoRecord.createDoc(currentUserReference!)
+              .set(createPagamentoRecordData(
+            plano: 'Básico',
+            metodo: 'PIX',
+            nomeDaPessoa: currentUserDisplayName,
+            cpfcnpj: widget!.cpf,
+            valor: widget!.valorDouble,
+            statusDoPagamento: 'Aprovado',
+            invoiceNumber: getJsonField(
+              (_model.recuperarStatus?.jsonBody ?? ''),
+              r'''$.invoiceNumber''',
+            ).toString().toString(),
+            invoiceUrl: getJsonField(
+              (_model.recuperarStatus?.jsonBody ?? ''),
+              r'''$.invoiceUrl''',
+            ).toString().toString(),
+            dia: getCurrentTimestamp,
+          ));
+
+          await NotificacoesRecord.collection
+              .doc()
+              .set(createNotificacoesRecordData(
+                name: 'Seu pagamento foi realizado com sucesso!',
+                dia: getCurrentTimestamp,
+                description:
+                    'Seu pagamento da assinatura básico foi realizada com sucesso no método PIX.',
+                uidUsuario: currentUserReference?.id,
+              ));
+          triggerPushNotification(
+            notificationTitle:
+                '${currentUserDisplayName} efetuou a compra da assinatura básica.',
+            notificationText:
+                '${currentUserDisplayName}efetuou a compra da assinatura básica, há ${dateTimeFormat(
+              "relative",
+              getCurrentTimestamp,
+              locale: FFLocalizations.of(context).languageCode,
+            )}com a forma de pagamento PIX, entre no app para ver mais detalhes.',
+            notificationSound: 'default',
+            userRefs: widget!.admin!.toList(),
+            initialPageName: 'PainelAdministrativoDoApp',
+            parameterData: {},
+          );
+        }
+
         await showModalBottomSheet(
           isScrollControlled: true,
           backgroundColor: Colors.transparent,
@@ -79,7 +261,7 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
               child: Padding(
                 padding: MediaQuery.viewInsetsOf(context),
                 child: PagamentoconfirmadoPixWidget(
-                  valorDouble: 39.90,
+                  valorDouble: widget!.valorDouble!,
                 ),
               ),
             );
@@ -100,6 +282,8 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
 
   @override
   Widget build(BuildContext context) {
+    context.watch<FFAppState>();
+
     return GestureDetector(
       onTap: () {
         FocusScope.of(context).unfocus();

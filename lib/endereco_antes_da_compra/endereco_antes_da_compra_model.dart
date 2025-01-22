@@ -12,6 +12,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import 'package:provider/provider.dart';
 
 class EnderecoAntesDaCompraModel
@@ -39,10 +40,16 @@ class EnderecoAntesDaCompraModel
   // State field(s) for TextField widget.
   FocusNode? textFieldFocusNode3;
   TextEditingController? textController3;
+  final textFieldMask3 = MaskTextInputFormatter(
+      mask: _model.textController1.text != null &&
+              _model.textController1.text != ''
+          ? '##.###.###/####-##'
+          : '###.###.###-##');
   String? Function(BuildContext, String?)? textController3Validator;
   // State field(s) for TextField widget.
   FocusNode? textFieldFocusNode4;
   TextEditingController? textController4;
+  final textFieldMask4 = MaskTextInputFormatter(mask: '(##) # ####-####');
   String? Function(BuildContext, String?)? textController4Validator;
   // State field(s) for TextField widget.
   FocusNode? textFieldFocusNode5;

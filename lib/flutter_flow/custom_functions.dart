@@ -437,3 +437,13 @@ double calculeValorTotal(
   // calcule o valor1 com o valor2 e retorne-o
   return valor1 + valor2;
 }
+
+String espacoCartoes(String textfield) {
+  // quando textfield for focus retorne os espaços de 16 digitos do cartao
+  if (textfield.length == 16) {
+    return textfield.replaceAllMapped(
+        RegExp(r".{4}"), (match) => "${match.group(0)} ");
+  } else {
+    return '';
+  }
+}

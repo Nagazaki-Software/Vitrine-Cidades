@@ -25,6 +25,7 @@ import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import 'package:provider/provider.dart';
 
 class ResumoDoPedidoModel extends FlutterFlowModel<ResumoDoPedidoWidget> {
@@ -39,6 +40,8 @@ class ResumoDoPedidoModel extends FlutterFlowModel<ResumoDoPedidoWidget> {
   double mes = 1.0;
 
   String cartoesPix = 'Cartões';
+
+  String? formatCartoes;
 
   ///  State fields for stateful widgets in this page.
 
@@ -66,6 +69,7 @@ class ResumoDoPedidoModel extends FlutterFlowModel<ResumoDoPedidoWidget> {
   // State field(s) for TextField widget.
   FocusNode? textFieldFocusNode1;
   TextEditingController? textController1;
+  final textFieldMask1 = MaskTextInputFormatter(mask: '#### #### #### ####');
   String? Function(BuildContext, String?)? textController1Validator;
   // State field(s) for TextField widget.
   FocusNode? textFieldFocusNode2;

@@ -24,6 +24,7 @@ import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import 'package:provider/provider.dart';
 import 'resumo_do_pedido_model.dart';
 export 'resumo_do_pedido_model.dart';
@@ -367,7 +368,13 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
 
     _model.textController1 ??= TextEditingController();
     _model.textFieldFocusNode1 ??= FocusNode();
-
+    _model.textFieldFocusNode1!.addListener(
+      () async {
+        _model.formatCartoes = functions.espacoCartoes(
+            (_model.textFieldFocusNode1?.hasFocus ?? false).toString());
+        safeSetState(() {});
+      },
+    );
     _model.textController2 ??= TextEditingController();
     _model.textFieldFocusNode2 ??= FocusNode();
 
@@ -784,12 +791,10 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
-                                    maxLength: 16,
-                                    maxLengthEnforcement:
-                                        MaxLengthEnforcement.enforced,
                                     keyboardType: TextInputType.number,
                                     validator: _model.textController1Validator
                                         .asValidator(context),
+                                    inputFormatters: [_model.textFieldMask1],
                                   ),
                                   Row(
                                     mainAxisSize: MainAxisSize.max,

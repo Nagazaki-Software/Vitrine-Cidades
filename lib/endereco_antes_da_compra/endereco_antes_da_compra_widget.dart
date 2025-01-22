@@ -11,6 +11,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import 'package:provider/provider.dart';
 import 'endereco_antes_da_compra_model.dart';
 export 'endereco_antes_da_compra_model.dart';
@@ -107,7 +108,7 @@ class _EnderecoAntesDaCompraWidgetState
 
     _model.textController6 ??= TextEditingController(text: _model.logradouro);
     _model.textFieldFocusNode6 ??= FocusNode();
-
+    _model.textFieldFocusNode6!.addListener(() => safeSetState(() {}));
     _model.textController7 ??= TextEditingController();
     _model.textFieldFocusNode7 ??= FocusNode();
 
@@ -404,6 +405,7 @@ class _EnderecoAntesDaCompraWidgetState
                               minLines: 1,
                               validator: _model.textController3Validator
                                   .asValidator(context),
+                              inputFormatters: [_model.textFieldMask3],
                             ),
                             TextFormField(
                               controller: _model.textController4,
@@ -466,6 +468,7 @@ class _EnderecoAntesDaCompraWidgetState
                               minLines: 1,
                               validator: _model.textController4Validator
                                   .asValidator(context),
+                              inputFormatters: [_model.textFieldMask4],
                             ),
                             TextFormField(
                               controller: _model.textController5,
