@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "64834951492",
+    "project_id": "vitrine-app-on7ygn",
+    "storage_bucket": "vitrine-app-on7ygn.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64834951492:android:dc84a3a1d0f6019e579f11",
+        "android_client_info": {
+          "package_name": "com.nagazakisoftware.vitrineapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64834951492-e3qjb2q663vqm6g8nj8mgpg6im70vdbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nagazakisoftware.vitrineapp",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "64834951492-kj68pvr0tq7nut8ekitqv5d05t4cmeeo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn6CtW98hdzraat47LQhfmTuibnolRiw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64834951492-kj68pvr0tq7nut8ekitqv5d05t4cmeeo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64834951492-l7iitlvnotr47nvvld3u7iiu937b60bh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nagazakisoftware.vitrineapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
