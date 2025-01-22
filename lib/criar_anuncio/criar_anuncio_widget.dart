@@ -126,7 +126,7 @@ class _CriarAnuncioWidgetState extends State<CriarAnuncioWidget>
                   Text(
                     'Criar um anúncio',
                     style: FlutterFlowTheme.of(context).headlineMedium.override(
-                          fontFamily: 'Barlow',
+                          font: GoogleFonts.barlow(),
                           letterSpacing: 0.0,
                         ),
                   ),
@@ -135,7 +135,7 @@ class _CriarAnuncioWidgetState extends State<CriarAnuncioWidget>
                     child: Text(
                       'Apareça sempre em primeiro.',
                       style: FlutterFlowTheme.of(context).labelLarge.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -153,7 +153,7 @@ class _CriarAnuncioWidgetState extends State<CriarAnuncioWidget>
                           labelStyle: FlutterFlowTheme.of(context)
                               .headlineSmall
                               .override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color:
                                     FlutterFlowTheme.of(context).secondaryText,
                                 letterSpacing: 0.0,
@@ -161,7 +161,7 @@ class _CriarAnuncioWidgetState extends State<CriarAnuncioWidget>
                               ),
                           hintStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                           enabledBorder: UnderlineInputBorder(
@@ -197,7 +197,7 @@ class _CriarAnuncioWidgetState extends State<CriarAnuncioWidget>
                         ),
                         style:
                             FlutterFlowTheme.of(context).headlineSmall.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   letterSpacing: 0.0,
                                 ),
                         cursorColor: FlutterFlowTheme.of(context).primary,
@@ -244,7 +244,7 @@ class _CriarAnuncioWidgetState extends State<CriarAnuncioWidget>
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Inter Tight',
+                                          font: GoogleFonts.interTight(),
                                           color: FlutterFlowTheme.of(context)
                                               .secondaryBackground,
                                           fontSize: 24.0,
@@ -351,7 +351,7 @@ class _CriarAnuncioWidgetState extends State<CriarAnuncioWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -388,7 +388,7 @@ class _CriarAnuncioWidgetState extends State<CriarAnuncioWidget>
                           backgroundColor: FlutterFlowTheme.of(context).primary,
                           textStyle:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     color: FlutterFlowTheme.of(context).info,
                                     letterSpacing: 0.0,
                                   ),
@@ -403,7 +403,7 @@ class _CriarAnuncioWidgetState extends State<CriarAnuncioWidget>
                           textStyle: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
-                                fontFamily: 'Rubik',
+                                font: GoogleFonts.rubik(),
                                 color:
                                     FlutterFlowTheme.of(context).secondaryText,
                                 letterSpacing: 0.0,
@@ -452,7 +452,7 @@ class _CriarAnuncioWidgetState extends State<CriarAnuncioWidget>
                           color: FlutterFlowTheme.of(context).primary,
                           textStyle:
                               FlutterFlowTheme.of(context).titleSmall.override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: Colors.white,
                                     letterSpacing: 0.0,
                                   ),

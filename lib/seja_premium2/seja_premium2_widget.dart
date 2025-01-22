@@ -110,7 +110,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                           style: FlutterFlowTheme.of(context)
                               .displaySmall
                               .override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: Colors.white,
                                 letterSpacing: 0.0,
                                 fontWeight: FontWeight.bold,
@@ -125,7 +125,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).bodyLarge.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     color: Color(0xFFE0E0E0),
                                     letterSpacing: 0.0,
                                   ),
@@ -157,7 +157,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: FlutterFlowTheme.of(context)
                                               .primaryText,
                                           letterSpacing: 0.0,
@@ -179,7 +179,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -201,7 +201,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -223,7 +223,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -245,7 +245,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -267,7 +267,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -306,7 +306,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: FlutterFlowTheme.of(context)
                                               .primaryText,
                                           letterSpacing: 0.0,
@@ -338,13 +338,14 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                             children: [
                                               Text(
                                                 'Plano básico',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .titleMedium
-                                                        .override(
-                                                          fontFamily: 'Barlow',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .titleMedium
+                                                    .override(
+                                                      font:
+                                                          GoogleFonts.barlow(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -355,33 +356,34 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                             children: [
                                               Text(
                                                 'R\$',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Text(
                                                 '29,90',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .headlineMedium
-                                                        .override(
-                                                          fontFamily: 'Barlow',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .headlineMedium
+                                                    .override(
+                                                      font:
+                                                          GoogleFonts.barlow(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Text(
                                                 '/mês',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ].divide(SizedBox(width: 4.0)),
                                           ),
@@ -390,7 +392,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .secondaryText,
@@ -414,14 +416,14 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primary,
-                                              textStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .titleSmall
-                                                      .override(
-                                                        fontFamily: 'Barlow',
-                                                        color: Colors.white,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              textStyle: FlutterFlowTheme.of(
+                                                      context)
+                                                  .titleSmall
+                                                  .override(
+                                                    font: GoogleFonts.barlow(),
+                                                    color: Colors.white,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                               elevation: 0.0,
                                               borderRadius:
                                                   BorderRadius.circular(25.0),
@@ -449,7 +451,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .titleMedium
                                                 .override(
-                                                  fontFamily: 'Barlow',
+                                                  font: GoogleFonts.barlow(),
                                                   letterSpacing: 0.0,
                                                 ),
                                           ),
@@ -460,33 +462,34 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                             children: [
                                               Text(
                                                 'R\$',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Text(
                                                 '199,90',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .headlineMedium
-                                                        .override(
-                                                          fontFamily: 'Barlow',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .headlineMedium
+                                                    .override(
+                                                      font:
+                                                          GoogleFonts.barlow(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Text(
                                                 '/ano',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ].divide(SizedBox(width: 4.0)),
                                           ),
@@ -495,7 +498,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .success,
@@ -517,17 +520,16 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                               iconPadding: EdgeInsetsDirectional
                                                   .fromSTEB(0.0, 0.0, 0.0, 0.0),
                                               color: Colors.white,
-                                              textStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .titleSmall
-                                                      .override(
-                                                        fontFamily: 'Barlow',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primary,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              textStyle: FlutterFlowTheme.of(
+                                                      context)
+                                                  .titleSmall
+                                                  .override(
+                                                    font: GoogleFonts.barlow(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .primary,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                               elevation: 0.0,
                                               borderSide: BorderSide(
                                                 color:
@@ -575,7 +577,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: FlutterFlowTheme.of(context)
                                               .primaryText,
                                           letterSpacing: 0.0,
@@ -602,28 +604,29 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                             children: [
                                               Text(
                                                 'Como funciona o período de teste?',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyLarge
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w600,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyLarge
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w600,
+                                                    ),
                                               ),
                                               Text(
                                                 'Você tem 7 dias para experimentar todos os recursos premium gratuitamente. Cancele a qualquer momento durante este período.',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .secondaryText,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -647,28 +650,29 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                             children: [
                                               Text(
                                                 'Posso cancelar minha assinatura?',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyLarge
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w600,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyLarge
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w600,
+                                                    ),
                                               ),
                                               Text(
                                                 'Sim, você pode cancelar sua assinatura a qualquer momento. O acesso premium continuará até o final do período pago.',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .secondaryText,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -692,28 +696,29 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                                             children: [
                                               Text(
                                                 'Como funciona o pagamento?',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyLarge
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w600,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyLarge
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w600,
+                                                    ),
                                               ),
                                               Text(
                                                 'Aceitamos todas as principais formas de pagamento, incluindo cartões de crédito, débito e PIX.',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .secondaryText,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -735,7 +740,7 @@ class _SejaPremium2WidgetState extends State<SejaPremium2Widget> {
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).bodySmall.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     color: Colors.white,
                                     letterSpacing: 0.0,
                                   ),

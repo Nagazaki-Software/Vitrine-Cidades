@@ -69,7 +69,7 @@ class _EsqueciMinhaSenhaWidgetState extends State<EsqueciMinhaSenhaWidget> {
           child: Text(
             'Voltar',
             style: FlutterFlowTheme.of(context).displaySmall.override(
-                  fontFamily: 'Barlow',
+                  font: GoogleFonts.barlow(),
                   fontSize: 16.0,
                   letterSpacing: 0.0,
                 ),
@@ -127,7 +127,7 @@ class _EsqueciMinhaSenhaWidgetState extends State<EsqueciMinhaSenhaWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   letterSpacing: 0.0,
                                 ),
                           ),
@@ -141,7 +141,7 @@ class _EsqueciMinhaSenhaWidgetState extends State<EsqueciMinhaSenhaWidget> {
                 child: Text(
                   'Esqueceu sua senha',
                   style: FlutterFlowTheme.of(context).headlineMedium.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -151,7 +151,7 @@ class _EsqueciMinhaSenhaWidgetState extends State<EsqueciMinhaSenhaWidget> {
                 child: Text(
                   'Esqueceu sua senha? Sem problemas! Digite seu e-mail abaixo e enviaremos instruções para redefini-la.',
                   style: FlutterFlowTheme.of(context).labelMedium.override(
-                        fontFamily: 'Rubik',
+                        font: GoogleFonts.rubik(),
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -168,13 +168,13 @@ class _EsqueciMinhaSenhaWidgetState extends State<EsqueciMinhaSenhaWidget> {
                     decoration: InputDecoration(
                       labelStyle:
                           FlutterFlowTheme.of(context).labelMedium.override(
-                                fontFamily: 'Rubik',
+                                font: GoogleFonts.rubik(),
                                 letterSpacing: 0.0,
                               ),
                       hintText: 'Digite seu e-mail',
                       hintStyle:
                           FlutterFlowTheme.of(context).labelMedium.override(
-                                fontFamily: 'Rubik',
+                                font: GoogleFonts.rubik(),
                                 letterSpacing: 0.0,
                               ),
                       enabledBorder: OutlineInputBorder(
@@ -212,7 +212,7 @@ class _EsqueciMinhaSenhaWidgetState extends State<EsqueciMinhaSenhaWidget> {
                           24.0, 24.0, 20.0, 24.0),
                     ),
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Rubik',
+                          font: GoogleFonts.rubik(),
                           letterSpacing: 0.0,
                         ),
                     maxLines: null,
@@ -255,7 +255,7 @@ class _EsqueciMinhaSenhaWidgetState extends State<EsqueciMinhaSenhaWidget> {
                       color: FlutterFlowTheme.of(context).primary,
                       textStyle:
                           FlutterFlowTheme.of(context).titleSmall.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
                                 letterSpacing: 0.0,

@@ -121,14 +121,14 @@ class _BarraDePesquisaDrawerWidgetState
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                               minLines: 1,
@@ -169,7 +169,7 @@ class _BarraDePesquisaDrawerWidgetState
                             'Current Location',
                             style:
                                 FlutterFlowTheme.of(context).bodySmall.override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       color: FlutterFlowTheme.of(context)
                                           .primaryBackground,
                                       letterSpacing: 0.0,
@@ -180,7 +180,7 @@ class _BarraDePesquisaDrawerWidgetState
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   color: FlutterFlowTheme.of(context)
                                       .secondaryBackground,
                                   letterSpacing: 0.0,

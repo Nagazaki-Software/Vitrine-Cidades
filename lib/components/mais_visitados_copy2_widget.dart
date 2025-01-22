@@ -117,7 +117,7 @@ class _MaisVisitadosCopy2WidgetState extends State<MaisVisitadosCopy2Widget> {
                           style: FlutterFlowTheme.of(context)
                               .headlineSmall
                               .override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 letterSpacing: 0.0,
                               ),
                         ),
@@ -134,7 +134,7 @@ class _MaisVisitadosCopy2WidgetState extends State<MaisVisitadosCopy2Widget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   color: FlutterFlowTheme.of(context).primary,
                                   letterSpacing: 0.0,
                                 ),
@@ -261,8 +261,8 @@ class _MaisVisitadosCopy2WidgetState extends State<MaisVisitadosCopy2Widget> {
                                                                         context)
                                                                     .bodyMedium
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Noto Sans',
+                                                                      font: GoogleFonts
+                                                                          .notoSans(),
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
                                                                           .secondaryBackground,
@@ -293,15 +293,15 @@ class _MaisVisitadosCopy2WidgetState extends State<MaisVisitadosCopy2Widget> {
                                             children: [
                                               Text(
                                                 todosItem.name,
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyLarge
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w600,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyLarge
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w600,
+                                                    ),
                                               ),
                                               Row(
                                                 mainAxisSize: MainAxisSize.max,
@@ -319,7 +319,8 @@ class _MaisVisitadosCopy2WidgetState extends State<MaisVisitadosCopy2Widget> {
                                                             context)
                                                         .bodySmall
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           color: FlutterFlowTheme
                                                                   .of(context)
                                                               .secondaryText,
@@ -336,16 +337,19 @@ class _MaisVisitadosCopy2WidgetState extends State<MaisVisitadosCopy2Widget> {
                                                             .commaDecimal,
                                                         currency: 'R\$',
                                                       ),
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodyLarge
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .primary,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodyLarge
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .rubik(),
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .primary,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                              ),
                                                     ),
                                                 ].divide(SizedBox(width: 8.0)),
                                               ),
@@ -365,7 +369,8 @@ class _MaisVisitadosCopy2WidgetState extends State<MaisVisitadosCopy2Widget> {
                                                             context)
                                                         .labelSmall
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                   ),
@@ -375,7 +380,8 @@ class _MaisVisitadosCopy2WidgetState extends State<MaisVisitadosCopy2Widget> {
                                                             context)
                                                         .labelSmall
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                   ),

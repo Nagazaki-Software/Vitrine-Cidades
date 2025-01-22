@@ -160,106 +160,91 @@ class ThemeTypography extends Typography {
   final FlutterFlowTheme theme;
 
   String get displayLargeFamily => 'Barlow';
-  TextStyle get displayLarge => GoogleFonts.getFont(
-        'Barlow',
+  TextStyle get displayLarge => GoogleFonts.barlow(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 64.0,
       );
   String get displayMediumFamily => 'Barlow';
-  TextStyle get displayMedium => GoogleFonts.getFont(
-        'Barlow',
+  TextStyle get displayMedium => GoogleFonts.barlow(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 44.0,
       );
   String get displaySmallFamily => 'Barlow';
-  TextStyle get displaySmall => GoogleFonts.getFont(
-        'Barlow',
+  TextStyle get displaySmall => GoogleFonts.barlow(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 36.0,
       );
   String get headlineLargeFamily => 'Barlow';
-  TextStyle get headlineLarge => GoogleFonts.getFont(
-        'Barlow',
+  TextStyle get headlineLarge => GoogleFonts.barlow(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 32.0,
       );
   String get headlineMediumFamily => 'Barlow';
-  TextStyle get headlineMedium => GoogleFonts.getFont(
-        'Barlow',
+  TextStyle get headlineMedium => GoogleFonts.barlow(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 28.0,
       );
   String get headlineSmallFamily => 'Barlow';
-  TextStyle get headlineSmall => GoogleFonts.getFont(
-        'Barlow',
+  TextStyle get headlineSmall => GoogleFonts.barlow(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 24.0,
       );
   String get titleLargeFamily => 'Barlow';
-  TextStyle get titleLarge => GoogleFonts.getFont(
-        'Barlow',
+  TextStyle get titleLarge => GoogleFonts.barlow(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 20.0,
       );
   String get titleMediumFamily => 'Barlow';
-  TextStyle get titleMedium => GoogleFonts.getFont(
-        'Barlow',
+  TextStyle get titleMedium => GoogleFonts.barlow(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 18.0,
       );
   String get titleSmallFamily => 'Barlow';
-  TextStyle get titleSmall => GoogleFonts.getFont(
-        'Barlow',
+  TextStyle get titleSmall => GoogleFonts.barlow(
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 16.0,
       );
   String get labelLargeFamily => 'Rubik';
-  TextStyle get labelLarge => GoogleFonts.getFont(
-        'Rubik',
+  TextStyle get labelLarge => GoogleFonts.rubik(
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
         fontSize: 16.0,
       );
   String get labelMediumFamily => 'Rubik';
-  TextStyle get labelMedium => GoogleFonts.getFont(
-        'Rubik',
+  TextStyle get labelMedium => GoogleFonts.rubik(
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
         fontSize: 14.0,
       );
   String get labelSmallFamily => 'Rubik';
-  TextStyle get labelSmall => GoogleFonts.getFont(
-        'Rubik',
+  TextStyle get labelSmall => GoogleFonts.rubik(
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
         fontSize: 12.0,
       );
   String get bodyLargeFamily => 'Rubik';
-  TextStyle get bodyLarge => GoogleFonts.getFont(
-        'Rubik',
+  TextStyle get bodyLarge => GoogleFonts.rubik(
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 16.0,
       );
   String get bodyMediumFamily => 'Rubik';
-  TextStyle get bodyMedium => GoogleFonts.getFont(
-        'Rubik',
+  TextStyle get bodyMedium => GoogleFonts.rubik(
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 14.0,
       );
   String get bodySmallFamily => 'Rubik';
-  TextStyle get bodySmall => GoogleFonts.getFont(
-        'Rubik',
+  TextStyle get bodySmall => GoogleFonts.rubik(
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 12.0,
@@ -268,38 +253,43 @@ class ThemeTypography extends Typography {
 
 extension TextStyleHelper on TextStyle {
   TextStyle override({
+    TextStyle? font,
     String? fontFamily,
     Color? color,
     double? fontSize,
     FontWeight? fontWeight,
     double? letterSpacing,
     FontStyle? fontStyle,
-    bool useGoogleFonts = true,
+    bool useGoogleFonts = false,
     TextDecoration? decoration,
     double? lineHeight,
     List<Shadow>? shadows,
-  }) =>
-      useGoogleFonts
-          ? GoogleFonts.getFont(
-              fontFamily!,
-              color: color ?? this.color,
-              fontSize: fontSize ?? this.fontSize,
-              letterSpacing: letterSpacing ?? this.letterSpacing,
-              fontWeight: fontWeight ?? this.fontWeight,
-              fontStyle: fontStyle ?? this.fontStyle,
-              decoration: decoration,
-              height: lineHeight,
-              shadows: shadows,
-            )
-          : copyWith(
-              fontFamily: fontFamily,
-              color: color,
-              fontSize: fontSize,
-              letterSpacing: letterSpacing,
-              fontWeight: fontWeight,
-              fontStyle: fontStyle,
-              decoration: decoration,
-              height: lineHeight,
-              shadows: shadows,
-            );
+  }) {
+    if (useGoogleFonts && fontFamily != null) {
+      font = GoogleFonts.getFont(fontFamily);
+    }
+
+    return font != null
+        ? font.copyWith(
+            color: color ?? this.color,
+            fontSize: fontSize ?? this.fontSize,
+            letterSpacing: letterSpacing ?? this.letterSpacing,
+            fontWeight: fontWeight ?? this.fontWeight,
+            fontStyle: fontStyle ?? this.fontStyle,
+            decoration: decoration,
+            height: lineHeight,
+            shadows: shadows,
+          )
+        : copyWith(
+            fontFamily: fontFamily,
+            color: color,
+            fontSize: fontSize,
+            letterSpacing: letterSpacing,
+            fontWeight: fontWeight,
+            fontStyle: fontStyle,
+            decoration: decoration,
+            height: lineHeight,
+            shadows: shadows,
+          );
+  }
 }

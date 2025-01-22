@@ -313,8 +313,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Noto Sans',
+                                                                    font: GoogleFonts
+                                                                        .notoSans(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .secondaryBackground,
@@ -595,8 +595,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                                     .of(context)
                                                                 .bodyMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                   fontWeight:
@@ -611,8 +611,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                                     .of(context)
                                                                 .bodyMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                   fontWeight:
@@ -626,8 +626,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                                     context)
                                                                 .bodyMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),
@@ -754,7 +754,7 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                                                       child: Text(
                                                                                         nomeDasVariacoesItem,
                                                                                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                                                                                              fontFamily: 'Rubik',
+                                                                                              font: GoogleFonts.rubik(),
                                                                                               color: FlutterFlowTheme.of(context).secondaryBackground,
                                                                                               fontSize: 10.0,
                                                                                               letterSpacing: 0.0,
@@ -805,8 +805,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                               .of(context)
                                                           .headlineMedium
                                                           .override(
-                                                            fontFamily:
-                                                                'Barlow',
+                                                            font: GoogleFonts
+                                                                .barlow(),
                                                             fontSize: 24.0,
                                                             letterSpacing: 0.0,
                                                           ),
@@ -837,8 +837,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                                   .of(context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                                 fontWeight:
@@ -863,8 +863,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                                   .of(context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                                 fontWeight:
@@ -907,7 +907,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                             context)
                                                         .headlineSmall
                                                         .override(
-                                                          fontFamily: 'Barlow',
+                                                          font: GoogleFonts
+                                                              .barlow(),
                                                           color: FlutterFlowTheme
                                                                   .of(context)
                                                               .primary,
@@ -938,8 +939,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                                   context)
                                                               .headlineSmall
                                                               .override(
-                                                                fontFamily:
-                                                                    'Barlow',
+                                                                font: GoogleFonts
+                                                                    .barlow(),
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .primaryText,
@@ -968,13 +969,13 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                               child: Text(
                                                 paginaDoProdutoSeusprodutosRecord
                                                     .description,
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .labelMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .labelMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ),
                                         ],
@@ -1029,8 +1030,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                                 .of(context)
                                                             .titleMedium
                                                             .override(
-                                                              fontFamily:
-                                                                  'Barlow',
+                                                              font: GoogleFonts
+                                                                  .barlow(),
                                                               fontSize: 15.0,
                                                               letterSpacing:
                                                                   0.0,
@@ -1057,8 +1058,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                                       .of(context)
                                                                   .titleMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Barlow',
+                                                                    font: GoogleFonts
+                                                                        .barlow(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .primary,
@@ -1139,8 +1140,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                                             context)
                                                                         .bodyMedium
                                                                         .override(
-                                                                          fontFamily:
-                                                                              'Rubik',
+                                                                          font:
+                                                                              GoogleFonts.rubik(),
                                                                           fontSize:
                                                                               20.0,
                                                                           letterSpacing:
@@ -1290,7 +1291,8 @@ class _PaginaDoProdutoWidgetState extends State<PaginaDoProdutoWidget> {
                                                             context)
                                                         .bodyMedium
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           color: Colors.white,
                                                           fontSize: 16.0,
                                                           letterSpacing: 0.0,

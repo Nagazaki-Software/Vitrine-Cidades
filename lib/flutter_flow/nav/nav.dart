@@ -765,6 +765,18 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                   collectionNamePath: ['Lojistas'],
                 ),
               ),
+            ),
+            FFRoute(
+              name: 'detalhesDoPagamento',
+              path: 'detalhesDoPagamento',
+              builder: (context, params) => DetalhesDoPagamentoWidget(
+                pagamentos: params.getParam(
+                  'pagamentos',
+                  ParamType.DocumentReference,
+                  isList: false,
+                  collectionNamePath: ['users', 'pagamento'],
+                ),
+              ),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ),

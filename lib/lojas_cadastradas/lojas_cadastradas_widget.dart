@@ -80,7 +80,7 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                         'Lojas Cadastradas',
                         style:
                             FlutterFlowTheme.of(context).headlineLarge.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: Colors.white,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
@@ -89,7 +89,7 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                       Text(
                         'Gerencie todas as lojas do sistema',
                         style: FlutterFlowTheme.of(context).bodyLarge.override(
-                              fontFamily: 'Rubik',
+                              font: GoogleFonts.rubik(),
                               color: Color(0xFFE0E0E0),
                               letterSpacing: 0.0,
                             ),
@@ -144,7 +144,7 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -237,8 +237,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                     .of(context)
                                                                 .bodyLarge
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                   fontWeight:
@@ -257,8 +257,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                         context)
                                                                     .bodySmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
                                                                           .secondaryText,
@@ -274,8 +274,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                         context)
                                                                     .bodySmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
                                                                           .secondaryText,
@@ -319,8 +319,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                       .of(context)
                                                                   .bodySmall
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     color: Color(
                                                                         0xFF2E7D32),
                                                                     letterSpacing:
@@ -359,8 +359,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                       .of(context)
                                                                   .bodySmall
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .secondaryText,
@@ -375,8 +375,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -398,8 +398,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                       .of(context)
                                                                   .bodySmall
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .secondaryText,
@@ -414,8 +414,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -468,7 +468,7 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -563,8 +563,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                     .of(context)
                                                                 .bodyLarge
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                   fontWeight:
@@ -583,8 +583,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                         context)
                                                                     .bodySmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
                                                                           .secondaryText,
@@ -601,8 +601,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                         context)
                                                                     .bodySmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
                                                                           .secondaryText,
@@ -646,8 +646,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                       .of(context)
                                                                   .bodySmall
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     color: Color(
                                                                         0xFF2E7D32),
                                                                     letterSpacing:
@@ -686,8 +686,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                       .of(context)
                                                                   .bodySmall
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .secondaryText,
@@ -702,8 +702,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -725,8 +725,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                       .of(context)
                                                                   .bodySmall
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .secondaryText,
@@ -741,8 +741,8 @@ class _LojasCadastradasWidgetState extends State<LojasCadastradasWidget> {
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),

@@ -40,11 +40,7 @@ class EnderecoAntesDaCompraModel
   // State field(s) for TextField widget.
   FocusNode? textFieldFocusNode3;
   TextEditingController? textController3;
-  final textFieldMask3 = MaskTextInputFormatter(
-      mask: _model.textController1.text != null &&
-              _model.textController1.text != ''
-          ? '##.###.###/####-##'
-          : '###.###.###-##');
+  final textFieldMask3 = MaskTextInputFormatter(mask: '###.###.###-##');
   String? Function(BuildContext, String?)? textController3Validator;
   // State field(s) for TextField widget.
   FocusNode? textFieldFocusNode4;

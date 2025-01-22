@@ -65,7 +65,7 @@ class _NenhumProdutoEncontradoWidgetState
               'Nenhum produto encontrado',
               textAlign: TextAlign.center,
               style: FlutterFlowTheme.of(context).headlineSmall.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     letterSpacing: 0.0,
                   ),
             ),
@@ -73,7 +73,7 @@ class _NenhumProdutoEncontradoWidgetState
               'Busque seu produto utilizando a barra de pesquisa acima',
               textAlign: TextAlign.center,
               style: FlutterFlowTheme.of(context).bodyMedium.override(
-                    fontFamily: 'Rubik',
+                    font: GoogleFonts.rubik(),
                     color: FlutterFlowTheme.of(context).secondaryText,
                     letterSpacing: 0.0,
                   ),

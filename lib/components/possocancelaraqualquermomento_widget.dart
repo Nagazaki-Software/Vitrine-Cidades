@@ -76,14 +76,14 @@ class _PossocancelaraqualquermomentoWidgetState
               Text(
                 'Cancelamento',
                 style: FlutterFlowTheme.of(context).headlineSmall.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       letterSpacing: 0.0,
                     ),
               ),
               Text(
                 'Você pode cancelar sua assinatura a qualquer momento. Ao cancelar:',
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Rubik',
+                      font: GoogleFonts.rubik(),
                       letterSpacing: 0.0,
                     ),
               ),
@@ -103,7 +103,7 @@ class _PossocancelaraqualquermomentoWidgetState
                           'Você terá acesso até o final do período pago',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                         ),
@@ -123,7 +123,7 @@ class _PossocancelaraqualquermomentoWidgetState
                           'Não haverá cobranças futuras',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                         ),
@@ -143,7 +143,7 @@ class _PossocancelaraqualquermomentoWidgetState
                           'Seus dados serão mantidos por 30 dias',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                         ),
@@ -165,7 +165,7 @@ class _PossocancelaraqualquermomentoWidgetState
                       EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                   color: FlutterFlowTheme.of(context).primary,
                   textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         color: FlutterFlowTheme.of(context).info,
                         letterSpacing: 0.0,
                       ),

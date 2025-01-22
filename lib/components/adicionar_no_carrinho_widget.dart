@@ -139,7 +139,7 @@ class _AdicionarNoCarrinhoWidgetState extends State<AdicionarNoCarrinhoWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .headlineSmall
                                 .override(
-                                  fontFamily: 'Outfit',
+                                  font: GoogleFonts.outfit(),
                                   color: Color(0xFF14181B),
                                   fontSize: 24.0,
                                   letterSpacing: 0.0,
@@ -213,8 +213,8 @@ class _AdicionarNoCarrinhoWidgetState extends State<AdicionarNoCarrinhoWidget> {
                                                             context)
                                                         .bodyLarge
                                                         .override(
-                                                          fontFamily:
-                                                              'Plus Jakarta Sans',
+                                                          font: GoogleFonts
+                                                              .plusJakartaSans(),
                                                           color:
                                                               Color(0xFF14181B),
                                                           fontSize: 16.0,
@@ -239,8 +239,8 @@ class _AdicionarNoCarrinhoWidgetState extends State<AdicionarNoCarrinhoWidget> {
                                                                 .of(context)
                                                             .labelSmall
                                                             .override(
-                                                              fontFamily:
-                                                                  'Plus Jakarta Sans',
+                                                              font: GoogleFonts
+                                                                  .plusJakartaSans(),
                                                               color: Color(
                                                                   0xFF57636C),
                                                               fontSize: 12.0,
@@ -271,7 +271,8 @@ class _AdicionarNoCarrinhoWidgetState extends State<AdicionarNoCarrinhoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Plus Jakarta Sans',
+                                              font:
+                                                  GoogleFonts.plusJakartaSans(),
                                               color: Color(0xFF14181B),
                                               fontSize: 14.0,
                                               letterSpacing: 0.0,
@@ -324,7 +325,7 @@ class _AdicionarNoCarrinhoWidgetState extends State<AdicionarNoCarrinhoWidget> {
                                   textStyle: FlutterFlowTheme.of(context)
                                       .titleSmall
                                       .override(
-                                        fontFamily: 'Plus Jakarta Sans',
+                                        font: GoogleFonts.plusJakartaSans(),
                                         color: Colors.white,
                                         fontSize: 16.0,
                                         letterSpacing: 0.0,

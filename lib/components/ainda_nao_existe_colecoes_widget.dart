@@ -78,7 +78,7 @@ class _AindaNaoExisteColecoesWidgetState
                           style: FlutterFlowTheme.of(context)
                               .headlineMedium
                               .override(
-                                fontFamily: 'Roboto',
+                                font: GoogleFonts.roboto(),
                                 color: Color(0xFF101518),
                                 fontSize: 28.0,
                                 letterSpacing: 0.0,

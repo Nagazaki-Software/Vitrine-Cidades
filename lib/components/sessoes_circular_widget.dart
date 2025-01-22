@@ -90,7 +90,7 @@ class _SessoesCircularWidgetState extends State<SessoesCircularWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   fontSize: 12.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
@@ -118,7 +118,7 @@ class _SessoesCircularWidgetState extends State<SessoesCircularWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   fontSize: 12.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
@@ -146,7 +146,7 @@ class _SessoesCircularWidgetState extends State<SessoesCircularWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   fontSize: 12.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
@@ -174,7 +174,7 @@ class _SessoesCircularWidgetState extends State<SessoesCircularWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   fontSize: 12.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
@@ -202,7 +202,7 @@ class _SessoesCircularWidgetState extends State<SessoesCircularWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   fontSize: 12.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
@@ -233,7 +233,7 @@ class _SessoesCircularWidgetState extends State<SessoesCircularWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     fontSize: 12.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.w600,
@@ -262,7 +262,7 @@ class _SessoesCircularWidgetState extends State<SessoesCircularWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   fontSize: 12.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
@@ -290,7 +290,7 @@ class _SessoesCircularWidgetState extends State<SessoesCircularWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   fontSize: 12.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,

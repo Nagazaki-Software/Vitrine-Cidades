@@ -173,7 +173,7 @@ class _EnderecoAntesDaCompraWidgetState
             title: Text(
               'Informações',
               style: FlutterFlowTheme.of(context).headlineMedium.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     letterSpacing: 0.0,
                   ),
             ),
@@ -214,7 +214,7 @@ class _EnderecoAntesDaCompraWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: FlutterFlowTheme.of(context)
                                         .primaryText,
                                     letterSpacing: 0.0,
@@ -230,13 +230,13 @@ class _EnderecoAntesDaCompraWidgetState
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 enabledBorder: OutlineInputBorder(
@@ -275,7 +275,7 @@ class _EnderecoAntesDaCompraWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                               minLines: 1,
@@ -292,13 +292,13 @@ class _EnderecoAntesDaCompraWidgetState
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 enabledBorder: OutlineInputBorder(
@@ -337,7 +337,7 @@ class _EnderecoAntesDaCompraWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                               minLines: 1,
@@ -354,13 +354,13 @@ class _EnderecoAntesDaCompraWidgetState
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 enabledBorder: OutlineInputBorder(
@@ -399,7 +399,7 @@ class _EnderecoAntesDaCompraWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                               minLines: 1,
@@ -417,13 +417,13 @@ class _EnderecoAntesDaCompraWidgetState
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 enabledBorder: OutlineInputBorder(
@@ -462,7 +462,7 @@ class _EnderecoAntesDaCompraWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                               minLines: 1,
@@ -502,13 +502,13 @@ class _EnderecoAntesDaCompraWidgetState
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 enabledBorder: OutlineInputBorder(
@@ -551,7 +551,7 @@ class _EnderecoAntesDaCompraWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                               minLines: 1,
@@ -574,7 +574,7 @@ class _EnderecoAntesDaCompraWidgetState
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 enabledBorder: OutlineInputBorder(
@@ -613,7 +613,7 @@ class _EnderecoAntesDaCompraWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                               minLines: 1,
@@ -634,13 +634,13 @@ class _EnderecoAntesDaCompraWidgetState
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -683,7 +683,7 @@ class _EnderecoAntesDaCompraWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -703,13 +703,13 @@ class _EnderecoAntesDaCompraWidgetState
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -752,7 +752,7 @@ class _EnderecoAntesDaCompraWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -772,14 +772,14 @@ class _EnderecoAntesDaCompraWidgetState
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 hintText: 'Bairro',
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 enabledBorder: OutlineInputBorder(
@@ -818,7 +818,7 @@ class _EnderecoAntesDaCompraWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                               minLines: 1,
@@ -839,14 +839,14 @@ class _EnderecoAntesDaCompraWidgetState
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintText: 'Cidade',
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -889,7 +889,7 @@ class _EnderecoAntesDaCompraWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -908,14 +908,14 @@ class _EnderecoAntesDaCompraWidgetState
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintText: 'Estado',
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -958,7 +958,7 @@ class _EnderecoAntesDaCompraWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -1060,7 +1060,7 @@ class _EnderecoAntesDaCompraWidgetState
                       color: FlutterFlowTheme.of(context).primary,
                       textStyle:
                           FlutterFlowTheme.of(context).titleMedium.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: FlutterFlowTheme.of(context).info,
                                 letterSpacing: 0.0,
                               ),

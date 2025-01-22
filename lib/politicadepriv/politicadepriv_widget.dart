@@ -66,7 +66,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
           title: Text(
             'Política de Privacidade',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Barlow',
+                  font: GoogleFonts.barlow(),
                   letterSpacing: 0.0,
                 ),
           ),
@@ -86,7 +86,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                   Text(
                     'Última atualização: 15 de Junho de 2023',
                     style: FlutterFlowTheme.of(context).bodySmall.override(
-                          fontFamily: 'Rubik',
+                          font: GoogleFonts.rubik(),
                           color: FlutterFlowTheme.of(context).secondaryText,
                           letterSpacing: 0.0,
                         ),
@@ -114,7 +114,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: FlutterFlowTheme.of(context)
                                         .primaryText,
                                     letterSpacing: 0.0,
@@ -125,7 +125,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -137,7 +137,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -146,7 +146,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -155,7 +155,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -164,7 +164,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -198,7 +198,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -207,7 +207,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -219,7 +219,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -228,7 +228,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -237,7 +237,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -246,7 +246,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -255,7 +255,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -289,7 +289,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -298,7 +298,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -310,7 +310,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -319,7 +319,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -328,7 +328,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -362,7 +362,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -371,7 +371,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -383,7 +383,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -392,7 +392,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -401,7 +401,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -410,7 +410,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -444,7 +444,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -453,7 +453,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -465,7 +465,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -474,7 +474,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -483,7 +483,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -492,7 +492,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -526,7 +526,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -535,7 +535,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -547,7 +547,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -556,7 +556,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -565,7 +565,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -599,7 +599,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -608,7 +608,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -620,7 +620,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -629,7 +629,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -641,8 +641,8 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                     ),
                   ),
                   FFButtonWidget(
-                    onPressed: () {
-                      print('Button pressed ...');
+                    onPressed: () async {
+                      context.safePop();
                     },
                     text: 'Entendi e Aceito',
                     options: FFButtonOptions(
@@ -654,7 +654,7 @@ class _PoliticadeprivWidgetState extends State<PoliticadeprivWidget> {
                       color: FlutterFlowTheme.of(context).primary,
                       textStyle:
                           FlutterFlowTheme.of(context).titleMedium.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: FlutterFlowTheme.of(context).info,
                                 letterSpacing: 0.0,
                               ),

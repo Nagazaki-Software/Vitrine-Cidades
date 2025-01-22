@@ -170,7 +170,7 @@ class _CriarColecaoWidgetState extends State<CriarColecaoWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .headlineMedium
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: Colors.black,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.normal,
@@ -203,7 +203,7 @@ class _CriarColecaoWidgetState extends State<CriarColecaoWidget>
                         style: FlutterFlowTheme.of(context)
                             .headlineMedium
                             .override(
-                              fontFamily: 'Outfit',
+                              font: GoogleFonts.outfit(),
                               color: Color(0xFF15161E),
                               fontSize: 24.0,
                               letterSpacing: 0.0,
@@ -217,7 +217,7 @@ class _CriarColecaoWidgetState extends State<CriarColecaoWidget>
                           'Uma coleção aparece em sua tela inicial e te proporciona promover seus produtos.',
                           style:
                               FlutterFlowTheme.of(context).labelLarge.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF606A85),
                                     fontSize: 16.0,
                                     letterSpacing: 0.0,
@@ -238,7 +238,7 @@ class _CriarColecaoWidgetState extends State<CriarColecaoWidget>
                               labelStyle: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Outfit',
+                                    font: GoogleFonts.outfit(),
                                     color: Color(0xFF606A85),
                                     fontSize: 22.0,
                                     letterSpacing: 0.0,
@@ -247,7 +247,7 @@ class _CriarColecaoWidgetState extends State<CriarColecaoWidget>
                               hintStyle: FlutterFlowTheme.of(context)
                                   .labelMedium
                                   .override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF606A85),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -287,7 +287,7 @@ class _CriarColecaoWidgetState extends State<CriarColecaoWidget>
                             style: FlutterFlowTheme.of(context)
                                 .headlineSmall
                                 .override(
-                                  fontFamily: 'Outfit',
+                                  font: GoogleFonts.outfit(),
                                   color: Color(0xFF15161E),
                                   fontSize: 22.0,
                                   letterSpacing: 0.0,
@@ -447,8 +447,8 @@ class _CriarColecaoWidgetState extends State<CriarColecaoWidget>
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily:
-                                                      'Plus Jakarta Sans',
+                                                  font: GoogleFonts
+                                                      .plusJakartaSans(),
                                                   color: Color(0xFF15161E),
                                                   fontSize: 14.0,
                                                   letterSpacing: 0.0,
@@ -631,8 +631,8 @@ class _CriarColecaoWidgetState extends State<CriarColecaoWidget>
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                     fontWeight:
@@ -698,8 +698,8 @@ class _CriarColecaoWidgetState extends State<CriarColecaoWidget>
                                                                             context)
                                                                         .bodyMedium
                                                                         .override(
-                                                                          fontFamily:
-                                                                              'Rubik',
+                                                                          font:
+                                                                              GoogleFonts.rubik(),
                                                                           letterSpacing:
                                                                               0.0,
                                                                         ),
@@ -720,8 +720,8 @@ class _CriarColecaoWidgetState extends State<CriarColecaoWidget>
                                                                             context)
                                                                         .bodyMedium
                                                                         .override(
-                                                                          fontFamily:
-                                                                              'Rubik',
+                                                                          font:
+                                                                              GoogleFonts.rubik(),
                                                                           letterSpacing:
                                                                               0.0,
                                                                           fontWeight:
@@ -733,8 +733,8 @@ class _CriarColecaoWidgetState extends State<CriarColecaoWidget>
                                                                         context)
                                                                     .bodyMedium
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       letterSpacing:
                                                                           0.0,
                                                                     ),
@@ -793,7 +793,7 @@ class _CriarColecaoWidgetState extends State<CriarColecaoWidget>
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleSmall
                                 .override(
-                                  fontFamily: 'Plus Jakarta Sans',
+                                  font: GoogleFonts.plusJakartaSans(),
                                   color: Colors.white,
                                   fontSize: 16.0,
                                   letterSpacing: 0.0,

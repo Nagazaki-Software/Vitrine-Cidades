@@ -166,7 +166,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       color: FlutterFlowTheme.of(context)
                                           .primaryText,
                                       letterSpacing: 0.0,
@@ -177,7 +177,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                 style: FlutterFlowTheme.of(context)
                                     .headlineMedium
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       color:
                                           FlutterFlowTheme.of(context).primary,
                                       letterSpacing: 0.0,
@@ -227,7 +227,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -248,7 +248,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -269,7 +269,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -290,7 +290,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -311,7 +311,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -356,7 +356,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       color: FlutterFlowTheme.of(context)
                                           .primaryText,
                                       letterSpacing: 0.0,
@@ -367,7 +367,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                 style: FlutterFlowTheme.of(context)
                                     .headlineMedium
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       color:
                                           FlutterFlowTheme.of(context).primary,
                                       letterSpacing: 0.0,
@@ -414,7 +414,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -435,7 +435,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -456,7 +456,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -496,7 +496,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                           color: FlutterFlowTheme.of(context).primary,
                           textStyle:
                               FlutterFlowTheme.of(context).titleSmall.override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: Colors.white,
                                     letterSpacing: 0.0,
                                   ),
@@ -542,7 +542,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       color: FlutterFlowTheme.of(context)
                                           .primaryText,
                                       letterSpacing: 0.0,
@@ -553,7 +553,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                 style: FlutterFlowTheme.of(context)
                                     .headlineMedium
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       color:
                                           FlutterFlowTheme.of(context).primary,
                                       letterSpacing: 0.0,
@@ -600,7 +600,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -621,7 +621,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -642,7 +642,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -663,7 +663,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -683,7 +683,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -703,7 +703,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -743,7 +743,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                           color: FlutterFlowTheme.of(context).primary,
                           textStyle:
                               FlutterFlowTheme.of(context).titleSmall.override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: Colors.white,
                                     letterSpacing: 0.0,
                                   ),
@@ -789,7 +789,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       color: FlutterFlowTheme.of(context)
                                           .primaryText,
                                       letterSpacing: 0.0,
@@ -800,7 +800,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                 style: FlutterFlowTheme.of(context)
                                     .headlineMedium
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       color:
                                           FlutterFlowTheme.of(context).primary,
                                       letterSpacing: 0.0,
@@ -847,7 +847,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -868,7 +868,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -889,7 +889,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -910,7 +910,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -931,7 +931,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -952,7 +952,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -992,7 +992,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                           color: FlutterFlowTheme.of(context).primary,
                           textStyle:
                               FlutterFlowTheme.of(context).titleSmall.override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: Colors.white,
                                     letterSpacing: 0.0,
                                   ),
@@ -1010,7 +1010,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
             Text(
               'Todos os planos incluem:',
               style: FlutterFlowTheme.of(context).headlineSmall.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     color: FlutterFlowTheme.of(context).primaryText,
                     letterSpacing: 0.0,
                   ),
@@ -1029,7 +1029,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                     Text(
                       'Segurança avançada',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -1046,7 +1046,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                     Text(
                       'Atualizações automáticas',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -1063,7 +1063,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                     Text(
                       'Relatórios',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -1080,7 +1080,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                     Text(
                       'Suporte técnico',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -1111,7 +1111,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                         style: FlutterFlowTheme.of(context)
                             .headlineSmall
                             .override(
-                              fontFamily: 'Barlow',
+                              font: GoogleFonts.barlow(),
                               color: FlutterFlowTheme.of(context).primaryText,
                               letterSpacing: 0.0,
                             ),
@@ -1148,7 +1148,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -1188,7 +1188,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -1227,7 +1227,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -1266,7 +1266,7 @@ class _PlanosComponenteWidgetState extends State<PlanosComponenteWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),

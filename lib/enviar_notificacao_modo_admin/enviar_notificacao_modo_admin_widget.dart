@@ -92,7 +92,7 @@ class _EnviarNotificacaoModoAdminWidgetState
             title: Text(
               'Enviar Notificação',
               style: FlutterFlowTheme.of(context).headlineMedium.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     letterSpacing: 0.0,
                   ),
             ),
@@ -133,7 +133,7 @@ class _EnviarNotificacaoModoAdminWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -147,13 +147,13 @@ class _EnviarNotificacaoModoAdminWidgetState
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 enabledBorder: OutlineInputBorder(
@@ -192,7 +192,7 @@ class _EnviarNotificacaoModoAdminWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                               minLines: 1,
@@ -209,13 +209,13 @@ class _EnviarNotificacaoModoAdminWidgetState
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 enabledBorder: OutlineInputBorder(
@@ -254,7 +254,7 @@ class _EnviarNotificacaoModoAdminWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                               maxLines: 5,
@@ -290,7 +290,7 @@ class _EnviarNotificacaoModoAdminWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -303,7 +303,7 @@ class _EnviarNotificacaoModoAdminWidgetState
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -354,7 +354,7 @@ class _EnviarNotificacaoModoAdminWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -372,7 +372,7 @@ class _EnviarNotificacaoModoAdminWidgetState
                                 textStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       color: FlutterFlowTheme.of(context).info,
                                       fontSize: 14.0,
                                       letterSpacing: 0.0,
@@ -388,7 +388,7 @@ class _EnviarNotificacaoModoAdminWidgetState
                                 textStyle: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryText,
                                       fontSize: 14.0,
@@ -438,7 +438,7 @@ class _EnviarNotificacaoModoAdminWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -485,31 +485,32 @@ class _EnviarNotificacaoModoAdminWidgetState
                                                             ?.hasFocus ??
                                                         false)
                                                     .toString(),
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyLarge
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w600,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyLarge
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w600,
+                                                    ),
                                               ),
                                               Text(
                                                 (_model.textFieldFocusNode2
                                                             ?.hasFocus ??
                                                         false)
                                                     .toString(),
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .secondaryText,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -575,7 +576,7 @@ class _EnviarNotificacaoModoAdminWidgetState
                       color: FlutterFlowTheme.of(context).primary,
                       textStyle:
                           FlutterFlowTheme.of(context).titleMedium.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: FlutterFlowTheme.of(context).info,
                                 letterSpacing: 0.0,
                               ),

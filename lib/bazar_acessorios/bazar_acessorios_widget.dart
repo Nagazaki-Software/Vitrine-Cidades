@@ -97,7 +97,7 @@ class _BazarAcessoriosWidgetState extends State<BazarAcessoriosWidget> {
                 title: Text(
                   'Bazar & Acessórios',
                   style: FlutterFlowTheme.of(context).headlineMedium.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                         fontSize: 26.0,
                         letterSpacing: 0.0,
@@ -291,8 +291,8 @@ class _BazarAcessoriosWidgetState extends State<BazarAcessoriosWidget> {
                                                                 .of(context)
                                                             .bodySmall
                                                             .override(
-                                                              fontFamily:
-                                                                  'Rubik',
+                                                              font: GoogleFonts
+                                                                  .rubik(),
                                                               color:
                                                                   Colors.white,
                                                               letterSpacing:
@@ -374,8 +374,8 @@ class _BazarAcessoriosWidgetState extends State<BazarAcessoriosWidget> {
                                                                 .of(context)
                                                             .bodyLarge
                                                             .override(
-                                                              fontFamily:
-                                                                  'Rubik',
+                                                              font: GoogleFonts
+                                                                  .rubik(),
                                                               fontSize: 14.0,
                                                               letterSpacing:
                                                                   0.0,
@@ -419,8 +419,8 @@ class _BazarAcessoriosWidgetState extends State<BazarAcessoriosWidget> {
                                                                     context)
                                                                 .titleMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Barlow',
+                                                                  font: GoogleFonts
+                                                                      .barlow(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .primary,
@@ -454,8 +454,8 @@ class _BazarAcessoriosWidgetState extends State<BazarAcessoriosWidget> {
                                                                     .of(context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryText,
@@ -489,8 +489,8 @@ class _BazarAcessoriosWidgetState extends State<BazarAcessoriosWidget> {
                                                                     context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),

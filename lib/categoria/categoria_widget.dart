@@ -89,7 +89,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                           style: FlutterFlowTheme.of(context)
                               .headlineMedium
                               .override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 letterSpacing: 0.0,
                               ),
                         ),
@@ -152,7 +152,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -199,7 +199,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -246,7 +246,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -293,7 +293,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -340,7 +340,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -387,7 +387,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -434,7 +434,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -481,7 +481,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -528,7 +528,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -575,7 +575,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -622,7 +622,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -669,7 +669,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -716,7 +716,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -763,7 +763,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -810,7 +810,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -857,7 +857,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -904,7 +904,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -951,7 +951,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -998,7 +998,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -1045,7 +1045,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -1092,7 +1092,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -1139,7 +1139,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -1186,7 +1186,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -1233,7 +1233,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -1280,7 +1280,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -1327,7 +1327,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -1374,7 +1374,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -1421,7 +1421,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -1468,7 +1468,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -1586,7 +1586,7 @@ class _CategoriaWidgetState extends State<CategoriaWidget> {
                           color: FlutterFlowTheme.of(context).primary,
                           textStyle:
                               FlutterFlowTheme.of(context).titleSmall.override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: Colors.white,
                                     letterSpacing: 0.0,
                                   ),

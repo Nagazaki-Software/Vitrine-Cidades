@@ -101,7 +101,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
           title: Text(
             'Alterar Dados',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Barlow',
+                  font: GoogleFonts.barlow(),
                   letterSpacing: 0.0,
                 ),
           ),
@@ -148,7 +148,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -157,7 +157,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
                                             letterSpacing: 0.0,
@@ -293,7 +293,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                 textStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       color: FlutterFlowTheme.of(context).info,
                                       letterSpacing: 0.0,
                                     ),
@@ -329,7 +329,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -355,7 +355,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -375,7 +375,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                               FlutterFlowTheme.of(context)
                                                   .bodyLarge
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -421,7 +421,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         minLines: 1,
@@ -444,7 +444,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -462,7 +462,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                               FlutterFlowTheme.of(context)
                                                   .bodyLarge
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -508,7 +508,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         minLines: 1,
@@ -533,7 +533,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -551,7 +551,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                               FlutterFlowTheme.of(context)
                                                   .bodyLarge
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -597,7 +597,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         minLines: 1,
@@ -621,7 +621,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -639,7 +639,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                               FlutterFlowTheme.of(context)
                                                   .bodyLarge
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -685,7 +685,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         minLines: 1,
@@ -727,7 +727,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -753,7 +753,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -771,7 +771,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                               FlutterFlowTheme.of(context)
                                                   .bodyLarge
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -817,7 +817,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         minLines: 1,
@@ -847,7 +847,8 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -864,13 +865,13 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                               autofocus: false,
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                hintStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyLarge
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                hintStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyLarge
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
@@ -921,7 +922,8 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                               minLines: 1,
@@ -951,7 +953,8 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -968,13 +971,13 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                               autofocus: false,
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                hintStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyLarge
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                hintStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyLarge
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
@@ -1025,7 +1028,8 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                               minLines: 1,
@@ -1051,7 +1055,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -1069,7 +1073,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                               FlutterFlowTheme.of(context)
                                                   .bodyLarge
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -1115,7 +1119,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         minLines: 1,
@@ -1145,7 +1149,8 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -1162,13 +1167,13 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                               autofocus: false,
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                hintStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyLarge
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                hintStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyLarge
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
@@ -1219,7 +1224,8 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                               minLines: 1,
@@ -1247,7 +1253,8 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -1264,13 +1271,13 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                               autofocus: false,
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                hintStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyLarge
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                hintStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyLarge
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
@@ -1321,7 +1328,8 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                               minLines: 1,
@@ -1380,7 +1388,7 @@ class _AlterarDadosWidgetState extends State<AlterarDadosWidget> {
                       color: FlutterFlowTheme.of(context).primary,
                       textStyle:
                           FlutterFlowTheme.of(context).titleMedium.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: FlutterFlowTheme.of(context).info,
                                 letterSpacing: 0.0,
                               ),

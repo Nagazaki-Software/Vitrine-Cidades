@@ -91,7 +91,7 @@ class _NotificacaoEnviadaWidgetState extends State<NotificacaoEnviadaWidget> {
               'Notificação enviada',
               textAlign: TextAlign.center,
               style: FlutterFlowTheme.of(context).headlineSmall.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     letterSpacing: 0.0,
                   ),
             ),
@@ -99,7 +99,7 @@ class _NotificacaoEnviadaWidgetState extends State<NotificacaoEnviadaWidget> {
               'Sua notificação foi entregue com sucesso a todos os destinatários.\n',
               textAlign: TextAlign.center,
               style: FlutterFlowTheme.of(context).bodyMedium.override(
-                    fontFamily: 'Rubik',
+                    font: GoogleFonts.rubik(),
                     color: FlutterFlowTheme.of(context).secondaryText,
                     letterSpacing: 0.0,
                   ),
@@ -119,7 +119,7 @@ class _NotificacaoEnviadaWidgetState extends State<NotificacaoEnviadaWidget> {
                       EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                   color: FlutterFlowTheme.of(context).primary,
                   textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         color: FlutterFlowTheme.of(context).info,
                         letterSpacing: 0.0,
                       ),

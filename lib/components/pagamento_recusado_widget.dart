@@ -88,7 +88,7 @@ class _PagamentoRecusadoWidgetState extends State<PagamentoRecusadoWidget> {
                   'Pagamento Recusado',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -96,7 +96,7 @@ class _PagamentoRecusadoWidgetState extends State<PagamentoRecusadoWidget> {
                   'Seu pagamento não pôde ser processado. Por favor, verifique seus detalhes de pagamento e tente novamente.',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Rubik',
+                        font: GoogleFonts.rubik(),
                         color: FlutterFlowTheme.of(context).secondaryText,
                         letterSpacing: 0.0,
                       ),
@@ -119,7 +119,7 @@ class _PagamentoRecusadoWidgetState extends State<PagamentoRecusadoWidget> {
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                     color: FlutterFlowTheme.of(context).primary,
                     textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                          fontFamily: 'Barlow',
+                          font: GoogleFonts.barlow(),
                           color: FlutterFlowTheme.of(context).info,
                           letterSpacing: 0.0,
                         ),

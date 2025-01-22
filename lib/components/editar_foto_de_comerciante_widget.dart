@@ -94,7 +94,7 @@ class _EditarFotoDeComercianteWidgetState
                                   style: FlutterFlowTheme.of(context)
                                       .headlineMedium
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -247,7 +247,7 @@ class _EditarFotoDeComercianteWidgetState
                                   textStyle: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   elevation: 2.0,
@@ -273,7 +273,7 @@ class _EditarFotoDeComercianteWidgetState
                                   textStyle: FlutterFlowTheme.of(context)
                                       .titleSmall
                                       .override(
-                                        fontFamily: 'Lexend Deca',
+                                        font: GoogleFonts.lexendDeca(),
                                         color: Colors.white,
                                         fontSize: 16.0,
                                         letterSpacing: 0.0,

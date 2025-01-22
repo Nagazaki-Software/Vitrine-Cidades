@@ -133,7 +133,7 @@ class _CriarConta2WidgetState extends State<CriarConta2Widget> {
                         'Vitrine Cidades',
                         style:
                             FlutterFlowTheme.of(context).displaySmall.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: Colors.white,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
@@ -142,7 +142,7 @@ class _CriarConta2WidgetState extends State<CriarConta2Widget> {
                       Text(
                         'Não perca tempo, junte-se a nós agora!',
                         style: FlutterFlowTheme.of(context).bodyLarge.override(
-                              fontFamily: 'Rubik',
+                              font: GoogleFonts.rubik(),
                               color: Color(0xFFE0E0E0),
                               letterSpacing: 0.0,
                             ),
@@ -180,7 +180,7 @@ class _CriarConta2WidgetState extends State<CriarConta2Widget> {
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         letterSpacing: 0.0,
@@ -196,13 +196,13 @@ class _CriarConta2WidgetState extends State<CriarConta2Widget> {
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     enabledBorder: OutlineInputBorder(
@@ -244,7 +244,7 @@ class _CriarConta2WidgetState extends State<CriarConta2Widget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   minLines: 1,
@@ -262,13 +262,13 @@ class _CriarConta2WidgetState extends State<CriarConta2Widget> {
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     enabledBorder: OutlineInputBorder(
@@ -320,7 +320,7 @@ class _CriarConta2WidgetState extends State<CriarConta2Widget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   minLines: 1,
@@ -380,7 +380,7 @@ class _CriarConta2WidgetState extends State<CriarConta2Widget> {
                                     textStyle: FlutterFlowTheme.of(context)
                                         .titleMedium
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: Colors.white,
                                           letterSpacing: 0.0,
                                         ),
@@ -411,7 +411,7 @@ class _CriarConta2WidgetState extends State<CriarConta2Widget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .secondaryText,

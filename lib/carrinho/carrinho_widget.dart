@@ -92,7 +92,7 @@ class _CarrinhoWidgetState extends State<CarrinhoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineMedium
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       color: Colors.black,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.normal,
@@ -118,7 +118,7 @@ class _CarrinhoWidgetState extends State<CarrinhoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         color: Colors.black,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
@@ -322,8 +322,8 @@ class _CarrinhoWidgetState extends State<CarrinhoWidget> {
                                                                   .of(context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 fontSize: 16.0,
                                                                 letterSpacing:
                                                                     0.0,
@@ -387,8 +387,8 @@ class _CarrinhoWidgetState extends State<CarrinhoWidget> {
                                                                         context)
                                                                     .bodyMedium
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       letterSpacing:
                                                                           0.0,
                                                                       fontWeight:
@@ -594,7 +594,7 @@ class _CarrinhoWidgetState extends State<CarrinhoWidget> {
                                                                                           child: Text(
                                                                                             columnItensDoCarrinhoRecord.nomeDoProduto,
                                                                                             style: FlutterFlowTheme.of(context).bodyMedium.override(
-                                                                                                  fontFamily: 'Rubik',
+                                                                                                  font: GoogleFonts.rubik(),
                                                                                                   fontSize: 16.0,
                                                                                                   letterSpacing: 0.0,
                                                                                                   fontWeight: FontWeight.w500,
@@ -617,7 +617,7 @@ class _CarrinhoWidgetState extends State<CarrinhoWidget> {
                                                                                                 TextSpan(
                                                                                                   text: 'R\$ ',
                                                                                                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                                                                                                        fontFamily: 'Rubik',
+                                                                                                        font: GoogleFonts.rubik(),
                                                                                                         color: FlutterFlowTheme.of(context).primary,
                                                                                                         letterSpacing: 0.0,
                                                                                                         fontWeight: FontWeight.bold,
@@ -630,14 +630,14 @@ class _CarrinhoWidgetState extends State<CarrinhoWidget> {
                                                                                                     decimalType: DecimalType.commaDecimal,
                                                                                                   ),
                                                                                                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                                                                                                        fontFamily: 'Rubik',
+                                                                                                        font: GoogleFonts.rubik(),
                                                                                                         color: FlutterFlowTheme.of(context).primary,
                                                                                                         letterSpacing: 0.0,
                                                                                                       ),
                                                                                                 )
                                                                                               ],
                                                                                               style: FlutterFlowTheme.of(context).bodyMedium.override(
-                                                                                                    fontFamily: 'Rubik',
+                                                                                                    font: GoogleFonts.rubik(),
                                                                                                     color: FlutterFlowTheme.of(context).primary,
                                                                                                     letterSpacing: 0.0,
                                                                                                     fontWeight: FontWeight.w500,
@@ -698,7 +698,7 @@ class _CarrinhoWidgetState extends State<CarrinhoWidget> {
                                                                                     child: Text(
                                                                                       '-',
                                                                                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                                                                                            fontFamily: 'Rubik',
+                                                                                            font: GoogleFonts.rubik(),
                                                                                             letterSpacing: 0.0,
                                                                                           ),
                                                                                     ),
@@ -710,7 +710,7 @@ class _CarrinhoWidgetState extends State<CarrinhoWidget> {
                                                                                 child: Text(
                                                                                   columnItensDoCarrinhoRecord.quantity.toString(),
                                                                                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                                                                                        fontFamily: 'Rubik',
+                                                                                        font: GoogleFonts.rubik(),
                                                                                         letterSpacing: 0.0,
                                                                                       ),
                                                                                 ),
@@ -745,7 +745,7 @@ class _CarrinhoWidgetState extends State<CarrinhoWidget> {
                                                                                       child: Text(
                                                                                         '+',
                                                                                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                                                                                              fontFamily: 'Rubik',
+                                                                                              font: GoogleFonts.rubik(),
                                                                                               fontSize: 13.0,
                                                                                               letterSpacing: 0.0,
                                                                                             ),

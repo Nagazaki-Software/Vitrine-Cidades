@@ -83,7 +83,7 @@ class _ErroEmAdicionarInformacoesWidgetState
             Text(
               'Erro',
               style: FlutterFlowTheme.of(context).headlineSmall.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     color: FlutterFlowTheme.of(context).primary,
                     letterSpacing: 0.0,
                   ),
@@ -91,7 +91,7 @@ class _ErroEmAdicionarInformacoesWidgetState
             Text(
               'Seu CPF/CNPJ ou outras informações já existem em n',
               style: FlutterFlowTheme.of(context).bodyMedium.override(
-                    fontFamily: 'Rubik',
+                    font: GoogleFonts.rubik(),
                     letterSpacing: 0.0,
                   ),
             ),
@@ -107,7 +107,7 @@ class _ErroEmAdicionarInformacoesWidgetState
                 iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                 color: FlutterFlowTheme.of(context).primary,
                 textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       color: FlutterFlowTheme.of(context).info,
                       letterSpacing: 0.0,
                     ),
@@ -131,7 +131,7 @@ class _ErroEmAdicionarInformacoesWidgetState
                 iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                 color: FlutterFlowTheme.of(context).secondaryBackground,
                 textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       color: FlutterFlowTheme.of(context).secondaryText,
                       letterSpacing: 0.0,
                     ),

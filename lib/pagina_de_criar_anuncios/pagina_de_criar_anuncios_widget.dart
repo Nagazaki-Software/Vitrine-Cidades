@@ -134,7 +134,7 @@ class _PaginaDeCriarAnunciosWidgetState
                 title: Text(
                   'Adicionar produto',
                   style: FlutterFlowTheme.of(context).headlineMedium.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         color: FlutterFlowTheme.of(context).info,
                         letterSpacing: 0.0,
                       ),
@@ -181,7 +181,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -326,29 +326,31 @@ class _PaginaDeCriarAnunciosWidgetState
                                               ),
                                               Text(
                                                 'Adicionar Fotos',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .primary,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Text(
                                                 'Máximo 8 fotos',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodySmall
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodySmall
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .secondaryText,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -384,7 +386,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -398,13 +400,13 @@ class _PaginaDeCriarAnunciosWidgetState
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -447,7 +449,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -464,13 +466,13 @@ class _PaginaDeCriarAnunciosWidgetState
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -513,7 +515,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     maxLines: 5,
@@ -565,14 +567,14 @@ class _PaginaDeCriarAnunciosWidgetState
                                               FlutterFlowTheme.of(context)
                                                   .bodyMedium
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           hintStyle:
                                               FlutterFlowTheme.of(context)
                                                   .bodyMedium
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -621,7 +623,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         minLines: 1,
@@ -677,14 +679,14 @@ class _PaginaDeCriarAnunciosWidgetState
                                                 FlutterFlowTheme.of(context)
                                                     .bodyMedium
                                                     .override(
-                                                      fontFamily: 'Rubik',
+                                                      font: GoogleFonts.rubik(),
                                                       letterSpacing: 0.0,
                                                     ),
                                             hintStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyMedium
                                                     .override(
-                                                      fontFamily: 'Rubik',
+                                                      font: GoogleFonts.rubik(),
                                                       letterSpacing: 0.0,
                                                     ),
                                             enabledBorder: OutlineInputBorder(
@@ -733,7 +735,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .bodyLarge
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                           minLines: 1,
@@ -755,13 +757,13 @@ class _PaginaDeCriarAnunciosWidgetState
                                         labelStyle: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         hintStyle: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         enabledBorder: OutlineInputBorder(
@@ -804,7 +806,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       minLines: 1,
@@ -831,7 +833,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                 ),
                                           ),
@@ -855,7 +857,8 @@ class _PaginaDeCriarAnunciosWidgetState
                                                           context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                                 ),
@@ -902,7 +905,8 @@ class _PaginaDeCriarAnunciosWidgetState
                                                             context)
                                                         .bodyMedium
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                   ),
@@ -950,7 +954,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -964,7 +968,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -990,7 +994,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -1035,7 +1039,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -1049,7 +1053,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -1076,7 +1080,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -1102,7 +1106,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -1128,7 +1132,7 @@ class _PaginaDeCriarAnunciosWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -1279,7 +1283,7 @@ class _PaginaDeCriarAnunciosWidgetState
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleLarge
                                 .override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: FlutterFlowTheme.of(context).info,
                                   letterSpacing: 0.0,
                                 ),

@@ -98,7 +98,7 @@ class _TermosDeUsoWidgetState extends State<TermosDeUsoWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .displaySmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 24.0,
@@ -147,8 +147,8 @@ class _TermosDeUsoWidgetState extends State<TermosDeUsoWidget> {
                                                               .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily:
-                                                                'Roboto',
+                                                            font: GoogleFonts
+                                                                .roboto(),
                                                             fontSize: 16.0,
                                                             letterSpacing: 0.0,
                                                             fontWeight:

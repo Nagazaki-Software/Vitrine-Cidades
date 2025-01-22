@@ -93,7 +93,7 @@ class _DepoisDoBotaoComprarWidgetState
                 child: Text(
                   'Order Summary',
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Outfit',
+                        font: GoogleFonts.outfit(),
                         color: Color(0xFF14181B),
                         fontSize: 24.0,
                         letterSpacing: 0.0,
@@ -106,7 +106,7 @@ class _DepoisDoBotaoComprarWidgetState
                 child: Text(
                   'Review your order below before checking out.',
                   style: FlutterFlowTheme.of(context).labelMedium.override(
-                        fontFamily: 'Plus Jakarta Sans',
+                        font: GoogleFonts.plusJakartaSans(),
                         color: Color(0xFF57636C),
                         fontSize: 14.0,
                         letterSpacing: 0.0,
@@ -167,7 +167,7 @@ class _DepoisDoBotaoComprarWidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Plus Jakarta Sans',
+                                            font: GoogleFonts.plusJakartaSans(),
                                             color: Color(0xFF14181B),
                                             fontSize: 16.0,
                                             letterSpacing: 0.0,
@@ -183,7 +183,8 @@ class _DepoisDoBotaoComprarWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .labelSmall
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF57636C),
                                                 fontSize: 12.0,
                                                 letterSpacing: 0.0,
@@ -202,7 +203,7 @@ class _DepoisDoBotaoComprarWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF14181B),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -256,7 +257,7 @@ class _DepoisDoBotaoComprarWidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Plus Jakarta Sans',
+                                            font: GoogleFonts.plusJakartaSans(),
                                             color: Color(0xFF14181B),
                                             fontSize: 16.0,
                                             letterSpacing: 0.0,
@@ -272,7 +273,8 @@ class _DepoisDoBotaoComprarWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .labelSmall
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF57636C),
                                                 fontSize: 12.0,
                                                 letterSpacing: 0.0,
@@ -291,7 +293,7 @@ class _DepoisDoBotaoComprarWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF14181B),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -318,7 +320,7 @@ class _DepoisDoBotaoComprarWidgetState
                           'Price Breakdown',
                           style:
                               FlutterFlowTheme.of(context).bodySmall.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF14181B),
                                     fontSize: 12.0,
                                     letterSpacing: 0.0,
@@ -339,7 +341,7 @@ class _DepoisDoBotaoComprarWidgetState
                           'Base Price',
                           style:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -350,7 +352,7 @@ class _DepoisDoBotaoComprarWidgetState
                           '\$156.00',
                           style:
                               FlutterFlowTheme.of(context).bodyLarge.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF14181B),
                                     fontSize: 16.0,
                                     letterSpacing: 0.0,
@@ -371,7 +373,7 @@ class _DepoisDoBotaoComprarWidgetState
                           'Taxes',
                           style:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -382,7 +384,7 @@ class _DepoisDoBotaoComprarWidgetState
                           '\$24.20',
                           style:
                               FlutterFlowTheme.of(context).bodyLarge.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF14181B),
                                     fontSize: 16.0,
                                     letterSpacing: 0.0,
@@ -403,7 +405,7 @@ class _DepoisDoBotaoComprarWidgetState
                           'Cleaning Fee',
                           style:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -414,7 +416,7 @@ class _DepoisDoBotaoComprarWidgetState
                           '\$40.00',
                           style:
                               FlutterFlowTheme.of(context).bodyLarge.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF14181B),
                                     fontSize: 16.0,
                                     letterSpacing: 0.0,
@@ -439,7 +441,7 @@ class _DepoisDoBotaoComprarWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .titleMedium
                                   .override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 18.0,
                                     letterSpacing: 0.0,
@@ -467,7 +469,7 @@ class _DepoisDoBotaoComprarWidgetState
                           style: FlutterFlowTheme.of(context)
                               .displaySmall
                               .override(
-                                fontFamily: 'Outfit',
+                                font: GoogleFonts.outfit(),
                                 color: Color(0xFF14181B),
                                 fontSize: 36.0,
                                 letterSpacing: 0.0,
@@ -495,7 +497,7 @@ class _DepoisDoBotaoComprarWidgetState
                         color: Color(0xFF39D2C0),
                         textStyle:
                             FlutterFlowTheme.of(context).titleSmall.override(
-                                  fontFamily: 'Plus Jakarta Sans',
+                                  font: GoogleFonts.plusJakartaSans(),
                                   color: Colors.white,
                                   fontSize: 16.0,
                                   letterSpacing: 0.0,

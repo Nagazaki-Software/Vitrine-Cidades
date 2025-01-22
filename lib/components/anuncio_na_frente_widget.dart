@@ -210,8 +210,8 @@ class _AnuncioNaFrenteWidgetState extends State<AnuncioNaFrenteWidget> {
                                                                         context)
                                                                     .labelSmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       color: Colors
                                                                           .white,
                                                                       letterSpacing:
@@ -235,8 +235,8 @@ class _AnuncioNaFrenteWidgetState extends State<AnuncioNaFrenteWidget> {
                                                                     .of(context)
                                                                 .displaySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Barlow',
+                                                                  font: GoogleFonts
+                                                                      .barlow(),
                                                                   color: Colors
                                                                       .white,
                                                                   letterSpacing:
@@ -259,8 +259,8 @@ class _AnuncioNaFrenteWidgetState extends State<AnuncioNaFrenteWidget> {
                                                                     .of(context)
                                                                 .bodyLarge
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: Color(
                                                                       0xCCFFFFFF),
                                                                   letterSpacing:
@@ -301,8 +301,8 @@ class _AnuncioNaFrenteWidgetState extends State<AnuncioNaFrenteWidget> {
                                                                         context)
                                                                     .headlineMedium
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Barlow',
+                                                                      font: GoogleFonts
+                                                                          .barlow(),
                                                                       color: Colors
                                                                           .white,
                                                                       letterSpacing:
@@ -352,8 +352,8 @@ class _AnuncioNaFrenteWidgetState extends State<AnuncioNaFrenteWidget> {
                                                                           context)
                                                                       .titleSmall
                                                                       .override(
-                                                                        fontFamily:
-                                                                            'Barlow',
+                                                                        font: GoogleFonts
+                                                                            .barlow(),
                                                                         color: FlutterFlowTheme.of(context)
                                                                             .info,
                                                                         letterSpacing:

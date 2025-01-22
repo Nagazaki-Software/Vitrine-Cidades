@@ -68,7 +68,7 @@ class _VoceaindanaorecebenotificacoesWidgetState
               'Ainda não existe notificações',
               textAlign: TextAlign.center,
               style: FlutterFlowTheme.of(context).headlineSmall.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     letterSpacing: 0.0,
                   ),
             ),
@@ -76,7 +76,7 @@ class _VoceaindanaorecebenotificacoesWidgetState
               'Você ainda não recebe notificações, verifique abaixo as permissões de sua conta.',
               textAlign: TextAlign.center,
               style: FlutterFlowTheme.of(context).bodyMedium.override(
-                    fontFamily: 'Rubik',
+                    font: GoogleFonts.rubik(),
                     color: FlutterFlowTheme.of(context).secondaryText,
                     letterSpacing: 0.0,
                   ),
@@ -108,7 +108,7 @@ class _VoceaindanaorecebenotificacoesWidgetState
                 iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                 color: FlutterFlowTheme.of(context).primary,
                 textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       color: FlutterFlowTheme.of(context).info,
                       letterSpacing: 0.0,
                     ),

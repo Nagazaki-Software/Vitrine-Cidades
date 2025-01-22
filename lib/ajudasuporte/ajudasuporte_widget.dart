@@ -68,7 +68,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
           title: Text(
             'Ajuda e Suporte',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Barlow',
+                  font: GoogleFonts.barlow(),
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   letterSpacing: 0.0,
                 ),
@@ -107,7 +107,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -140,7 +140,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyLarge
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 fontSize: 15.0,
                                                 letterSpacing: 0.0,
                                               ),
@@ -185,7 +185,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyLarge
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -229,7 +229,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -272,15 +272,14 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                           children: [
                                             Text(
                                               'Minha Conta',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyLarge
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w500,
+                                                  ),
                                             ),
                                             Icon(
                                               Icons.chevron_right,
@@ -300,7 +299,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .secondaryText,
@@ -352,15 +351,14 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                           children: [
                                             Text(
                                               'Sobre o Vitrine Cidades',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyLarge
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w500,
+                                                  ),
                                             ),
                                             Icon(
                                               Icons.chevron_right,
@@ -380,7 +378,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .secondaryText,
@@ -432,15 +430,14 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                           children: [
                                             Text(
                                               'Produtos e Serviços',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyLarge
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w500,
+                                                  ),
                                             ),
                                             Icon(
                                               Icons.chevron_right,
@@ -460,7 +457,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .secondaryText,
@@ -512,15 +509,14 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                           children: [
                                             Text(
                                               'Política de Privacidade',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyLarge
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w500,
+                                                  ),
                                             ),
                                             Icon(
                                               Icons.chevron_right,
@@ -540,7 +536,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .secondaryText,
@@ -592,15 +588,14 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                           children: [
                                             Text(
                                               'Termos de Uso',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyLarge
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w500,
+                                                  ),
                                             ),
                                             Icon(
                                               Icons.chevron_right,
@@ -620,7 +615,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .secondaryText,
@@ -661,7 +656,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -683,7 +678,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -693,7 +688,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
                                             letterSpacing: 0.0,
@@ -721,7 +716,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -731,7 +726,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
                                             letterSpacing: 0.0,
@@ -759,7 +754,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -769,7 +764,7 @@ class _AjudasuporteWidgetState extends State<AjudasuporteWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
                                             letterSpacing: 0.0,

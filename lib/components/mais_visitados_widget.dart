@@ -114,7 +114,7 @@ class _MaisVisitadosWidgetState extends State<MaisVisitadosWidget> {
                           style: FlutterFlowTheme.of(context)
                               .headlineSmall
                               .override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 letterSpacing: 0.0,
                               ),
                         ),
@@ -131,7 +131,7 @@ class _MaisVisitadosWidgetState extends State<MaisVisitadosWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   color: FlutterFlowTheme.of(context).primary,
                                   letterSpacing: 0.0,
                                 ),
@@ -276,8 +276,8 @@ class _MaisVisitadosWidgetState extends State<MaisVisitadosWidget> {
                                                                           context)
                                                                       .bodyMedium
                                                                       .override(
-                                                                        fontFamily:
-                                                                            'Noto Sans',
+                                                                        font: GoogleFonts
+                                                                            .notoSans(),
                                                                         color: FlutterFlowTheme.of(context)
                                                                             .secondaryBackground,
                                                                         fontSize:
@@ -310,7 +310,8 @@ class _MaisVisitadosWidgetState extends State<MaisVisitadosWidget> {
                                                           context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -329,16 +330,19 @@ class _MaisVisitadosWidgetState extends State<MaisVisitadosWidget> {
                                                             .commaDecimal,
                                                         currency: 'R\$',
                                                       ),
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodySmall
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .secondaryText,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodySmall
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .rubik(),
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .secondaryText,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                              ),
                                                     ),
                                                     if (todosItem.onSale)
                                                       Text(
@@ -356,8 +360,8 @@ class _MaisVisitadosWidgetState extends State<MaisVisitadosWidget> {
                                                                     context)
                                                                 .bodyLarge
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .primary,
@@ -387,7 +391,8 @@ class _MaisVisitadosWidgetState extends State<MaisVisitadosWidget> {
                                                               .of(context)
                                                           .labelSmall
                                                           .override(
-                                                            fontFamily: 'Rubik',
+                                                            font: GoogleFonts
+                                                                .rubik(),
                                                             letterSpacing: 0.0,
                                                           ),
                                                     ),
@@ -397,7 +402,8 @@ class _MaisVisitadosWidgetState extends State<MaisVisitadosWidget> {
                                                               .of(context)
                                                           .labelSmall
                                                           .override(
-                                                            fontFamily: 'Rubik',
+                                                            font: GoogleFonts
+                                                                .rubik(),
                                                             letterSpacing: 0.0,
                                                           ),
                                                     ),

@@ -75,7 +75,7 @@ class _VestuarioWidgetState extends State<VestuarioWidget> {
             title: Text(
               'Vestúario',
               style: FlutterFlowTheme.of(context).headlineMedium.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     color: FlutterFlowTheme.of(context).secondaryBackground,
                     letterSpacing: 0.0,
                   ),
@@ -106,7 +106,7 @@ class _VestuarioWidgetState extends State<VestuarioWidget> {
                       hintText: 'Buscar produtos...',
                       hintStyle:
                           FlutterFlowTheme.of(context).bodyMedium.override(
-                                fontFamily: 'Rubik',
+                                font: GoogleFonts.rubik(),
                                 letterSpacing: 0.0,
                               ),
                       enabledBorder: InputBorder.none,
@@ -120,7 +120,7 @@ class _VestuarioWidgetState extends State<VestuarioWidget> {
                       ),
                     ),
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Rubik',
+                          font: GoogleFonts.rubik(),
                           letterSpacing: 0.0,
                         ),
                     minLines: 1,
@@ -292,7 +292,8 @@ class _VestuarioWidgetState extends State<VestuarioWidget> {
                                                           context)
                                                       .bodySmall
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         color: Colors.white,
                                                         letterSpacing: 0.0,
                                                       ),
@@ -368,7 +369,8 @@ class _VestuarioWidgetState extends State<VestuarioWidget> {
                                                           context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         fontSize: 14.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -408,7 +410,8 @@ class _VestuarioWidgetState extends State<VestuarioWidget> {
                                                           context)
                                                       .titleMedium
                                                       .override(
-                                                        fontFamily: 'Barlow',
+                                                        font: GoogleFonts
+                                                            .barlow(),
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -436,19 +439,22 @@ class _VestuarioWidgetState extends State<VestuarioWidget> {
                                                             .commaDecimal,
                                                         currency: 'R\$',
                                                       ),
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodySmall
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .secondaryText,
-                                                            letterSpacing: 0.0,
-                                                            decoration:
-                                                                TextDecoration
-                                                                    .lineThrough,
-                                                          ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodySmall
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .rubik(),
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .secondaryText,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                                decoration:
+                                                                    TextDecoration
+                                                                        .lineThrough,
+                                                              ),
                                                     ),
                                                   ),
                                               ].divide(SizedBox(width: 8.0)),
@@ -469,7 +475,8 @@ class _VestuarioWidgetState extends State<VestuarioWidget> {
                                                           context)
                                                       .bodySmall
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                                 ),

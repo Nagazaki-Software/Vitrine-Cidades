@@ -151,8 +151,8 @@ class _BannerContainerCopyCopyWidgetState
                                                                   .of(context)
                                                               .headlineSmall
                                                               .override(
-                                                            fontFamily:
-                                                                'Barlow',
+                                                            font: GoogleFonts
+                                                                .barlow(),
                                                             color: FlutterFlowTheme
                                                                     .of(context)
                                                                 .secondaryBackground,

@@ -177,7 +177,7 @@ class _PainelAdministrativoPrestadorWidgetState
               title: Text(
                 'Painel Administrativo',
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       letterSpacing: 0.0,
                     ),
               ),
@@ -255,7 +255,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .headlineSmall
                                               .override(
-                                                fontFamily: 'Barlow',
+                                                font: GoogleFonts.barlow(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -268,7 +268,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .titleMedium
                                               .override(
-                                                fontFamily: 'Barlow',
+                                                font: GoogleFonts.barlow(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .primary,
@@ -284,7 +284,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .titleMedium
                                               .override(
-                                                fontFamily: 'Barlow',
+                                                font: GoogleFonts.barlow(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .primary,
@@ -351,17 +351,16 @@ class _PainelAdministrativoPrestadorWidgetState
                                                 columnCount.toString(),
                                                 '0',
                                               ),
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .headlineMedium
-                                                      .override(
-                                                        fontFamily: 'Barlow',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primary,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .headlineMedium
+                                                  .override(
+                                                    font: GoogleFonts.barlow(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .primary,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                             Text(
                                               'Serviços ativos',
@@ -369,7 +368,8 @@ class _PainelAdministrativoPrestadorWidgetState
                                                   FlutterFlowTheme.of(context)
                                                       .bodySmall
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -413,17 +413,16 @@ class _PainelAdministrativoPrestadorWidgetState
                                                 columnCount.toString(),
                                                 '0',
                                               ),
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .headlineMedium
-                                                      .override(
-                                                        fontFamily: 'Barlow',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primary,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .headlineMedium
+                                                  .override(
+                                                    font: GoogleFonts.barlow(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .primary,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                             Text(
                                               'Anúncios',
@@ -431,7 +430,8 @@ class _PainelAdministrativoPrestadorWidgetState
                                                   FlutterFlowTheme.of(context)
                                                       .bodySmall
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -449,7 +449,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium
                                               .override(
-                                                fontFamily: 'Barlow',
+                                                font: GoogleFonts.barlow(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .success,
@@ -461,7 +461,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -478,7 +478,7 @@ class _PainelAdministrativoPrestadorWidgetState
                         'Ações Rápidas',
                         style:
                             FlutterFlowTheme.of(context).headlineSmall.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   letterSpacing: 0.0,
                                 ),
                       ),
@@ -553,7 +553,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -563,7 +563,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .secondaryText,
@@ -637,7 +637,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -647,7 +647,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .secondaryText,
@@ -721,7 +721,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -731,7 +731,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .secondaryText,
@@ -809,7 +809,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .bodyLarge
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -819,7 +819,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .secondaryText,
@@ -838,7 +838,7 @@ class _PainelAdministrativoPrestadorWidgetState
                         'Gestão de Produtos',
                         style:
                             FlutterFlowTheme.of(context).headlineSmall.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   letterSpacing: 0.0,
                                 ),
                       ),
@@ -874,7 +874,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .titleMedium
                                               .override(
-                                                fontFamily: 'Barlow',
+                                                font: GoogleFonts.barlow(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -897,7 +897,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             letterSpacing: 0.0,
@@ -992,22 +992,26 @@ class _PainelAdministrativoPrestadorWidgetState
                                                               .of(context)
                                                           .bodyLarge
                                                           .override(
-                                                            fontFamily: 'Rubik',
+                                                            font: GoogleFonts
+                                                                .rubik(),
                                                             letterSpacing: 0.0,
                                                           ),
                                                     ),
                                                     Text(
                                                       'Em estoque: 23',
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodySmall
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .secondaryText,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodySmall
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .rubik(),
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .secondaryText,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                              ),
                                                     ),
                                                   ],
                                                 ),
@@ -1035,7 +1039,7 @@ class _PainelAdministrativoPrestadorWidgetState
                         'Marketing',
                         style:
                             FlutterFlowTheme.of(context).headlineSmall.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   letterSpacing: 0.0,
                                 ),
                       ),
@@ -1071,7 +1075,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .titleMedium
                                               .override(
-                                                fontFamily: 'Barlow',
+                                                font: GoogleFonts.barlow(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1094,7 +1098,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             letterSpacing: 0.0,
@@ -1177,22 +1181,26 @@ class _PainelAdministrativoPrestadorWidgetState
                                                               .of(context)
                                                           .bodyLarge
                                                           .override(
-                                                            fontFamily: 'Rubik',
+                                                            font: GoogleFonts
+                                                                .rubik(),
                                                             letterSpacing: 0.0,
                                                           ),
                                                     ),
                                                     Text(
                                                       'Ativo até 30/03',
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodySmall
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .secondaryText,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodySmall
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .rubik(),
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .secondaryText,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                              ),
                                                     ),
                                                   ],
                                                 ),
@@ -1210,16 +1218,19 @@ class _PainelAdministrativoPrestadorWidgetState
                                                                 4.0, 8.0),
                                                     child: Text(
                                                       'Ativo',
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodySmall
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .primary,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodySmall
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .rubik(),
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .primary,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                              ),
                                                     ),
                                                   ),
                                                 ),
@@ -1252,8 +1263,8 @@ class _PainelAdministrativoPrestadorWidgetState
                                                                     context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .warning,
@@ -1307,7 +1318,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .titleMedium
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -1331,13 +1342,13 @@ class _PainelAdministrativoPrestadorWidgetState
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     enabledBorder: OutlineInputBorder(
@@ -1376,7 +1387,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   minLines: 1,
@@ -1393,13 +1404,13 @@ class _PainelAdministrativoPrestadorWidgetState
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     enabledBorder: OutlineInputBorder(
@@ -1438,7 +1449,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   validator: _model.textController2Validator
@@ -1495,7 +1506,7 @@ class _PainelAdministrativoPrestadorWidgetState
                                     textStyle: FlutterFlowTheme.of(context)
                                         .titleSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color:
                                               FlutterFlowTheme.of(context).info,
                                           letterSpacing: 0.0,

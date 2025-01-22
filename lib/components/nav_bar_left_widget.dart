@@ -181,8 +181,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                                                     context)
                                                                 .bodyMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryBackground,
@@ -247,18 +247,18 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                                       15.0, 0.0, 0.0, 2.0),
                                               child: Text(
                                                 'Meu perfil',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
-                                                              .secondaryBackground,
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.normal,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color: FlutterFlowTheme
+                                                              .of(context)
+                                                          .secondaryBackground,
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.normal,
+                                                    ),
                                               ),
                                             ),
                                             Icon(
@@ -326,7 +326,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .primaryText,
@@ -375,7 +376,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Plus Jakarta Sans',
+                                              font:
+                                                  GoogleFonts.plusJakartaSans(),
                                               color: Color(0xFF15161E),
                                               fontSize: 14.0,
                                               letterSpacing: 0.0,
@@ -421,7 +423,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Plus Jakarta Sans',
+                                              font:
+                                                  GoogleFonts.plusJakartaSans(),
                                               color: Color(0xFF15161E),
                                               fontSize: 14.0,
                                               letterSpacing: 0.0,
@@ -475,7 +478,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -524,7 +528,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -572,7 +577,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -620,7 +626,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -668,7 +675,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -716,7 +724,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -764,7 +773,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -816,7 +826,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -864,7 +875,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -912,7 +924,8 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -937,7 +950,7 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.w500,
                                   ),
@@ -981,7 +994,7 @@ class _NavBarLeftWidgetState extends State<NavBarLeftWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       fontSize: 14.0,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,

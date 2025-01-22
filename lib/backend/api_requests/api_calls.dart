@@ -17,10 +17,10 @@ class CriarAssinaturaComCartaoDeCreditoCall {
     String? nextDueDate = '',
     String? customer = '',
     String? holderName = '',
-    double? number,
+    String? number = '',
     String? expiryMonth = '',
     String? expiryYear = '',
-    double? ccv,
+    String? ccv = '',
     String? remoteIp = '',
     String? description = '',
     int? installmentCount,
@@ -54,10 +54,10 @@ class CriarAssinaturaComCartaoDeCreditoCall {
   },
   "creditCard": {
     "holderName": "${escapeStringForJson(holderName)}",
-    "number": ${number},
+    "number": ${escapeStringForJson(number)},
     "expiryMonth": ${escapeStringForJson(expiryMonth)},
     "expiryYear": ${escapeStringForJson(expiryYear)},
-    "ccv": ${ccv}
+    "ccv": ${escapeStringForJson(ccv)}
   }
 }''';
     return ApiManager.instance.makeApiCall(
@@ -298,6 +298,39 @@ class AssinaturaPixCall {
             '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
       },
       params: {},
+      returnBody: true,
+      encodeBodyUtf8: false,
+      decodeUtf8: true,
+      cache: false,
+      isStreamingApi: false,
+      alwaysAllowBody: false,
+    );
+  }
+
+  static dynamic? tudo(dynamic response) => getJsonField(
+        response,
+        r'''$''',
+      );
+  static String? id(dynamic response) => castToType<String>(getJsonField(
+        response,
+        r'''$.id''',
+      ));
+}
+
+class EstornosCall {
+  static Future<ApiCallResponse> call({
+    String? id = '',
+  }) async {
+    return ApiManager.instance.makeApiCall(
+      callName: 'estornos',
+      apiUrl: 'https://api.asaas.com/v3/payments/${id}/refund',
+      callType: ApiCallType.POST,
+      headers: {
+        'access_token':
+            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+      },
+      params: {},
+      bodyType: BodyType.MULTIPART,
       returnBody: true,
       encodeBodyUtf8: false,
       decodeUtf8: true,

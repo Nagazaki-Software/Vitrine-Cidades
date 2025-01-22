@@ -76,14 +76,14 @@ class _PoliticadereembolsoWidgetState extends State<PoliticadereembolsoWidget> {
                 'Política de Reembolso',
                 textAlign: TextAlign.center,
                 style: FlutterFlowTheme.of(context).headlineSmall.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       letterSpacing: 0.0,
                     ),
               ),
               Text(
                 'Nossa política de reembolso é projetada para ser justa e transparente:',
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Rubik',
+                      font: GoogleFonts.rubik(),
                       letterSpacing: 0.0,
                     ),
               ),
@@ -103,7 +103,7 @@ class _PoliticadereembolsoWidgetState extends State<PoliticadereembolsoWidget> {
                           'Reembolso total em até 24 horas após a compra',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                         ),
@@ -123,7 +123,7 @@ class _PoliticadereembolsoWidgetState extends State<PoliticadereembolsoWidget> {
                           'Reembolso parcial até 7 dias, com dedução de taxa administrativa',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                         ),
@@ -143,7 +143,7 @@ class _PoliticadereembolsoWidgetState extends State<PoliticadereembolsoWidget> {
                           'Casos especiais serão analisados pela nossa equipe',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                         ),
@@ -155,7 +155,7 @@ class _PoliticadereembolsoWidgetState extends State<PoliticadereembolsoWidget> {
               Text(
                 'Para solicitar um reembolso, entre em contato com nosso suporte através do app ou email.',
                 style: FlutterFlowTheme.of(context).bodySmall.override(
-                      fontFamily: 'Rubik',
+                      font: GoogleFonts.rubik(),
                       color: FlutterFlowTheme.of(context).secondaryText,
                       letterSpacing: 0.0,
                     ),
@@ -173,7 +173,7 @@ class _PoliticadereembolsoWidgetState extends State<PoliticadereembolsoWidget> {
                       EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                   color: FlutterFlowTheme.of(context).primary,
                   textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         color: FlutterFlowTheme.of(context).info,
                         letterSpacing: 0.0,
                       ),

@@ -97,7 +97,7 @@ class _QueroAlterarDadosDaContaWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .displaySmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
                                           fontSize: 24.0,
@@ -145,7 +145,8 @@ class _QueroAlterarDadosDaContaWidgetState
                                                             context)
                                                         .bodyMedium
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                   ),
@@ -181,7 +182,7 @@ class _QueroAlterarDadosDaContaWidgetState
                                   textStyle: FlutterFlowTheme.of(context)
                                       .titleSmall
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: FlutterFlowTheme.of(context)
                                             .primary,
                                         fontSize: 14.0,

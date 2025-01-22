@@ -77,7 +77,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
           title: Text(
             'Alterar Senha',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Barlow',
+                  font: GoogleFonts.barlow(),
                   color: FlutterFlowTheme.of(context).primaryText,
                   letterSpacing: 0.0,
                 ),
@@ -118,7 +118,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
                                     letterSpacing: 0.0,
@@ -143,7 +143,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -166,7 +166,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge
                                                     .override(
-                                                      fontFamily: 'Rubik',
+                                                      font: GoogleFonts.rubik(),
                                                       letterSpacing: 0.0,
                                                     ),
                                             enabledBorder: OutlineInputBorder(
@@ -228,7 +228,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                           minLines: 1,
@@ -253,7 +253,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -273,7 +273,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                               FlutterFlowTheme.of(context)
                                                   .bodyLarge
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -334,7 +334,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         minLines: 1,
@@ -359,7 +359,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -379,7 +379,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                               FlutterFlowTheme.of(context)
                                                   .bodyLarge
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -440,7 +440,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         minLines: 1,
@@ -481,7 +481,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -502,7 +502,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -522,7 +522,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -542,7 +542,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -562,7 +562,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -582,7 +582,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -618,7 +618,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -639,7 +639,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -659,7 +659,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -679,7 +679,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -714,7 +714,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                       color: FlutterFlowTheme.of(context).primary,
                       textStyle:
                           FlutterFlowTheme.of(context).titleMedium.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: FlutterFlowTheme.of(context).info,
                                 letterSpacing: 0.0,
                               ),
@@ -737,7 +737,7 @@ class _AlterarMinhaSenhaWidgetState extends State<AlterarMinhaSenhaWidget> {
                       color: FlutterFlowTheme.of(context).secondaryBackground,
                       textStyle:
                           FlutterFlowTheme.of(context).titleMedium.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 letterSpacing: 0.0,
                               ),

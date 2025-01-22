@@ -125,7 +125,7 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
               title: Text(
                 'Editar Produto',
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       letterSpacing: 0.0,
                     ),
               ),
@@ -168,7 +168,7 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -190,7 +190,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -212,20 +213,20 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                               autofocus: false,
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                labelStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
-                                                hintStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                labelStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
+                                                hintStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
@@ -276,7 +277,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                               minLines: 1,
@@ -302,7 +304,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -324,20 +327,20 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                               autofocus: false,
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                labelStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
-                                                hintStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                labelStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
+                                                hintStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
@@ -388,7 +391,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                               maxLines: 5,
@@ -421,7 +425,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                             context)
                                                         .bodyMedium
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                   ),
@@ -454,8 +459,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -464,8 +469,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -524,7 +529,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                             context)
                                                         .bodyLarge
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                     minLines: 1,
@@ -557,7 +563,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                             context)
                                                         .bodyMedium
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                   ),
@@ -579,8 +586,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -589,8 +596,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -649,7 +656,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                             context)
                                                         .bodyLarge
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                     minLines: 1,
@@ -700,7 +708,7 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -768,7 +776,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                             context)
                                                         .bodyLarge
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           color: FlutterFlowTheme
                                                                   .of(context)
                                                               .primary,
@@ -919,7 +928,7 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -941,7 +950,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -981,16 +991,19 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   children: [
                                                     Text(
                                                       'Selecione uma categoria',
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodyMedium
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .secondaryText,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodyMedium
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .rubik(),
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .secondaryText,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                              ),
                                                     ),
                                                     Icon(
                                                       Icons.keyboard_arrow_down,
@@ -1022,7 +1035,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -1039,20 +1053,20 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                               autofocus: false,
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                labelStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
-                                                hintStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                labelStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
+                                                hintStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
@@ -1103,7 +1117,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                               minLines: 1,
@@ -1129,7 +1144,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -1146,20 +1162,20 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                               autofocus: false,
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                labelStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
-                                                hintStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                labelStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
+                                                hintStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
@@ -1210,7 +1226,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                               minLines: 1,
@@ -1236,7 +1253,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -1253,20 +1271,20 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                               autofocus: false,
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                labelStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
-                                                hintStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                labelStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
+                                                hintStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
@@ -1317,7 +1335,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                               minLines: 1,
@@ -1345,7 +1364,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -1371,8 +1391,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -1382,8 +1402,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -1442,7 +1462,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                             context)
                                                         .bodyLarge
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                     minLines: 1,
@@ -1467,8 +1488,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -1478,8 +1499,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -1538,7 +1559,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                             context)
                                                         .bodyLarge
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                     minLines: 1,
@@ -1563,8 +1585,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -1574,8 +1596,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -1634,7 +1656,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                             context)
                                                         .bodyLarge
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                     minLines: 1,
@@ -1685,7 +1708,7 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -1702,7 +1725,7 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyLarge
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                 ),
                                           ),
@@ -1737,7 +1760,7 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyLarge
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                 ),
                                           ),
@@ -1791,7 +1814,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                             context)
                                                         .bodyMedium
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                   ),
@@ -1855,8 +1879,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   .of(context)
                                                               .bodySmall
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .secondaryText,
@@ -1870,8 +1894,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   .of(context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -1893,8 +1917,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   .of(context)
                                                               .bodySmall
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .secondaryText,
@@ -1908,8 +1932,8 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                                   .of(context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -1945,7 +1969,7 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                                   context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .primary,
@@ -1993,7 +2017,7 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                 textStyle: FlutterFlowTheme.of(context)
                                     .titleMedium
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       color: FlutterFlowTheme.of(context).error,
                                       letterSpacing: 0.0,
                                     ),
@@ -2031,7 +2055,7 @@ class _EditarProdutoWidgetState extends State<EditarProdutoWidget> {
                                 textStyle: FlutterFlowTheme.of(context)
                                     .titleMedium
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       color: FlutterFlowTheme.of(context).info,
                                       letterSpacing: 0.0,
                                     ),

@@ -67,7 +67,7 @@ class _AbaMaisVendidosWidgetState extends State<AbaMaisVendidosWidget> {
                         style: FlutterFlowTheme.of(context)
                             .titleMedium
                             .override(
-                              fontFamily: 'Barlow',
+                              font: GoogleFonts.barlow(),
                               color: FlutterFlowTheme.of(context).primaryText,
                               letterSpacing: 0.0,
                             ),
@@ -86,7 +86,7 @@ class _AbaMaisVendidosWidgetState extends State<AbaMaisVendidosWidget> {
                           'Veja Mais',
                           style:
                               FlutterFlowTheme.of(context).labelLarge.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     color: FlutterFlowTheme.of(context).primary,
                                     letterSpacing: 0.0,
                                   ),
@@ -186,7 +186,7 @@ class _AbaMaisVendidosWidgetState extends State<AbaMaisVendidosWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleMedium
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             fontSize: 16.0,
                                             letterSpacing: 0.0,
                                           ),
@@ -211,7 +211,7 @@ class _AbaMaisVendidosWidgetState extends State<AbaMaisVendidosWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
                                             letterSpacing: 0.0,
@@ -252,7 +252,8 @@ class _AbaMaisVendidosWidgetState extends State<AbaMaisVendidosWidget> {
                                                           context)
                                                       .bodySmall
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                                 ),
@@ -262,7 +263,8 @@ class _AbaMaisVendidosWidgetState extends State<AbaMaisVendidosWidget> {
                                                           context)
                                                       .bodySmall
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                                 )
@@ -271,7 +273,8 @@ class _AbaMaisVendidosWidgetState extends State<AbaMaisVendidosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -292,7 +295,7 @@ class _AbaMaisVendidosWidgetState extends State<AbaMaisVendidosWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .titleMedium
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),

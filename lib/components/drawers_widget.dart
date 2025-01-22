@@ -162,8 +162,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                                                     context)
                                                                 .bodyMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Plus Jakarta Sans',
+                                                                  font: GoogleFonts
+                                                                      .plusJakartaSans(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryBackground,
@@ -304,7 +304,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .primaryText,
@@ -361,7 +362,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -416,7 +418,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -471,7 +474,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -537,8 +541,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                                       context)
                                                   .bodyMedium
                                                   .override(
-                                                    fontFamily:
-                                                        'Plus Jakarta Sans',
+                                                    font: GoogleFonts
+                                                        .plusJakartaSans(),
                                                     color: Color(0xFF15161E),
                                                     fontSize: 14.0,
                                                     letterSpacing: 0.0,
@@ -600,8 +604,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                                       context)
                                                   .bodyMedium
                                                   .override(
-                                                    fontFamily:
-                                                        'Plus Jakarta Sans',
+                                                    font: GoogleFonts
+                                                        .plusJakartaSans(),
                                                     color: Color(0xFF15161E),
                                                     fontSize: 14.0,
                                                     letterSpacing: 0.0,
@@ -713,8 +717,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                                       context)
                                                   .bodyMedium
                                                   .override(
-                                                    fontFamily:
-                                                        'Plus Jakarta Sans',
+                                                    font: GoogleFonts
+                                                        .plusJakartaSans(),
                                                     color: Color(0xFF15161E),
                                                     fontSize: 14.0,
                                                     letterSpacing: 0.0,
@@ -790,8 +794,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                                       context)
                                                   .bodyMedium
                                                   .override(
-                                                    fontFamily:
-                                                        'Plus Jakarta Sans',
+                                                    font: GoogleFonts
+                                                        .plusJakartaSans(),
                                                     color: Color(0xFF15161E),
                                                     fontSize: 14.0,
                                                     letterSpacing: 0.0,
@@ -859,7 +863,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -927,7 +932,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -987,7 +993,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -1047,7 +1054,8 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Plus Jakarta Sans',
+                                                font: GoogleFonts
+                                                    .plusJakartaSans(),
                                                 color: Color(0xFF15161E),
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
@@ -1092,7 +1100,7 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Plus Jakarta Sans',
+                                          font: GoogleFonts.plusJakartaSans(),
                                           color: Color(0xFF15161E),
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
@@ -1160,7 +1168,7 @@ class _DrawersWidgetState extends State<DrawersWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Plus Jakarta Sans',
+                                        font: GoogleFonts.plusJakartaSans(),
                                         color: Color(0xFF15161E),
                                         fontSize: 14.0,
                                         letterSpacing: 0.0,

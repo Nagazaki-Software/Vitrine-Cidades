@@ -438,7 +438,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                         style: FlutterFlowTheme.of(context)
                             .headlineMedium
                             .override(
-                              fontFamily: 'Barlow',
+                              font: GoogleFonts.barlow(),
                               color: Colors.white,
                               letterSpacing: 0.0,
                             ),
@@ -446,7 +446,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                       Text(
                         'Escolha sua forma de pagamento',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Rubik',
+                              font: GoogleFonts.rubik(),
                               color: Color(0xFFE0E0E0),
                               letterSpacing: 0.0,
                             ),
@@ -496,7 +496,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         letterSpacing: 0.0,
@@ -512,7 +512,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -529,7 +529,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -546,7 +546,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -555,7 +555,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -578,7 +578,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -619,7 +619,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             letterSpacing: 0.0,
@@ -654,7 +654,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                           backgroundColor: FlutterFlowTheme.of(context).primary,
                           textStyle:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     color: FlutterFlowTheme.of(context).info,
                                     letterSpacing: 0.0,
                                   ),
@@ -669,7 +669,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                           textStyle: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
-                                fontFamily: 'Rubik',
+                                font: GoogleFonts.rubik(),
                                 color:
                                     FlutterFlowTheme.of(context).secondaryText,
                                 letterSpacing: 0.0,
@@ -716,7 +716,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: FlutterFlowTheme.of(context)
                                               .primaryText,
                                           letterSpacing: 0.0,
@@ -732,13 +732,13 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -787,7 +787,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -815,22 +815,22 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                                 obscureText: false,
                                                 decoration: InputDecoration(
                                                   labelText: 'Mês',
-                                                  labelStyle:
-                                                      FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            letterSpacing: 0.0,
-                                                          ),
-                                                  hintStyle:
-                                                      FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                  labelStyle: FlutterFlowTheme
+                                                          .of(context)
+                                                      .bodyMedium
+                                                      .override(
+                                                        font:
+                                                            GoogleFonts.rubik(),
+                                                        letterSpacing: 0.0,
+                                                      ),
+                                                  hintStyle: FlutterFlowTheme
+                                                          .of(context)
+                                                      .bodyMedium
+                                                      .override(
+                                                        font:
+                                                            GoogleFonts.rubik(),
+                                                        letterSpacing: 0.0,
+                                                      ),
                                                   enabledBorder:
                                                       OutlineInputBorder(
                                                     borderSide: BorderSide(
@@ -880,13 +880,13 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                                         .primary,
                                                   ),
                                                 ),
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyLarge
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyLarge
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                                 minLines: 1,
                                                 maxLength: 2,
                                                 maxLengthEnforcement:
@@ -904,14 +904,14 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                               ),
                                               Text(
                                                 'Mês do cartão com 2 dígitos.',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          fontSize: 12.0,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      fontSize: 12.0,
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -934,22 +934,22 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                                 obscureText: false,
                                                 decoration: InputDecoration(
                                                   labelText: 'Ano',
-                                                  labelStyle:
-                                                      FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            letterSpacing: 0.0,
-                                                          ),
-                                                  hintStyle:
-                                                      FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                  labelStyle: FlutterFlowTheme
+                                                          .of(context)
+                                                      .bodyMedium
+                                                      .override(
+                                                        font:
+                                                            GoogleFonts.rubik(),
+                                                        letterSpacing: 0.0,
+                                                      ),
+                                                  hintStyle: FlutterFlowTheme
+                                                          .of(context)
+                                                      .bodyMedium
+                                                      .override(
+                                                        font:
+                                                            GoogleFonts.rubik(),
+                                                        letterSpacing: 0.0,
+                                                      ),
                                                   enabledBorder:
                                                       OutlineInputBorder(
                                                     borderSide: BorderSide(
@@ -999,13 +999,13 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                                         .primary,
                                                   ),
                                                 ),
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyLarge
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyLarge
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                                 minLines: 1,
                                                 maxLength: 2,
                                                 maxLengthEnforcement:
@@ -1023,14 +1023,14 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                               ),
                                               Text(
                                                 'Ano do cartão com 4 dígitos.',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          fontSize: 12.0,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      fontSize: 12.0,
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -1048,13 +1048,13 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -1100,7 +1100,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -1126,13 +1126,13 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -1178,7 +1178,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -1207,7 +1207,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                       textStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintText: 'Opções de parcelamento',
@@ -1239,7 +1239,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           fontSize: 15.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
@@ -1259,13 +1259,11 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                         ),
                                         customer: widget!.customer,
                                         holderName: _model.textController5.text,
-                                        number: double.tryParse(
-                                            _model.textController1.text),
+                                        number: _model.textController1.text,
                                         expiryMonth:
                                             _model.textController2.text,
                                         expiryYear: _model.textController3.text,
-                                        ccv: double.tryParse(
-                                            _model.textController4.text),
+                                        ccv: _model.textController4.text,
                                         remoteIp: getJsonField(
                                           (_model.ip?.jsonBody ?? ''),
                                           r'''$.ip''',
@@ -1438,6 +1436,13 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                             r'''$.invoiceuUrl''',
                                           ).toString(),
                                           dia: getCurrentTimestamp,
+                                          numeroDoCartao:
+                                              _model.textController1.text,
+                                          id: getJsonField(
+                                            (_model.apiResultfitoi?.jsonBody ??
+                                                ''),
+                                            r'''$.id''',
+                                          ).toString(),
                                         ));
 
                                         await NotificacoesRecord.collection
@@ -1577,7 +1582,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                       textStyle: FlutterFlowTheme.of(context)
                                           .titleSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             color: Colors.white,
                                             letterSpacing: 0.0,
                                           ),
@@ -1689,7 +1694,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                       textStyle: FlutterFlowTheme.of(context)
                                           .titleSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             color: Colors.white,
                                             letterSpacing: 0.0,
                                           ),
@@ -1734,7 +1739,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .headlineSmall
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primaryText,
@@ -1762,7 +1767,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .headlineSmall
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               fontSize: 18.0,
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.normal,
@@ -1780,7 +1785,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -1892,7 +1897,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodySmall
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             letterSpacing: 0.0,
@@ -1904,7 +1909,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodySmall
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           color: FlutterFlowTheme.of(context)
                                               .secondaryText,
                                           letterSpacing: 0.0,
@@ -1918,7 +1923,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primary,
@@ -1930,7 +1935,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primary,
@@ -1964,7 +1969,7 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                       textStyle: FlutterFlowTheme.of(context)
                                           .titleSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryBackground,
                                             letterSpacing: 0.0,

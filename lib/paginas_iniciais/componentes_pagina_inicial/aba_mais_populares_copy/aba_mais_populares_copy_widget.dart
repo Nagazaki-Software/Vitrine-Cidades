@@ -93,7 +93,7 @@ class _AbaMaisPopularesCopyWidgetState
                         style: FlutterFlowTheme.of(context)
                             .titleMedium
                             .override(
-                              fontFamily: 'Barlow',
+                              font: GoogleFonts.barlow(),
                               color: FlutterFlowTheme.of(context).primaryText,
                               fontSize: 24.0,
                               letterSpacing: 0.0,
@@ -113,7 +113,7 @@ class _AbaMaisPopularesCopyWidgetState
                           'Veja Mais',
                           style:
                               FlutterFlowTheme.of(context).labelLarge.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     color: FlutterFlowTheme.of(context).primary,
                                     letterSpacing: 0.0,
                                   ),
@@ -327,8 +327,8 @@ class _AbaMaisPopularesCopyWidgetState
                                                                         context)
                                                                     .bodyMedium
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Noto Sans',
+                                                                      font: GoogleFonts
+                                                                          .notoSans(),
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
                                                                           .secondaryBackground,
@@ -367,7 +367,8 @@ class _AbaMaisPopularesCopyWidgetState
                                                             context)
                                                         .titleMedium
                                                         .override(
-                                                          fontFamily: 'Barlow',
+                                                          font: GoogleFonts
+                                                              .barlow(),
                                                           fontSize: 16.0,
                                                           letterSpacing: 0.0,
                                                         ),
@@ -425,8 +426,8 @@ class _AbaMaisPopularesCopyWidgetState
                                                                       .of(context)
                                                                   .bodySmall
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -437,8 +438,8 @@ class _AbaMaisPopularesCopyWidgetState
                                                                       .of(context)
                                                                   .bodySmall
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -448,8 +449,8 @@ class _AbaMaisPopularesCopyWidgetState
                                                                   .of(context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -479,7 +480,8 @@ class _AbaMaisPopularesCopyWidgetState
                                                             context)
                                                         .titleMedium
                                                         .override(
-                                                          fontFamily: 'Barlow',
+                                                          font: GoogleFonts
+                                                              .barlow(),
                                                           fontSize: 18.0,
                                                           letterSpacing: 0.0,
                                                         ),
@@ -504,8 +506,8 @@ class _AbaMaisPopularesCopyWidgetState
                                                                   context)
                                                               .titleMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Barlow',
+                                                                font: GoogleFonts
+                                                                    .barlow(),
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .primary,
@@ -539,8 +541,8 @@ class _AbaMaisPopularesCopyWidgetState
                                                               .of(context)
                                                           .titleMedium
                                                           .override(
-                                                            fontFamily:
-                                                                'Barlow',
+                                                            font: GoogleFonts
+                                                                .barlow(),
                                                             fontSize: 18.0,
                                                             letterSpacing: 0.0,
                                                           ),

@@ -118,7 +118,7 @@ class _SearchPaginaInicialWidgetState extends State<SearchPaginaInicialWidget> {
                 decoration: InputDecoration(
                   hintText: 'Procurar...',
                   hintStyle: FlutterFlowTheme.of(context).bodyLarge.override(
-                        fontFamily: 'Nunito',
+                        font: GoogleFonts.nunito(),
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.w500,
                       ),
@@ -129,7 +129,7 @@ class _SearchPaginaInicialWidgetState extends State<SearchPaginaInicialWidget> {
                   hoverColor: FlutterFlowTheme.of(context).primary,
                 ),
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Nunito',
+                      font: GoogleFonts.nunito(),
                       letterSpacing: 0.0,
                       fontWeight: FontWeight.w500,
                     ),

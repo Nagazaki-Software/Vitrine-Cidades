@@ -98,7 +98,7 @@ class _MaisVendidoWidgetState extends State<MaisVendidoWidget> {
                 title: Text(
                   'Mais visitados',
                   style: FlutterFlowTheme.of(context).headlineMedium.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                         letterSpacing: 0.0,
                       ),
@@ -286,8 +286,8 @@ class _MaisVendidoWidgetState extends State<MaisVendidoWidget> {
                                                                 .of(context)
                                                             .bodySmall
                                                             .override(
-                                                              fontFamily:
-                                                                  'Rubik',
+                                                              font: GoogleFonts
+                                                                  .rubik(),
                                                               color:
                                                                   Colors.white,
                                                               letterSpacing:
@@ -365,8 +365,8 @@ class _MaisVendidoWidgetState extends State<MaisVendidoWidget> {
                                                                 .of(context)
                                                             .bodyLarge
                                                             .override(
-                                                              fontFamily:
-                                                                  'Rubik',
+                                                              font: GoogleFonts
+                                                                  .rubik(),
                                                               fontSize: 14.0,
                                                               letterSpacing:
                                                                   0.0,
@@ -410,8 +410,8 @@ class _MaisVendidoWidgetState extends State<MaisVendidoWidget> {
                                                                     context)
                                                                 .titleMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Barlow',
+                                                                  font: GoogleFonts
+                                                                      .barlow(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .primary,
@@ -445,8 +445,8 @@ class _MaisVendidoWidgetState extends State<MaisVendidoWidget> {
                                                                     .of(context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryText,
@@ -480,8 +480,8 @@ class _MaisVendidoWidgetState extends State<MaisVendidoWidget> {
                                                                     context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),

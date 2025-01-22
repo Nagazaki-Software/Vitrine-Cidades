@@ -111,7 +111,7 @@ class _CriandoVariacaoWidgetState extends State<CriandoVariacaoWidget> {
                           style: FlutterFlowTheme.of(context)
                               .headlineSmall
                               .override(
-                                fontFamily: 'Outfit',
+                                font: GoogleFonts.outfit(),
                                 color: Color(0xFF14181B),
                                 fontSize: 24.0,
                                 letterSpacing: 0.0,
@@ -130,7 +130,7 @@ class _CriandoVariacaoWidgetState extends State<CriandoVariacaoWidget> {
                           decoration: InputDecoration(
                             labelStyle:
                                 FlutterFlowTheme.of(context).bodyLarge.override(
-                                      fontFamily: 'Plus Jakarta Sans',
+                                      font: GoogleFonts.plusJakartaSans(),
                                       color: Color(0xFF14181B),
                                       fontSize: 16.0,
                                       letterSpacing: 0.0,
@@ -140,7 +140,7 @@ class _CriandoVariacaoWidgetState extends State<CriandoVariacaoWidget> {
                             hintStyle: FlutterFlowTheme.of(context)
                                 .labelLarge
                                 .override(
-                                  fontFamily: 'Plus Jakarta Sans',
+                                  font: GoogleFonts.plusJakartaSans(),
                                   color: Color(0xFF57636C),
                                   fontSize: 16.0,
                                   letterSpacing: 0.0,
@@ -181,7 +181,7 @@ class _CriandoVariacaoWidgetState extends State<CriandoVariacaoWidget> {
                           ),
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF14181B),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -215,7 +215,7 @@ class _CriandoVariacaoWidgetState extends State<CriandoVariacaoWidget> {
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleSmall
                                 .override(
-                                  fontFamily: 'Plus Jakarta Sans',
+                                  font: GoogleFonts.plusJakartaSans(),
                                   color: Colors.white,
                                   fontSize: 16.0,
                                   letterSpacing: 0.0,

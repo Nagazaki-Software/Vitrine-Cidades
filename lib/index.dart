@@ -147,3 +147,5 @@ export '/politicadepriv/politicadepriv_widget.dart' show PoliticadeprivWidget;
 export '/em_construcao/em_construcao_widget.dart' show EmConstrucaoWidget;
 export '/ajudasuporte/ajudasuporte_widget.dart' show AjudasuporteWidget;
 export '/pag_relatorios/pag_relatorios_widget.dart' show PagRelatoriosWidget;
+export '/detalhes_do_pagamento/detalhes_do_pagamento_widget.dart'
+    show DetalhesDoPagamentoWidget;

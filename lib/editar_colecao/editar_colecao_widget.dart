@@ -129,7 +129,7 @@ class _EditarColecaoWidgetState extends State<EditarColecaoWidget>
                               style: FlutterFlowTheme.of(context)
                                   .headlineMedium
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: Colors.black,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.normal,
@@ -170,7 +170,7 @@ class _EditarColecaoWidgetState extends State<EditarColecaoWidget>
                           labelStyle: FlutterFlowTheme.of(context)
                               .headlineSmall
                               .override(
-                                fontFamily: 'Outfit',
+                                font: GoogleFonts.outfit(),
                                 color: Color(0xFF606A85),
                                 fontSize: 22.0,
                                 letterSpacing: 0.0,
@@ -178,7 +178,7 @@ class _EditarColecaoWidgetState extends State<EditarColecaoWidget>
                               ),
                           hintStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF606A85),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -217,7 +217,7 @@ class _EditarColecaoWidgetState extends State<EditarColecaoWidget>
                         ),
                         style:
                             FlutterFlowTheme.of(context).headlineSmall.override(
-                                  fontFamily: 'Outfit',
+                                  font: GoogleFonts.outfit(),
                                   color: Color(0xFF15161E),
                                   fontSize: 22.0,
                                   letterSpacing: 0.0,
@@ -316,7 +316,8 @@ class _EditarColecaoWidgetState extends State<EditarColecaoWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Plus Jakarta Sans',
+                                              font:
+                                                  GoogleFonts.plusJakartaSans(),
                                               color: Color(0xFF15161E),
                                               fontSize: 14.0,
                                               letterSpacing: 0.0,
@@ -482,8 +483,8 @@ class _EditarColecaoWidgetState extends State<EditarColecaoWidget>
                                                                   .of(context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 letterSpacing:
                                                                     0.0,
                                                               ),
@@ -544,8 +545,8 @@ class _EditarColecaoWidgetState extends State<EditarColecaoWidget>
                                                                             context)
                                                                         .bodyMedium
                                                                         .override(
-                                                                          fontFamily:
-                                                                              'Rubik',
+                                                                          font:
+                                                                              GoogleFonts.rubik(),
                                                                           letterSpacing:
                                                                               0.0,
                                                                         ),
@@ -566,8 +567,8 @@ class _EditarColecaoWidgetState extends State<EditarColecaoWidget>
                                                                             context)
                                                                         .bodyMedium
                                                                         .override(
-                                                                          fontFamily:
-                                                                              'Rubik',
+                                                                          font:
+                                                                              GoogleFonts.rubik(),
                                                                           letterSpacing:
                                                                               0.0,
                                                                           fontWeight:
@@ -579,8 +580,8 @@ class _EditarColecaoWidgetState extends State<EditarColecaoWidget>
                                                                         context)
                                                                     .bodyMedium
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       letterSpacing:
                                                                           0.0,
                                                                     ),
@@ -625,7 +626,7 @@ class _EditarColecaoWidgetState extends State<EditarColecaoWidget>
                         color: FlutterFlowTheme.of(context).primary,
                         textStyle:
                             FlutterFlowTheme.of(context).titleSmall.override(
-                                  fontFamily: 'Plus Jakarta Sans',
+                                  font: GoogleFonts.plusJakartaSans(),
                                   color: Colors.white,
                                   fontSize: 16.0,
                                   letterSpacing: 0.0,

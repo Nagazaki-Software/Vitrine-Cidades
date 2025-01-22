@@ -114,7 +114,7 @@ class _PesquisaWidgetState extends State<PesquisaWidget> {
                 title: Text(
                   'Pesquisar produto',
                   style: FlutterFlowTheme.of(context).headlineMedium.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                         fontSize: 26.0,
                         letterSpacing: 0.0,
@@ -317,8 +317,8 @@ class _PesquisaWidgetState extends State<PesquisaWidget> {
                                                                 .of(context)
                                                             .bodySmall
                                                             .override(
-                                                              fontFamily:
-                                                                  'Rubik',
+                                                              font: GoogleFonts
+                                                                  .rubik(),
                                                               color:
                                                                   Colors.white,
                                                               letterSpacing:
@@ -400,8 +400,8 @@ class _PesquisaWidgetState extends State<PesquisaWidget> {
                                                                 .of(context)
                                                             .bodyLarge
                                                             .override(
-                                                              fontFamily:
-                                                                  'Rubik',
+                                                              font: GoogleFonts
+                                                                  .rubik(),
                                                               fontSize: 14.0,
                                                               letterSpacing:
                                                                   0.0,
@@ -445,8 +445,8 @@ class _PesquisaWidgetState extends State<PesquisaWidget> {
                                                                     context)
                                                                 .titleMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Barlow',
+                                                                  font: GoogleFonts
+                                                                      .barlow(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .primary,
@@ -480,8 +480,8 @@ class _PesquisaWidgetState extends State<PesquisaWidget> {
                                                                     .of(context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryText,
@@ -515,8 +515,8 @@ class _PesquisaWidgetState extends State<PesquisaWidget> {
                                                                     context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),

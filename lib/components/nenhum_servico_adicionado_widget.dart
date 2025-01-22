@@ -76,7 +76,7 @@ class _NenhumServicoAdicionadoWidgetState
                   'Nenhum Serviço Encontrado',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -84,7 +84,7 @@ class _NenhumServicoAdicionadoWidgetState
                   'Você ainda não adicionou nenhum serviço na plataforma. Comece agora mesmo!',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Rubik',
+                        font: GoogleFonts.rubik(),
                         color: FlutterFlowTheme.of(context).secondaryText,
                         letterSpacing: 0.0,
                       ),
@@ -102,7 +102,7 @@ class _NenhumServicoAdicionadoWidgetState
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                     color: FlutterFlowTheme.of(context).primary,
                     textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                          fontFamily: 'Barlow',
+                          font: GoogleFonts.barlow(),
                           color: FlutterFlowTheme.of(context).info,
                           letterSpacing: 0.0,
                         ),

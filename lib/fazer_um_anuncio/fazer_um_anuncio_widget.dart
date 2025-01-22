@@ -112,7 +112,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
               title: Text(
                 'Criar Anúncio',
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       letterSpacing: 0.0,
                     ),
               ),
@@ -134,7 +134,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                         style: FlutterFlowTheme.of(context)
                             .headlineSmall
                             .override(
-                              fontFamily: 'Barlow',
+                              font: GoogleFonts.barlow(),
                               color: FlutterFlowTheme.of(context).primaryText,
                               letterSpacing: 0.0,
                             ),
@@ -142,7 +142,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                       Text(
                         'Anúncios em destaque aparecem no topo da página inicial e têm 5x mais visibilidade',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Rubik',
+                              font: GoogleFonts.rubik(),
                               color: FlutterFlowTheme.of(context).secondaryText,
                               letterSpacing: 0.0,
                             ),
@@ -171,7 +171,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .titleMedium
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         letterSpacing: 0.0,
@@ -187,13 +187,13 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     enabledBorder: OutlineInputBorder(
@@ -230,7 +230,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   minLines: 1,
@@ -247,13 +247,13 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     enabledBorder: OutlineInputBorder(
@@ -290,7 +290,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   maxLines: 5,
@@ -308,13 +308,13 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     enabledBorder: OutlineInputBorder(
@@ -354,7 +354,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   minLines: 1,
@@ -391,7 +391,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .titleMedium
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         letterSpacing: 0.0,
@@ -402,7 +402,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         color: FlutterFlowTheme.of(context)
                                             .secondaryText,
                                         letterSpacing: 0.0,
@@ -504,17 +504,16 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                                     8.0, 0.0, 8.0, 0.0),
                                             child: Text(
                                               'Toque para adicionar imagens',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primary,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .primary,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ),
                                         ],
@@ -630,7 +629,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .titleMedium
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         letterSpacing: 0.0,
@@ -650,33 +649,33 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                   titleStyle: FlutterFlowTheme.of(context)
                                       .titleLarge
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         letterSpacing: 0.0,
                                       ),
                                   dayOfWeekStyle: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   dateStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   selectedDateStyle:
                                       FlutterFlowTheme.of(context)
                                           .titleSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                           ),
                                   inactiveDateStyle:
                                       FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                   locale:
@@ -711,7 +710,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .titleMedium
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         letterSpacing: 0.0,
@@ -742,7 +741,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                       textStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .info,
                                             letterSpacing: 0.0,
@@ -760,7 +759,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                       textStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
                                             letterSpacing: 0.0,
@@ -827,7 +826,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .headlineSmall
                                                 .override(
-                                                  fontFamily: 'Barlow',
+                                                  font: GoogleFonts.barlow(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .info,
@@ -839,7 +838,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .info,
@@ -853,7 +852,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .headlineSmall
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .info,
@@ -867,7 +866,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodySmall
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           color:
                                               FlutterFlowTheme.of(context).info,
                                           letterSpacing: 0.0,
@@ -900,7 +899,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -951,7 +950,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
@@ -1001,7 +1000,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
@@ -1097,7 +1096,8 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                                                               .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily: 'Rubik',
+                                                            font: GoogleFonts
+                                                                .rubik(),
                                                             letterSpacing: 0.0,
                                                           ),
                                                     ),
@@ -1229,7 +1229,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                           color: FlutterFlowTheme.of(context).primary,
                           textStyle:
                               FlutterFlowTheme.of(context).titleMedium.override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: FlutterFlowTheme.of(context).info,
                                     letterSpacing: 0.0,
                                   ),
@@ -1261,7 +1261,7 @@ class _FazerUmAnuncioWidgetState extends State<FazerUmAnuncioWidget> {
                               textStyle: FlutterFlowTheme.of(context)
                                   .titleMedium
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: FlutterFlowTheme.of(context).primary,
                                     letterSpacing: 0.0,
                                   ),

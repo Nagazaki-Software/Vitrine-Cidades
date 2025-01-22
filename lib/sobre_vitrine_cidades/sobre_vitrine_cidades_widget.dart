@@ -96,7 +96,7 @@ class _SobreVitrineCidadesWidgetState extends State<SobreVitrineCidadesWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .displaySmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
                                           fontSize: 25.0,
@@ -117,7 +117,7 @@ class _SobreVitrineCidadesWidgetState extends State<SobreVitrineCidadesWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
                                       ),
@@ -140,7 +140,7 @@ class _SobreVitrineCidadesWidgetState extends State<SobreVitrineCidadesWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -152,15 +152,14 @@ class _SobreVitrineCidadesWidgetState extends State<SobreVitrineCidadesWidget> {
                                           Flexible(
                                             child: Text(
                                               'Descobrir lojas, restaurantes, clínicas, academias e muito mais perto de você.',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w500,
+                                                  ),
                                             ),
                                           ),
                                         ],
@@ -180,7 +179,7 @@ class _SobreVitrineCidadesWidgetState extends State<SobreVitrineCidadesWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -192,15 +191,15 @@ class _SobreVitrineCidadesWidgetState extends State<SobreVitrineCidadesWidget> {
                                             Flexible(
                                               child: Text(
                                                 'Aproveitar descontos especiais e promoções exclusivas de estabelecimentos locais.',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                    ),
                                               ),
                                             ),
                                           ],
@@ -221,7 +220,7 @@ class _SobreVitrineCidadesWidgetState extends State<SobreVitrineCidadesWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -233,15 +232,15 @@ class _SobreVitrineCidadesWidgetState extends State<SobreVitrineCidadesWidget> {
                                             Flexible(
                                               child: Text(
                                                 'Ver avaliações de outros usuários, garantindo uma escolha mais assertiva e confiável.',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                    ),
                                               ),
                                             ),
                                           ],
@@ -262,7 +261,7 @@ class _SobreVitrineCidadesWidgetState extends State<SobreVitrineCidadesWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -274,15 +273,15 @@ class _SobreVitrineCidadesWidgetState extends State<SobreVitrineCidadesWidget> {
                                             Flexible(
                                               child: Text(
                                                 'Agendar serviços diretamente pelo app, com toda a comodidade de programar a sua rotina de forma prática.',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                    ),
                                               ),
                                             ),
                                           ],
@@ -307,7 +306,7 @@ class _SobreVitrineCidadesWidgetState extends State<SobreVitrineCidadesWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
                                           ),

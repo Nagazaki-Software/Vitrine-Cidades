@@ -88,7 +88,7 @@ class _NotificacoesjahabilitadasWidgetState
                     'Notificações já habilitadas',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).headlineSmall.override(
-                          fontFamily: 'Barlow',
+                          font: GoogleFonts.barlow(),
                           letterSpacing: 0.0,
                         ),
                   ),
@@ -96,7 +96,7 @@ class _NotificacoesjahabilitadasWidgetState
                     'Suas notificações já foram ativadas, não se preocupe em algum momento você receberá notificações.',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Rubik',
+                          font: GoogleFonts.rubik(),
                           color: FlutterFlowTheme.of(context).secondaryText,
                           letterSpacing: 0.0,
                         ),
@@ -115,7 +115,7 @@ class _NotificacoesjahabilitadasWidgetState
                       color: FlutterFlowTheme.of(context).primary,
                       textStyle:
                           FlutterFlowTheme.of(context).titleSmall.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: FlutterFlowTheme.of(context).info,
                                 letterSpacing: 0.0,
                               ),

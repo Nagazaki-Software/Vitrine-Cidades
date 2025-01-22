@@ -128,7 +128,7 @@ class _BannerContainerCopy2WidgetState
                               style: FlutterFlowTheme.of(context)
                                   .titleMedium
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: FlutterFlowTheme.of(context)
                                         .primaryText,
                                     letterSpacing: 0.0,
@@ -169,7 +169,7 @@ class _BannerContainerCopy2WidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .primary,
@@ -319,8 +319,8 @@ class _BannerContainerCopy2WidgetState
                                                                               context)
                                                                           .headlineSmall
                                                                           .override(
-                                                                        fontFamily:
-                                                                            'Barlow',
+                                                                        font: GoogleFonts
+                                                                            .barlow(),
                                                                         color: FlutterFlowTheme.of(context)
                                                                             .secondaryBackground,
                                                                         letterSpacing:
@@ -359,8 +359,8 @@ class _BannerContainerCopy2WidgetState
                                                                               context)
                                                                           .headlineSmall
                                                                           .override(
-                                                                        fontFamily:
-                                                                            'Barlow',
+                                                                        font: GoogleFonts
+                                                                            .barlow(),
                                                                         color: FlutterFlowTheme.of(context)
                                                                             .secondaryBackground,
                                                                         fontSize:
@@ -409,8 +409,8 @@ class _BannerContainerCopy2WidgetState
                                                                               context)
                                                                           .headlineSmall
                                                                           .override(
-                                                                        fontFamily:
-                                                                            'Barlow',
+                                                                        font: GoogleFonts
+                                                                            .barlow(),
                                                                         color: FlutterFlowTheme.of(context)
                                                                             .secondaryBackground,
                                                                         fontSize:

@@ -87,14 +87,14 @@ class _ContinueComWidgetState extends State<ContinueComWidget> {
               Text(
                 'Bem-vindo!',
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       letterSpacing: 0.0,
                     ),
               ),
               Text(
                 'Entre ou crie sua conta para continuar',
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Rubik',
+                      font: GoogleFonts.rubik(),
                       color: FlutterFlowTheme.of(context).secondaryText,
                       letterSpacing: 0.0,
                     ),
@@ -126,7 +126,7 @@ class _ContinueComWidgetState extends State<ContinueComWidget> {
                       EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                   color: FlutterFlowTheme.of(context).primary,
                   textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         color: FlutterFlowTheme.of(context).info,
                         letterSpacing: 0.0,
                       ),
@@ -161,7 +161,7 @@ class _ContinueComWidgetState extends State<ContinueComWidget> {
                       EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         letterSpacing: 0.0,
                       ),
                   elevation: 0.0,
@@ -199,7 +199,7 @@ class _ContinueComWidgetState extends State<ContinueComWidget> {
                       EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         letterSpacing: 0.0,
                       ),
                   elevation: 0.0,
@@ -217,14 +217,14 @@ class _ContinueComWidgetState extends State<ContinueComWidget> {
                     TextSpan(
                       text: 'Continuando você concorda com os ',
                       style: FlutterFlowTheme.of(context).bodySmall.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             letterSpacing: 0.0,
                           ),
                     ),
                     TextSpan(
                       text: 'Termos',
                       style: FlutterFlowTheme.of(context).bodySmall.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             color: FlutterFlowTheme.of(context).primary,
                             letterSpacing: 0.0,
                           ),
@@ -246,14 +246,14 @@ class _ContinueComWidgetState extends State<ContinueComWidget> {
                     TextSpan(
                       text: ' e nossa ',
                       style: FlutterFlowTheme.of(context).bodySmall.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             letterSpacing: 0.0,
                           ),
                     ),
                     TextSpan(
                       text: 'Poliítica de privacidade',
                       style: FlutterFlowTheme.of(context).bodySmall.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             color: FlutterFlowTheme.of(context).primary,
                             letterSpacing: 0.0,
                           ),
@@ -278,7 +278,7 @@ class _ContinueComWidgetState extends State<ContinueComWidget> {
                     )
                   ],
                   style: FlutterFlowTheme.of(context).bodySmall.override(
-                        fontFamily: 'Rubik',
+                        font: GoogleFonts.rubik(),
                         letterSpacing: 0.0,
                       ),
                 ),

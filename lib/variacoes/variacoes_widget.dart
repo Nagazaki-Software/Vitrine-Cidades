@@ -97,7 +97,7 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                           style: FlutterFlowTheme.of(context)
                               .headlineMedium
                               .override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 letterSpacing: 0.0,
                               ),
                         ),
@@ -157,7 +157,7 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyLarge
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w500,
                                               ),
@@ -200,17 +200,16 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                                             },
                                             child: Text(
                                               'Adicione',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .labelMedium
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primary,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .labelMedium
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .primary,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ),
                                         ),
@@ -238,7 +237,7 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                                                   context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .primary,
@@ -263,7 +262,7 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                                                   context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .primary,
@@ -349,7 +348,8 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                                                           context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.w500,
@@ -358,14 +358,14 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                                               ),
                                               Text(
                                                 'Todas as imagens são necessárias para serem carregadas se alterado',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .labelMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          fontSize: 16.0,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .labelMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      fontSize: 16.0,
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ].divide(SizedBox(height: 4.0)),
                                           ),
@@ -494,7 +494,7 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
-                                                                                fontFamily: 'Rubik',
+                                                                                font: GoogleFonts.rubik(),
                                                                                 color: FlutterFlowTheme.of(context).secondaryBackground,
                                                                                 letterSpacing: 0.0,
                                                                                 fontWeight: FontWeight.w500,
@@ -688,7 +688,8 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                                                           context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.w500,
@@ -708,7 +709,8 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                                                           context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -747,7 +749,7 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                                                 FlutterFlowTheme.of(context)
                                                     .bodyMedium
                                                     .override(
-                                                      fontFamily: 'Rubik',
+                                                      font: GoogleFonts.rubik(),
                                                       color:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -774,7 +776,7 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                                                 FlutterFlowTheme.of(context)
                                                     .bodyMedium
                                                     .override(
-                                                      fontFamily: 'Rubik',
+                                                      font: GoogleFonts.rubik(),
                                                       color:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -873,7 +875,8 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                                                           context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.w500,
@@ -919,7 +922,7 @@ class _VariacoesWidgetState extends State<VariacoesWidget> {
                         color: FlutterFlowTheme.of(context).primary,
                         textStyle:
                             FlutterFlowTheme.of(context).titleSmall.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: Colors.white,
                                   letterSpacing: 0.0,
                                 ),

@@ -292,8 +292,8 @@ class _PaginaInicialLojistaWidgetState extends State<PaginaInicialLojistaWidget>
                                                                     context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .accent4,
@@ -318,8 +318,8 @@ class _PaginaInicialLojistaWidgetState extends State<PaginaInicialLojistaWidget>
                                                                     .of(context)
                                                                 .bodyMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .accent4,

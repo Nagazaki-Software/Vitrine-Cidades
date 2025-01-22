@@ -88,7 +88,7 @@ class _AnualPlanoWidgetState extends State<AnualPlanoWidget> {
                           style: FlutterFlowTheme.of(context)
                               .headlineSmall
                               .override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 fontSize: 22.0,
                                 letterSpacing: 0.0,
                               ),
@@ -101,7 +101,7 @@ class _AnualPlanoWidgetState extends State<AnualPlanoWidget> {
                           : 'R\$ 1.438,80/ano',
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: FlutterFlowTheme.of(context).primary,
                                 fontSize: 18.0,
                                 letterSpacing: 0.0,
@@ -141,7 +141,7 @@ class _AnualPlanoWidgetState extends State<AnualPlanoWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           color: FlutterFlowTheme.of(context)
                                               .secondaryBackground,
                                           letterSpacing: 0.0,
@@ -179,7 +179,7 @@ class _AnualPlanoWidgetState extends State<AnualPlanoWidget> {
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                     color: FlutterFlowTheme.of(context).primary,
                     textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                          fontFamily: 'Barlow',
+                          font: GoogleFonts.barlow(),
                           color: FlutterFlowTheme.of(context).info,
                           letterSpacing: 0.0,
                         ),

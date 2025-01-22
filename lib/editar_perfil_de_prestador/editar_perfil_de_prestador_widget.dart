@@ -120,7 +120,7 @@ class _EditarPerfilDePrestadorWidgetState
                 title: Text(
                   'Editar Perfil',
                   style: FlutterFlowTheme.of(context).headlineMedium.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -420,7 +420,7 @@ class _EditarPerfilDePrestadorWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -439,13 +439,13 @@ class _EditarPerfilDePrestadorWidgetState
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -486,7 +486,7 @@ class _EditarPerfilDePrestadorWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -509,13 +509,13 @@ class _EditarPerfilDePrestadorWidgetState
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -556,7 +556,7 @@ class _EditarPerfilDePrestadorWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -579,13 +579,13 @@ class _EditarPerfilDePrestadorWidgetState
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -626,7 +626,7 @@ class _EditarPerfilDePrestadorWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -649,13 +649,13 @@ class _EditarPerfilDePrestadorWidgetState
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -696,7 +696,7 @@ class _EditarPerfilDePrestadorWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -737,7 +737,7 @@ class _EditarPerfilDePrestadorWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -756,13 +756,13 @@ class _EditarPerfilDePrestadorWidgetState
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       hintStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                       enabledBorder: OutlineInputBorder(
@@ -803,7 +803,7 @@ class _EditarPerfilDePrestadorWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     minLines: 1,
@@ -835,7 +835,7 @@ class _EditarPerfilDePrestadorWidgetState
                                       textStyle: FlutterFlowTheme.of(context)
                                           .titleSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             color: FlutterFlowTheme.of(context)
                                                 .info,
                                             letterSpacing: 0.0,
@@ -881,7 +881,7 @@ class _EditarPerfilDePrestadorWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -895,7 +895,7 @@ class _EditarPerfilDePrestadorWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -930,7 +930,7 @@ class _EditarPerfilDePrestadorWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -965,7 +965,7 @@ class _EditarPerfilDePrestadorWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -1000,7 +1000,7 @@ class _EditarPerfilDePrestadorWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -1063,7 +1063,7 @@ class _EditarPerfilDePrestadorWidgetState
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleMedium
                                 .override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: FlutterFlowTheme.of(context).info,
                                   letterSpacing: 0.0,
                                 ),

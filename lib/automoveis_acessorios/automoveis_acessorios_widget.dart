@@ -111,7 +111,7 @@ class _AutomoveisAcessoriosWidgetState
                 title: Text(
                   'Automóveis e Acessórios',
                   style: FlutterFlowTheme.of(context).headlineMedium.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                         fontSize: 26.0,
                         letterSpacing: 0.0,
@@ -305,8 +305,8 @@ class _AutomoveisAcessoriosWidgetState
                                                                 .of(context)
                                                             .bodySmall
                                                             .override(
-                                                              fontFamily:
-                                                                  'Rubik',
+                                                              font: GoogleFonts
+                                                                  .rubik(),
                                                               color:
                                                                   Colors.white,
                                                               letterSpacing:
@@ -388,8 +388,8 @@ class _AutomoveisAcessoriosWidgetState
                                                                 .of(context)
                                                             .bodyLarge
                                                             .override(
-                                                              fontFamily:
-                                                                  'Rubik',
+                                                              font: GoogleFonts
+                                                                  .rubik(),
                                                               fontSize: 14.0,
                                                               letterSpacing:
                                                                   0.0,
@@ -433,8 +433,8 @@ class _AutomoveisAcessoriosWidgetState
                                                                     context)
                                                                 .titleMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Barlow',
+                                                                  font: GoogleFonts
+                                                                      .barlow(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .primary,
@@ -468,8 +468,8 @@ class _AutomoveisAcessoriosWidgetState
                                                                     .of(context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryText,
@@ -503,8 +503,8 @@ class _AutomoveisAcessoriosWidgetState
                                                                     context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),

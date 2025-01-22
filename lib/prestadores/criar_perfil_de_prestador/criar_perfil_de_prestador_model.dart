@@ -21,6 +21,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import 'package:provider/provider.dart';
 
 class CriarPerfilDePrestadorModel
@@ -65,6 +66,7 @@ class CriarPerfilDePrestadorModel
   // State field(s) for yourName widget.
   FocusNode? yourNameFocusNode2;
   TextEditingController? yourNameTextController2;
+  final yourNameMask2 = MaskTextInputFormatter(mask: '##.###.###/####-##');
   String? Function(BuildContext, String?)? yourNameTextController2Validator;
   String? _yourNameTextController2Validator(BuildContext context, String? val) {
     if (val == null || val.isEmpty) {
@@ -81,6 +83,7 @@ class CriarPerfilDePrestadorModel
   // State field(s) for city widget.
   FocusNode? cityFocusNode2;
   TextEditingController? cityTextController2;
+  final cityMask2 = MaskTextInputFormatter(mask: '(##) # ####-####');
   String? Function(BuildContext, String?)? cityTextController2Validator;
   String? _cityTextController2Validator(BuildContext context, String? val) {
     if (val == null || val.isEmpty) {

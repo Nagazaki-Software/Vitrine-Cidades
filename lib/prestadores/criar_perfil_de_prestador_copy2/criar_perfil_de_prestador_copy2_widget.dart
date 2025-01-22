@@ -135,7 +135,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                             style: FlutterFlowTheme.of(context)
                                 .headlineMedium
                                 .override(
-                                  fontFamily: 'Outfit',
+                                  font: GoogleFonts.outfit(),
                                   color: Color(0xFF14181B),
                                   fontSize: 22.0,
                                   letterSpacing: 0.0,
@@ -511,7 +511,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                           labelText: 'Nome da loja',
                           labelStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -519,7 +519,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                                   ),
                           hintStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -559,7 +559,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                               20.0, 24.0, 0.0, 24.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Plus Jakarta Sans',
+                              font: GoogleFonts.plusJakartaSans(),
                               color: Color(0xFF14181B),
                               fontSize: 14.0,
                               letterSpacing: 0.0,
@@ -580,7 +580,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                         decoration: InputDecoration(
                           labelStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -589,7 +589,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                           hintText: 'Descrição da sua loja',
                           hintStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -629,7 +629,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                               20.0, 24.0, 0.0, 24.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Plus Jakarta Sans',
+                              font: GoogleFonts.plusJakartaSans(),
                               color: Color(0xFF14181B),
                               fontSize: 14.0,
                               letterSpacing: 0.0,
@@ -653,7 +653,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                           labelText: 'CNPJ',
                           labelStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -661,7 +661,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                                   ),
                           hintStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -701,7 +701,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                               20.0, 24.0, 0.0, 24.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Plus Jakarta Sans',
+                              font: GoogleFonts.plusJakartaSans(),
                               color: Color(0xFF14181B),
                               fontSize: 14.0,
                               letterSpacing: 0.0,
@@ -723,7 +723,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                           labelText: 'Seu endereço completo',
                           labelStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -731,7 +731,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                                   ),
                           hintStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -771,7 +771,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                               20.0, 24.0, 0.0, 24.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Plus Jakarta Sans',
+                              font: GoogleFonts.plusJakartaSans(),
                               color: Color(0xFF14181B),
                               fontSize: 14.0,
                               letterSpacing: 0.0,
@@ -787,7 +787,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                       child: Text(
                         'Seu endereço é adicionado para o cliente saber o seu endereço, o aplicativo adiciona você na região que o seu dispositivo está.',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Open Sans',
+                              font: GoogleFonts.openSans(),
                               color: FlutterFlowTheme.of(context).secondaryText,
                               fontSize: 13.0,
                               letterSpacing: 0.0,
@@ -807,7 +807,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                           labelText: 'WhatsApp ex: (11) 9 1234-5678',
                           labelStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -815,7 +815,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                                   ),
                           hintStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -855,7 +855,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                               20.0, 24.0, 0.0, 24.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Plus Jakarta Sans',
+                              font: GoogleFonts.plusJakartaSans(),
                               color: Color(0xFF14181B),
                               fontSize: 14.0,
                               letterSpacing: 0.0,
@@ -875,7 +875,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                           style: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
-                                fontFamily: 'Open Sans',
+                                font: GoogleFonts.openSans(),
                                 color:
                                     FlutterFlowTheme.of(context).secondaryText,
                                 fontSize: 13.0,
@@ -931,7 +931,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                           height: 56.0,
                           textStyle:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -983,7 +983,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                           height: 56.0,
                           textStyle:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Plus Jakarta Sans',
+                                    font: GoogleFonts.plusJakartaSans(),
                                     color: Color(0xFF57636C),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -1037,7 +1037,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                               style: FlutterFlowTheme.of(context)
                                   .titleLarge
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.w500,
@@ -1088,7 +1088,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                               style: FlutterFlowTheme.of(context)
                                   .titleLarge
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.w500,
@@ -1161,7 +1161,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: valueOrDefault<Color>(
                                               _model.politicaDePrivacidade
                                                   ? Color(0xFFF3000F)
@@ -1179,7 +1179,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             letterSpacing: 0.0,
@@ -1207,7 +1207,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -1362,7 +1362,7 @@ class _CriarPerfilDePrestadorCopy2WidgetState
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleMedium
                                 .override(
-                                  fontFamily: 'Plus Jakarta Sans',
+                                  font: GoogleFonts.plusJakartaSans(),
                                   color: Colors.white,
                                   fontSize: 18.0,
                                   letterSpacing: 0.0,

@@ -93,7 +93,7 @@ class _PrecisodecartaodecreditoWidgetState
                 child: Text(
                   'Métodos de Pagamento',
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -103,7 +103,7 @@ class _PrecisodecartaodecreditoWidgetState
                 child: Text(
                   'Para assinar o plano Premium, você precisará de um cartão de crédito ou de débito válido. Para os planos Básico e Intermediário, você pode pagar via PIX.',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Rubik',
+                        font: GoogleFonts.rubik(),
                         color: FlutterFlowTheme.of(context).secondaryText,
                         letterSpacing: 0.0,
                       ),
@@ -141,7 +141,7 @@ class _PrecisodecartaodecreditoWidgetState
                                 style: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -150,7 +150,7 @@ class _PrecisodecartaodecreditoWidgetState
                                 style: FlutterFlowTheme.of(context)
                                     .labelMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryText,
                                       letterSpacing: 0.0,
@@ -196,7 +196,7 @@ class _PrecisodecartaodecreditoWidgetState
                                 style: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -205,7 +205,7 @@ class _PrecisodecartaodecreditoWidgetState
                                 style: FlutterFlowTheme.of(context)
                                     .labelMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryText,
                                       letterSpacing: 0.0,
@@ -234,7 +234,7 @@ class _PrecisodecartaodecreditoWidgetState
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                     color: FlutterFlowTheme.of(context).primary,
                     textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                          fontFamily: 'Barlow',
+                          font: GoogleFonts.barlow(),
                           color: Colors.white,
                           letterSpacing: 0.0,
                         ),

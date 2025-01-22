@@ -67,7 +67,7 @@ class _PrestadorNaoadicionouServicosWidgetState
                 'Este prestador ainda não adicionou seus serviços',
                 textAlign: TextAlign.center,
                 style: FlutterFlowTheme.of(context).headlineSmall.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       letterSpacing: 0.0,
                     ),
               ),
@@ -75,7 +75,7 @@ class _PrestadorNaoadicionouServicosWidgetState
                 'Volte mais tarde para ver os serviços disponíveis.',
                 textAlign: TextAlign.center,
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Rubik',
+                      font: GoogleFonts.rubik(),
                       color: FlutterFlowTheme.of(context).secondaryText,
                       letterSpacing: 0.0,
                     ),

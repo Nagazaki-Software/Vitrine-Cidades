@@ -347,7 +347,7 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
                         style: FlutterFlowTheme.of(context)
                             .headlineMedium
                             .override(
-                              fontFamily: 'Barlow',
+                              font: GoogleFonts.barlow(),
                               letterSpacing: 0.0,
                             ),
                       ),
@@ -355,7 +355,7 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
                         'Aguarde enquanto verificamos o status do seu PIX',
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).bodyLarge.override(
-                              fontFamily: 'Rubik',
+                              font: GoogleFonts.rubik(),
                               color: FlutterFlowTheme.of(context).secondaryText,
                               letterSpacing: 0.0,
                             ),
@@ -389,7 +389,7 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .titleMedium
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -398,7 +398,7 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -413,7 +413,7 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .titleMedium
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -425,7 +425,7 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -440,7 +440,7 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .titleMedium
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -449,7 +449,7 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -696,7 +696,7 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
                       color: FlutterFlowTheme.of(context).primary,
                       textStyle:
                           FlutterFlowTheme.of(context).titleMedium.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: FlutterFlowTheme.of(context).info,
                                 letterSpacing: 0.0,
                               ),
@@ -708,7 +708,7 @@ class _ProcessarPagamentoWidgetState extends State<ProcessarPagamentoWidget> {
                     'Se você já realizou o pagamento e esta tela continua aparecendo, entre em contato com o suporte',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodySmall.override(
-                          fontFamily: 'Rubik',
+                          font: GoogleFonts.rubik(),
                           color: FlutterFlowTheme.of(context).secondaryText,
                           letterSpacing: 0.0,
                         ),

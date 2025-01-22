@@ -136,7 +136,7 @@ class _EditarComerciantePrestadorWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .displaySmall
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primary,
@@ -212,8 +212,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .headlineSmall
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Barlow',
+                                                                    font: GoogleFonts
+                                                                        .barlow(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .primaryText,
@@ -232,8 +232,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                           context)
                                                                       .bodySmall
                                                                       .override(
-                                                                        fontFamily:
-                                                                            'Rubik',
+                                                                        font: GoogleFonts
+                                                                            .rubik(),
                                                                         color: FlutterFlowTheme.of(context)
                                                                             .secondaryText,
                                                                         letterSpacing:
@@ -247,8 +247,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                           context)
                                                                       .bodySmall
                                                                       .override(
-                                                                        fontFamily:
-                                                                            'Rubik',
+                                                                        font: GoogleFonts
+                                                                            .rubik(),
                                                                         color: FlutterFlowTheme.of(context)
                                                                             .secondaryText,
                                                                         letterSpacing:
@@ -278,8 +278,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .secondaryText,
@@ -294,8 +294,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -315,8 +315,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .secondaryText,
@@ -331,8 +331,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -352,8 +352,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .secondaryText,
@@ -368,8 +368,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -389,8 +389,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .secondaryText,
@@ -406,8 +406,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -456,8 +456,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                   context)
                                                               .headlineSmall
                                                               .override(
-                                                                fontFamily:
-                                                                    'Barlow',
+                                                                font: GoogleFonts
+                                                                    .barlow(),
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .primaryText,
@@ -506,8 +506,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                         context)
                                                                     .titleSmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Barlow',
+                                                                      font: GoogleFonts
+                                                                          .barlow(),
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
                                                                           .info,
@@ -558,8 +558,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                         context)
                                                                     .titleSmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Barlow',
+                                                                      font: GoogleFonts
+                                                                          .barlow(),
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
                                                                           .primaryText,
@@ -609,8 +609,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                         context)
                                                                     .titleSmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Barlow',
+                                                                      font: GoogleFonts
+                                                                          .barlow(),
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
                                                                           .info,
@@ -666,8 +666,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                   context)
                                                               .headlineSmall
                                                               .override(
-                                                                fontFamily:
-                                                                    'Barlow',
+                                                                font: GoogleFonts
+                                                                    .barlow(),
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .primaryText,
@@ -692,8 +692,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -704,8 +704,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                     fontWeight:
@@ -728,8 +728,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -740,8 +740,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                     fontWeight:
@@ -764,8 +764,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -776,8 +776,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                     fontWeight:
@@ -800,8 +800,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -812,8 +812,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Rubik',
+                                                                    font: GoogleFonts
+                                                                        .rubik(),
                                                                     letterSpacing:
                                                                         0.0,
                                                                     fontWeight:
@@ -865,8 +865,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                   context)
                                                               .headlineSmall
                                                               .override(
-                                                                fontFamily:
-                                                                    'Barlow',
+                                                                font: GoogleFonts
+                                                                    .barlow(),
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .primaryText,
@@ -888,8 +888,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                     context)
                                                                 .bodyMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),
@@ -900,8 +900,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                     context)
                                                                 .bodyMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),
@@ -967,7 +967,8 @@ class _EditarComerciantePrestadorWidgetState
                                                               .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily: 'Rubik',
+                                                            font: GoogleFonts
+                                                                .rubik(),
                                                             letterSpacing: 0.0,
                                                           ),
                                                       maxLines: null,
@@ -1011,8 +1012,8 @@ class _EditarComerciantePrestadorWidgetState
                                                                     context)
                                                                 .titleSmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Barlow',
+                                                                  font: GoogleFonts
+                                                                      .barlow(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .info,

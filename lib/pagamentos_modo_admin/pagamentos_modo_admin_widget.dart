@@ -80,7 +80,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                         'Pagamentos',
                         style:
                             FlutterFlowTheme.of(context).headlineLarge.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: Colors.white,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
@@ -89,7 +89,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                       Text(
                         'Gerencie todos os pagamentos do sistema',
                         style: FlutterFlowTheme.of(context).bodyLarge.override(
-                              fontFamily: 'Rubik',
+                              font: GoogleFonts.rubik(),
                               color: Color(0xFFE0E0E0),
                               letterSpacing: 0.0,
                             ),
@@ -149,7 +149,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .headlineSmall
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primaryText,
@@ -169,15 +169,14 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                             padding: EdgeInsets.all(8.0),
                                             child: Text(
                                               'Últimos 30 dias',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodySmall
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            Color(0xFF2E7D32),
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodySmall
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: Color(0xFF2E7D32),
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ),
                                         ),
@@ -199,7 +198,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .secondaryText,
@@ -211,7 +210,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .headlineMedium
                                                 .override(
-                                                  fontFamily: 'Barlow',
+                                                  font: GoogleFonts.barlow(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .primary,
@@ -251,7 +250,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -295,9 +294,26 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                           hoverColor: Colors.transparent,
                                           highlightColor: Colors.transparent,
                                           onTap: () async {
-                                            await launchURL(
-                                                listViewPagamentoRecord
-                                                    .invoiceUrl);
+                                            context.pushNamed(
+                                              'detalhesDoPagamento',
+                                              queryParameters: {
+                                                'pagamentos': serializeParam(
+                                                  listViewPagamentoRecord
+                                                      .reference,
+                                                  ParamType.DocumentReference,
+                                                ),
+                                              }.withoutNulls,
+                                              extra: <String, dynamic>{
+                                                kTransitionInfoKey:
+                                                    TransitionInfo(
+                                                  hasTransition: true,
+                                                  transitionType:
+                                                      PageTransitionType.fade,
+                                                  duration: Duration(
+                                                      milliseconds: 350),
+                                                ),
+                                              },
+                                            );
                                           },
                                           child: Container(
                                             decoration: BoxDecoration(
@@ -339,8 +355,8 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                                                         context)
                                                                     .bodyLarge
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       letterSpacing:
                                                                           0.0,
                                                                       fontWeight:
@@ -355,8 +371,8 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                                                         context)
                                                                     .bodyLarge
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       letterSpacing:
                                                                           0.0,
                                                                       fontWeight:
@@ -379,8 +395,8 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                                                     .of(context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryText,
@@ -421,8 +437,8 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                                                         context)
                                                                     .bodySmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       color: Color(
                                                                           0xFF2E7D32),
                                                                       letterSpacing:
@@ -463,8 +479,8 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                                                         context)
                                                                     .bodySmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       color: Color(
                                                                           0xFFFDEC05),
                                                                       letterSpacing:
@@ -505,8 +521,8 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                                                         context)
                                                                     .bodySmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       color: Color(
                                                                           0xFFFC0110),
                                                                       letterSpacing:
@@ -544,8 +560,8 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                                                     .of(context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryText,
@@ -560,8 +576,8 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                                                     .of(context)
                                                                 .bodyMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),
@@ -581,8 +597,8 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                                                     .of(context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryText,
@@ -606,8 +622,8 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                                                     .of(context)
                                                                 .bodyLarge
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .primary,
@@ -662,7 +678,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -681,7 +697,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyLarge
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                 ),
                                           ),
@@ -690,7 +706,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .secondaryText,
@@ -704,7 +720,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primary,
@@ -733,7 +749,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyLarge
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                 ),
                                           ),
@@ -742,7 +758,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .secondaryText,
@@ -756,7 +772,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primary,
@@ -785,7 +801,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyLarge
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                 ),
                                           ),
@@ -794,7 +810,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .secondaryText,
@@ -808,7 +824,7 @@ class _PagamentosModoAdminWidgetState extends State<PagamentosModoAdminWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primary,

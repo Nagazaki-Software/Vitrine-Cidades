@@ -96,7 +96,7 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                         style: FlutterFlowTheme.of(context)
                             .headlineMedium
                             .override(
-                              fontFamily: 'Barlow',
+                              font: GoogleFonts.barlow(),
                               color: FlutterFlowTheme.of(context).info,
                               letterSpacing: 0.0,
                               fontWeight: FontWeight.bold,
@@ -105,7 +105,7 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                       Text(
                         'Organize e atualize seu catálogo',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Rubik',
+                              font: GoogleFonts.rubik(),
                               color: Color(0xFFE0E0E0),
                               letterSpacing: 0.0,
                             ),
@@ -201,13 +201,13 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                               obscureText: false,
                                               decoration: InputDecoration(
                                                 hintText: 'Buscar produtos...',
-                                                hintStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                hintStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                                 enabledBorder: InputBorder.none,
                                                 focusedBorder: InputBorder.none,
                                                 errorBorder: InputBorder.none,
@@ -218,7 +218,8 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                               minLines: 1,
@@ -266,7 +267,7 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             color: FlutterFlowTheme.of(context)
                                                 .primaryText,
                                             fontSize: 24.0,
@@ -302,7 +303,7 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                                   context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .info,
@@ -425,8 +426,8 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                                                     context)
                                                                 .bodyLarge
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                   fontWeight:
@@ -450,8 +451,8 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                                                     context)
                                                                 .bodyMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .primary,
@@ -487,8 +488,8 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                                                         context)
                                                                     .bodySmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       color: Color(
                                                                           0xFF2E7D32),
                                                                       letterSpacing:
@@ -505,8 +506,8 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                                                     .of(context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryText,
@@ -615,7 +616,7 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         letterSpacing: 0.0,
@@ -721,8 +722,8 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                                                     context)
                                                                 .bodyLarge
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                   fontWeight:
@@ -746,8 +747,8 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                                                     context)
                                                                 .bodyMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .primary,
@@ -783,8 +784,8 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                                                         context)
                                                                     .bodySmall
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       color: Color(
                                                                           0xFFC62828),
                                                                       letterSpacing:
@@ -801,8 +802,8 @@ class _GerenciarProdutosWidgetState extends State<GerenciarProdutosWidget> {
                                                                     .of(context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryText,

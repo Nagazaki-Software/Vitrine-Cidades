@@ -97,7 +97,7 @@ class _QueroAlterarMinhaSenhaWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .displaySmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
                                           fontSize: 24.0,
@@ -145,7 +145,8 @@ class _QueroAlterarMinhaSenhaWidgetState
                                                             context)
                                                         .bodyMedium
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                   ),

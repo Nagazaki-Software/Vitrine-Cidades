@@ -146,6 +146,11 @@ class UsersRecord extends FirestoreRecord {
   List<String> get seguidores => _seguidores ?? const [];
   bool hasSeguidores() => _seguidores != null;
 
+  // "suspenso" field.
+  bool? _suspenso;
+  bool get suspenso => _suspenso ?? false;
+  bool hasSuspenso() => _suspenso != null;
+
   void _initializeFields() {
     _email = snapshotData['email'] as String?;
     _displayName = snapshotData['display_name'] as String?;
@@ -173,6 +178,7 @@ class UsersRecord extends FirestoreRecord {
     _cidade = snapshotData['cidade'] as String?;
     _estado = snapshotData['estado'] as String?;
     _seguidores = getDataList(snapshotData['seguidores']);
+    _suspenso = snapshotData['suspenso'] as bool?;
   }
 
   static CollectionReference get collection =>
@@ -232,6 +238,7 @@ Map<String, dynamic> createUsersRecordData({
   String? bairro,
   String? cidade,
   String? estado,
+  bool? suspenso,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
@@ -258,6 +265,7 @@ Map<String, dynamic> createUsersRecordData({
       'bairro': bairro,
       'cidade': cidade,
       'estado': estado,
+      'suspenso': suspenso,
     }.withoutNulls,
   );
 
@@ -295,7 +303,8 @@ class UsersRecordDocumentEquality implements Equality<UsersRecord> {
         e1?.bairro == e2?.bairro &&
         e1?.cidade == e2?.cidade &&
         e1?.estado == e2?.estado &&
-        listEquality.equals(e1?.seguidores, e2?.seguidores);
+        listEquality.equals(e1?.seguidores, e2?.seguidores) &&
+        e1?.suspenso == e2?.suspenso;
   }
 
   @override
@@ -325,7 +334,8 @@ class UsersRecordDocumentEquality implements Equality<UsersRecord> {
         e?.bairro,
         e?.cidade,
         e?.estado,
-        e?.seguidores
+        e?.seguidores,
+        e?.suspenso
       ]);
 
   @override

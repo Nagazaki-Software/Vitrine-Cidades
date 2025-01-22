@@ -93,7 +93,7 @@ class _PlanosWidgetState extends State<PlanosWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .headlineMedium
                                 .override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: Colors.white,
                                   letterSpacing: 0.0,
                                 ),
@@ -103,7 +103,7 @@ class _PlanosWidgetState extends State<PlanosWidget> {
                       Text(
                         'Para ser um comerciante precisa de um plano.',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Rubik',
+                              font: GoogleFonts.rubik(),
                               color: Color(0xFFE0E0E0),
                               letterSpacing: 0.0,
                             ),

@@ -89,7 +89,7 @@ class _LinkDeRecuperacaoenviadoWidgetState
                     'Link Enviado!',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).headlineSmall.override(
-                          fontFamily: 'Barlow',
+                          font: GoogleFonts.barlow(),
                           letterSpacing: 0.0,
                         ),
                   ),
@@ -97,7 +97,7 @@ class _LinkDeRecuperacaoenviadoWidgetState
                     'Um link de recuperação de senha foi enviado para o seu e-mail. Por favor, verifique sua caixa de entrada e siga as instruções para redefinir sua senha.',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Rubik',
+                          font: GoogleFonts.rubik(),
                           color: FlutterFlowTheme.of(context).secondaryText,
                           letterSpacing: 0.0,
                         ),
@@ -117,7 +117,7 @@ class _LinkDeRecuperacaoenviadoWidgetState
                       color: FlutterFlowTheme.of(context).primary,
                       textStyle:
                           FlutterFlowTheme.of(context).titleSmall.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: FlutterFlowTheme.of(context).info,
                                 letterSpacing: 0.0,
                               ),

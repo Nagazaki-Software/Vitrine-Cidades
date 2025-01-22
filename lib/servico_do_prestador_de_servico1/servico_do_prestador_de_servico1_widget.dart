@@ -97,7 +97,7 @@ class _ServicoDoPrestadorDeServico1WidgetState
               title: Text(
                 'Detalhes do Serviço',
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       color: FlutterFlowTheme.of(context).primaryText,
                       letterSpacing: 0.0,
                     ),
@@ -149,7 +149,7 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .headlineMedium
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: Colors.white,
                                           letterSpacing: 0.0,
                                         ),
@@ -166,7 +166,7 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                   style: FlutterFlowTheme.of(context)
                                       .titleLarge
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: Colors.white,
                                         letterSpacing: 0.0,
                                       ),
@@ -219,7 +219,7 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -229,7 +229,7 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -245,15 +245,14 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                           children: [
                                             Text(
                                               'Duração',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w600,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w600,
+                                                  ),
                                             ),
                                             Text(
                                               servicoDoPrestadorDeServico1MeuServicosRecord
@@ -262,7 +261,8 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -275,15 +275,14 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                           children: [
                                             Text(
                                               'Categoria',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w600,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w600,
+                                                  ),
                                             ),
                                             Text(
                                               servicoDoPrestadorDeServico1MeuServicosRecord
@@ -292,7 +291,8 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -329,7 +329,7 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -392,8 +392,8 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                                                     context)
                                                                 .bodyMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryBackground,
@@ -442,7 +442,7 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -519,7 +519,7 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -529,7 +529,7 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -562,7 +562,7 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -572,7 +572,7 @@ class _ServicoDoPrestadorDeServico1WidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),

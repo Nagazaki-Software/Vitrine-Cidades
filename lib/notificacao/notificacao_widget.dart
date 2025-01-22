@@ -70,7 +70,7 @@ class _NotificacaoWidgetState extends State<NotificacaoWidget> {
             title: Text(
               'Notificacões',
               style: FlutterFlowTheme.of(context).headlineMedium.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     color: FlutterFlowTheme.of(context).info,
                     letterSpacing: 0.0,
                   ),
@@ -114,7 +114,7 @@ class _NotificacaoWidgetState extends State<NotificacaoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -154,7 +154,7 @@ class _NotificacaoWidgetState extends State<NotificacaoWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .info,
@@ -291,7 +291,8 @@ class _NotificacaoWidgetState extends State<NotificacaoWidget> {
                                                             context)
                                                         .bodyLarge
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                           fontWeight:
                                                               FontWeight.w600,
@@ -304,7 +305,8 @@ class _NotificacaoWidgetState extends State<NotificacaoWidget> {
                                                             context)
                                                         .bodyMedium
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           color: FlutterFlowTheme
                                                                   .of(context)
                                                               .secondaryText,
@@ -325,7 +327,8 @@ class _NotificacaoWidgetState extends State<NotificacaoWidget> {
                                                             context)
                                                         .bodySmall
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           color: FlutterFlowTheme
                                                                   .of(context)
                                                               .secondaryText,

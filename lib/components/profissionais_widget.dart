@@ -115,7 +115,7 @@ class _ProfissionaisWidgetState extends State<ProfissionaisWidget> {
                       'Profissionais',
                       style:
                           FlutterFlowTheme.of(context).headlineSmall.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 letterSpacing: 0.0,
                               ),
                     ),
@@ -126,7 +126,7 @@ class _ProfissionaisWidgetState extends State<ProfissionaisWidget> {
                       Text(
                         'View All',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Rubik',
+                              font: GoogleFonts.rubik(),
                               color: FlutterFlowTheme.of(context).primary,
                               letterSpacing: 0.0,
                             ),
@@ -221,7 +221,7 @@ class _ProfissionaisWidgetState extends State<ProfissionaisWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyLarge
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w600,
                                                 ),
@@ -231,16 +231,17 @@ class _ProfissionaisWidgetState extends State<ProfissionaisWidget> {
                                             children: [
                                               Text(
                                                 itemItem.categoria,
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodySmall
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodySmall
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .secondaryText,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Row(
                                                 mainAxisSize: MainAxisSize.max,
@@ -260,16 +261,19 @@ class _ProfissionaisWidgetState extends State<ProfissionaisWidget> {
                                                     child: Text(
                                                       itemItem.clicks
                                                           .toString(),
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodySmall
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .secondaryText,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodySmall
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .rubik(),
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .secondaryText,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                              ),
                                                     ),
                                                   ),
                                                 ],
@@ -285,7 +289,7 @@ class _ProfissionaisWidgetState extends State<ProfissionaisWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .labelSmall
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .primary,

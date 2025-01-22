@@ -126,7 +126,7 @@ class _BannerContainerWidgetState extends State<BannerContainerWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .titleMedium
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: FlutterFlowTheme.of(context)
                                         .primaryText,
                                     letterSpacing: 0.0,
@@ -167,7 +167,7 @@ class _BannerContainerWidgetState extends State<BannerContainerWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Inter Tight',
+                                                font: GoogleFonts.interTight(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .primary,
@@ -344,8 +344,8 @@ class _BannerContainerWidgetState extends State<BannerContainerWidget> {
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .headlineSmall
                                                                             .override(
-                                                                          fontFamily:
-                                                                              'Barlow',
+                                                                          font:
+                                                                              GoogleFonts.barlow(),
                                                                           color:
                                                                               FlutterFlowTheme.of(context).secondaryBackground,
                                                                           letterSpacing:
@@ -380,8 +380,8 @@ class _BannerContainerWidgetState extends State<BannerContainerWidget> {
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .headlineSmall
                                                                             .override(
-                                                                          fontFamily:
-                                                                              'Barlow',
+                                                                          font:
+                                                                              GoogleFonts.barlow(),
                                                                           color:
                                                                               FlutterFlowTheme.of(context).secondaryBackground,
                                                                           fontSize:
@@ -426,8 +426,8 @@ class _BannerContainerWidgetState extends State<BannerContainerWidget> {
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .headlineSmall
                                                                             .override(
-                                                                          fontFamily:
-                                                                              'Barlow',
+                                                                          font:
+                                                                              GoogleFonts.barlow(),
                                                                           color:
                                                                               FlutterFlowTheme.of(context).secondaryBackground,
                                                                           fontSize:

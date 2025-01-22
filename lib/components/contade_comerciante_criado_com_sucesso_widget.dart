@@ -110,7 +110,7 @@ class _ContadeComercianteCriadoComSucessoWidgetState
                   'Conta criada com sucesso!',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -118,7 +118,7 @@ class _ContadeComercianteCriadoComSucessoWidgetState
                   'Seu perfil de comerciante foi configurado e está pronto para uso.\n',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Rubik',
+                        font: GoogleFonts.rubik(),
                         color: FlutterFlowTheme.of(context).secondaryText,
                         letterSpacing: 0.0,
                       ),
@@ -142,7 +142,7 @@ class _ContadeComercianteCriadoComSucessoWidgetState
                     Text(
                       'Nome',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             color: FlutterFlowTheme.of(context).secondaryText,
                             letterSpacing: 0.0,
                           ),
@@ -153,7 +153,7 @@ class _ContadeComercianteCriadoComSucessoWidgetState
                         'a',
                       ),
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -166,7 +166,7 @@ class _ContadeComercianteCriadoComSucessoWidgetState
                     Text(
                       'Categoria',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             color: FlutterFlowTheme.of(context).secondaryText,
                             letterSpacing: 0.0,
                           ),
@@ -177,7 +177,7 @@ class _ContadeComercianteCriadoComSucessoWidgetState
                         'a',
                       ),
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -190,7 +190,7 @@ class _ContadeComercianteCriadoComSucessoWidgetState
                     Text(
                       'ID',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             color: FlutterFlowTheme.of(context).secondaryText,
                             letterSpacing: 0.0,
                           ),
@@ -201,7 +201,7 @@ class _ContadeComercianteCriadoComSucessoWidgetState
                         '0',
                       ),
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -229,7 +229,7 @@ class _ContadeComercianteCriadoComSucessoWidgetState
                 iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                 color: FlutterFlowTheme.of(context).primary,
                 textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       color: FlutterFlowTheme.of(context).info,
                       letterSpacing: 0.0,
                     ),

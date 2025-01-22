@@ -165,7 +165,7 @@ class _BannerContainerParaServicosCopyWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
                                           letterSpacing: 0.0,
@@ -191,7 +191,7 @@ class _BannerContainerParaServicosCopyWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .titleMedium
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: FlutterFlowTheme.of(context)
                                         .primaryText,
                                     letterSpacing: 0.0,
@@ -232,7 +232,7 @@ class _BannerContainerParaServicosCopyWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .primary,
@@ -379,8 +379,8 @@ class _BannerContainerParaServicosCopyWidgetState
                                                                           context)
                                                                       .headlineSmall
                                                                       .override(
-                                                                    fontFamily:
-                                                                        'Barlow',
+                                                                    font: GoogleFonts
+                                                                        .barlow(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .secondaryBackground,
@@ -421,8 +421,8 @@ class _BannerContainerParaServicosCopyWidgetState
                                                                           context)
                                                                       .headlineSmall
                                                                       .override(
-                                                                    fontFamily:
-                                                                        'Barlow',
+                                                                    font: GoogleFonts
+                                                                        .barlow(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .secondaryBackground,
@@ -475,8 +475,8 @@ class _BannerContainerParaServicosCopyWidgetState
                                                                           context)
                                                                       .headlineSmall
                                                                       .override(
-                                                                    fontFamily:
-                                                                        'Barlow',
+                                                                    font: GoogleFonts
+                                                                        .barlow(),
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .secondaryBackground,

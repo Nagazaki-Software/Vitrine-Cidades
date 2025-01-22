@@ -74,7 +74,7 @@ class _ComoPossoPagarWidgetState extends State<ComoPossoPagarWidget> {
               Text(
                 'Como posso pagar?',
                 style: FlutterFlowTheme.of(context).headlineSmall.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       letterSpacing: 0.0,
                     ),
               ),
@@ -123,7 +123,7 @@ class _ComoPossoPagarWidgetState extends State<ComoPossoPagarWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -132,7 +132,7 @@ class _ComoPossoPagarWidgetState extends State<ComoPossoPagarWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodySmall
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           color: FlutterFlowTheme.of(context)
                                               .secondaryText,
                                           letterSpacing: 0.0,
@@ -186,7 +186,7 @@ class _ComoPossoPagarWidgetState extends State<ComoPossoPagarWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -195,7 +195,7 @@ class _ComoPossoPagarWidgetState extends State<ComoPossoPagarWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodySmall
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           color: FlutterFlowTheme.of(context)
                                               .secondaryText,
                                           letterSpacing: 0.0,
@@ -224,7 +224,7 @@ class _ComoPossoPagarWidgetState extends State<ComoPossoPagarWidget> {
                       EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                   color: FlutterFlowTheme.of(context).primary,
                   textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         color: FlutterFlowTheme.of(context).info,
                         letterSpacing: 0.0,
                       ),

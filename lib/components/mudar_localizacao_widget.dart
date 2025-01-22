@@ -186,18 +186,17 @@ class _MudarLocalizacaoWidgetState extends State<MudarLocalizacaoWidget>
                                                     0.0, 0.0, 0.0, 4.0),
                                             child: Text(
                                               'Queremos saber sua localização',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .headlineMedium
-                                                      .override(
-                                                        fontFamily: 'Outfit',
-                                                        color:
-                                                            Color(0xFF14181B),
-                                                        fontSize: 24.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.normal,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .headlineMedium
+                                                  .override(
+                                                    font: GoogleFonts.outfit(),
+                                                    color: Color(0xFF14181B),
+                                                    fontSize: 24.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        FontWeight.normal,
+                                                  ),
                                             ),
                                           ),
                                           Padding(
@@ -210,8 +209,8 @@ class _MudarLocalizacaoWidgetState extends State<MudarLocalizacaoWidget>
                                                       context)
                                                   .labelMedium
                                                   .override(
-                                                    fontFamily:
-                                                        'Plus Jakarta Sans',
+                                                    font: GoogleFonts
+                                                        .plusJakartaSans(),
                                                     color: Color(0xFF57636C),
                                                     fontSize: 14.0,
                                                     letterSpacing: 0.0,
@@ -315,17 +314,16 @@ class _MudarLocalizacaoWidgetState extends State<MudarLocalizacaoWidget>
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primaryBackground,
-                                              textStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .titleSmall
-                                                      .override(
-                                                        fontFamily: 'Barlow',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primary,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              textStyle: FlutterFlowTheme.of(
+                                                      context)
+                                                  .titleSmall
+                                                  .override(
+                                                    font: GoogleFonts.barlow(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .primary,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                               elevation: 5.0,
                                               borderSide: BorderSide(
                                                 color: Colors.transparent,
@@ -359,8 +357,8 @@ class _MudarLocalizacaoWidgetState extends State<MudarLocalizacaoWidget>
                                             style: FlutterFlowTheme.of(context)
                                                 .labelMedium
                                                 .override(
-                                                  fontFamily:
-                                                      'Plus Jakarta Sans',
+                                                  font: GoogleFonts
+                                                      .plusJakartaSans(),
                                                   color: Color(0xFF57636C),
                                                   fontSize: 14.0,
                                                   letterSpacing: 0.0,
@@ -401,8 +399,8 @@ class _MudarLocalizacaoWidgetState extends State<MudarLocalizacaoWidget>
                                                 FlutterFlowTheme.of(context)
                                                     .titleSmall
                                                     .override(
-                                                      fontFamily:
-                                                          'Plus Jakarta Sans',
+                                                      font: GoogleFonts
+                                                          .plusJakartaSans(),
                                                       color: Colors.white,
                                                       fontSize: 16.0,
                                                       letterSpacing: 0.0,

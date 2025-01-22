@@ -133,7 +133,7 @@ class _EditeSeuPerfilDepoisDeCriarContaWidgetState
                       'Crie seu perfil',
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 letterSpacing: 0.0,
                               ),
                     ),
@@ -144,7 +144,7 @@ class _EditeSeuPerfilDepoisDeCriarContaWidgetState
                     child: Text(
                       'Crie seu perfil para sabermos quem você',
                       style: FlutterFlowTheme.of(context).labelMedium.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -264,7 +264,7 @@ class _EditeSeuPerfilDepoisDeCriarContaWidgetState
                                 textStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                     ),
@@ -301,13 +301,13 @@ class _EditeSeuPerfilDepoisDeCriarContaWidgetState
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   letterSpacing: 0.0,
                                 ),
                             hintStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   letterSpacing: 0.0,
                                 ),
                             enabledBorder: OutlineInputBorder(
@@ -346,7 +346,7 @@ class _EditeSeuPerfilDepoisDeCriarContaWidgetState
                           ),
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                           cursorColor: FlutterFlowTheme.of(context).primary,
@@ -375,7 +375,7 @@ class _EditeSeuPerfilDepoisDeCriarContaWidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     )),
@@ -389,7 +389,7 @@ class _EditeSeuPerfilDepoisDeCriarContaWidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     )),
@@ -412,7 +412,7 @@ class _EditeSeuPerfilDepoisDeCriarContaWidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     )),
@@ -432,7 +432,7 @@ class _EditeSeuPerfilDepoisDeCriarContaWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       )),
@@ -471,7 +471,7 @@ class _EditeSeuPerfilDepoisDeCriarContaWidgetState
                               textStyle: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                               elevation: 0.0,
@@ -527,7 +527,7 @@ class _EditeSeuPerfilDepoisDeCriarContaWidgetState
                               textStyle: FlutterFlowTheme.of(context)
                                   .titleSmall
                                   .override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryBackground,
                                     letterSpacing: 0.0,

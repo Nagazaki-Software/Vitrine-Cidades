@@ -69,7 +69,7 @@ class _AindaNaoExisteProdutosNestaReiaoWidgetState
                   'Ainda não há produtos disponíveis',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -77,7 +77,7 @@ class _AindaNaoExisteProdutosNestaReiaoWidgetState
                   'Infelizmente ainda não temos produtos cadastrados para esta região. Por favor, tente novamente mais tarde.',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Rubik',
+                        font: GoogleFonts.rubik(),
                         color: FlutterFlowTheme.of(context).secondaryText,
                         letterSpacing: 0.0,
                       ),

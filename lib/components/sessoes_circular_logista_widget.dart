@@ -98,7 +98,7 @@ class _SessoesCircularLogistaWidgetState
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   fontSize: 11.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
@@ -135,7 +135,7 @@ class _SessoesCircularLogistaWidgetState
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   fontSize: 11.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
@@ -173,7 +173,7 @@ class _SessoesCircularLogistaWidgetState
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   fontSize: 11.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
@@ -213,7 +213,7 @@ class _SessoesCircularLogistaWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     fontSize: 11.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.w600,
@@ -260,7 +260,7 @@ class _SessoesCircularLogistaWidgetState
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   fontSize: 11.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,

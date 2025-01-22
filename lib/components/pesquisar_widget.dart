@@ -107,7 +107,7 @@ class _PesquisarWidgetState extends State<PesquisarWidget> {
               decoration: InputDecoration(
                 hintText: 'Buscar produtos...',
                 hintStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Rubik',
+                      font: GoogleFonts.rubik(),
                       letterSpacing: 0.0,
                     ),
                 enabledBorder: OutlineInputBorder(
@@ -145,7 +145,7 @@ class _PesquisarWidgetState extends State<PesquisarWidget> {
                 ),
               ),
               style: FlutterFlowTheme.of(context).bodyMedium.override(
-                    fontFamily: 'Rubik',
+                    font: GoogleFonts.rubik(),
                     letterSpacing: 0.0,
                   ),
               minLines: 1,

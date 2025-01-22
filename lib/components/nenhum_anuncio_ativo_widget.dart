@@ -74,7 +74,7 @@ class _NenhumAnuncioAtivoWidgetState extends State<NenhumAnuncioAtivoWidget> {
                 Text(
                   'Nenhum anúncio ativo',
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -82,7 +82,7 @@ class _NenhumAnuncioAtivoWidgetState extends State<NenhumAnuncioAtivoWidget> {
                   'Você ainda não possui nenhum anúncio ativo. Crie seu primeiro anúncio agora!',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Rubik',
+                        font: GoogleFonts.rubik(),
                         color: FlutterFlowTheme.of(context).secondaryText,
                         letterSpacing: 0.0,
                       ),
@@ -100,7 +100,7 @@ class _NenhumAnuncioAtivoWidgetState extends State<NenhumAnuncioAtivoWidget> {
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                     color: FlutterFlowTheme.of(context).primary,
                     textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                          fontFamily: 'Barlow',
+                          font: GoogleFonts.barlow(),
                           color: FlutterFlowTheme.of(context).info,
                           letterSpacing: 0.0,
                         ),

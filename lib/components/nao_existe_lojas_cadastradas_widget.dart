@@ -65,7 +65,7 @@ class _NaoExisteLojasCadastradasWidgetState
               'Nenhuma loja disponível',
               textAlign: TextAlign.center,
               style: FlutterFlowTheme.of(context).headlineSmall.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     letterSpacing: 0.0,
                   ),
             ),
@@ -73,7 +73,7 @@ class _NaoExisteLojasCadastradasWidgetState
               'No momento não existem lojas cadastradas em sua região. Por favor, tente novamente mais tarde.',
               textAlign: TextAlign.center,
               style: FlutterFlowTheme.of(context).bodyMedium.override(
-                    fontFamily: 'Rubik',
+                    font: GoogleFonts.rubik(),
                     color: FlutterFlowTheme.of(context).secondaryText,
                     letterSpacing: 0.0,
                   ),

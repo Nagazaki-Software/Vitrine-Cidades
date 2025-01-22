@@ -67,7 +67,7 @@ class _NenhumProdutodisonivelWidgetState
               'Nenhum produto disponível',
               textAlign: TextAlign.center,
               style: FlutterFlowTheme.of(context).headlineSmall.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     letterSpacing: 0.0,
                   ),
             ),
@@ -75,7 +75,7 @@ class _NenhumProdutodisonivelWidgetState
               'Você não tem nenhum produto disponível para adicionar em seu anúncio.',
               textAlign: TextAlign.center,
               style: FlutterFlowTheme.of(context).bodyMedium.override(
-                    fontFamily: 'Rubik',
+                    font: GoogleFonts.rubik(),
                     color: FlutterFlowTheme.of(context).secondaryText,
                     letterSpacing: 0.0,
                   ),

@@ -105,7 +105,7 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                           style: FlutterFlowTheme.of(context)
                               .displaySmall
                               .override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color: FlutterFlowTheme.of(context).info,
                                 letterSpacing: 0.0,
                               ),
@@ -118,7 +118,7 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                           'Conecte-sa ao melhor da sua cidade',
                           style:
                               FlutterFlowTheme.of(context).bodyLarge.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     color: FlutterFlowTheme.of(context).info,
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
@@ -153,7 +153,7 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                                     textStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
                                           letterSpacing: 0.0,
@@ -169,7 +169,7 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                                     textStyle: FlutterFlowTheme.of(context)
                                         .bodySmall
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           color:
                                               FlutterFlowTheme.of(context).info,
                                           letterSpacing: 0.0,
@@ -204,13 +204,13 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                                         labelStyle: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         hintStyle: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         enabledBorder: OutlineInputBorder(
@@ -252,7 +252,7 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .info,
                                             letterSpacing: 0.0,
@@ -272,13 +272,13 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                                         labelStyle: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         hintStyle: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         enabledBorder: OutlineInputBorder(
@@ -334,7 +334,7 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .info,
                                             letterSpacing: 0.0,
@@ -357,7 +357,7 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .info,
@@ -386,7 +386,7 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                                     textStyle: FlutterFlowTheme.of(context)
                                         .titleMedium
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
                                           letterSpacing: 0.0,
@@ -413,7 +413,7 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .info,
                                             letterSpacing: 0.0,
@@ -526,7 +526,7 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     color: FlutterFlowTheme.of(context).info,
                                     letterSpacing: 0.0,
                                   ),
@@ -536,7 +536,7 @@ class _TalvezWidgetState extends State<TalvezWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     color: FlutterFlowTheme.of(context).info,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,

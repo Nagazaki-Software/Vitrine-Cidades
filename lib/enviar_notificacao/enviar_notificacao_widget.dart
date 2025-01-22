@@ -123,7 +123,7 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                         style: FlutterFlowTheme.of(context)
                             .headlineMedium
                             .override(
-                              fontFamily: 'Barlow',
+                              font: GoogleFonts.barlow(),
                               letterSpacing: 0.0,
                             ),
                       ),
@@ -134,7 +134,7 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                           'Envie uma notificação para todos os usuários do aplicativo',
                           style:
                               FlutterFlowTheme.of(context).labelLarge.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                         ),
@@ -161,7 +161,7 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -175,13 +175,13 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                                   labelStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   enabledBorder: OutlineInputBorder(
@@ -219,7 +219,7 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 minLines: 1,
@@ -236,13 +236,13 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                                   labelStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   enabledBorder: OutlineInputBorder(
@@ -280,7 +280,7 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 maxLines: 5,
@@ -314,7 +314,7 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -365,7 +365,7 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
@@ -415,7 +415,7 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                             ),
@@ -507,7 +507,8 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                                                               .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily: 'Rubik',
+                                                            font: GoogleFonts
+                                                                .rubik(),
                                                             letterSpacing: 0.0,
                                                           ),
                                                     ),
@@ -608,7 +609,7 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -649,29 +650,27 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                                           children: [
                                             Text(
                                               _model.textController1.text,
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w600,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyLarge
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w600,
+                                                  ),
                                             ),
                                             Text(
                                               _model.textController2.text,
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .secondaryText,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ],
                                         ),
@@ -767,7 +766,7 @@ class _EnviarNotificacaoWidgetState extends State<EnviarNotificacaoWidget> {
                           color: FlutterFlowTheme.of(context).primary,
                           textStyle:
                               FlutterFlowTheme.of(context).titleMedium.override(
-                                    fontFamily: 'Barlow',
+                                    font: GoogleFonts.barlow(),
                                     color: FlutterFlowTheme.of(context).info,
                                     letterSpacing: 0.0,
                                   ),

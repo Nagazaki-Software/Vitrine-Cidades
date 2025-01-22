@@ -114,7 +114,7 @@ class _BarraLateralWidgetState extends State<BarraLateralWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryBackground,
                                             fontSize: 20.0,
@@ -139,7 +139,7 @@ class _BarraLateralWidgetState extends State<BarraLateralWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .secondaryBackground,
@@ -212,7 +212,7 @@ class _BarraLateralWidgetState extends State<BarraLateralWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Plus Jakarta Sans',
+                                        font: GoogleFonts.plusJakartaSans(),
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         fontSize: 14.0,
@@ -259,7 +259,7 @@ class _BarraLateralWidgetState extends State<BarraLateralWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Plus Jakarta Sans',
+                                      font: GoogleFonts.plusJakartaSans(),
                                       color: Color(0xFF15161E),
                                       fontSize: 14.0,
                                       letterSpacing: 0.0,
@@ -304,7 +304,7 @@ class _BarraLateralWidgetState extends State<BarraLateralWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Plus Jakarta Sans',
+                                      font: GoogleFonts.plusJakartaSans(),
                                       color: Color(0xFF15161E),
                                       fontSize: 14.0,
                                       letterSpacing: 0.0,
@@ -349,7 +349,7 @@ class _BarraLateralWidgetState extends State<BarraLateralWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Plus Jakarta Sans',
+                                      font: GoogleFonts.plusJakartaSans(),
                                       color: Color(0xFF15161E),
                                       fontSize: 14.0,
                                       letterSpacing: 0.0,

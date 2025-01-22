@@ -79,14 +79,14 @@ class _ContratarSuportePersonalizadoWidgetState
                       'Suporte Personalizado',
                       style:
                           FlutterFlowTheme.of(context).headlineSmall.override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 letterSpacing: 0.0,
                               ),
                     ),
                     Text(
                       'Apenas R\$30,00',
                       style: FlutterFlowTheme.of(context).titleMedium.override(
-                            fontFamily: 'Barlow',
+                            font: GoogleFonts.barlow(),
                             color: FlutterFlowTheme.of(context).primary,
                             letterSpacing: 0.0,
                           ),
@@ -111,7 +111,7 @@ class _ContratarSuportePersonalizadoWidgetState
             Text(
               'Receba ajuda personalizada para suas dúvidas e projetos. Atendimento individual e dedicado para maximizar seu aprendizado.',
               style: FlutterFlowTheme.of(context).bodyMedium.override(
-                    fontFamily: 'Rubik',
+                    font: GoogleFonts.rubik(),
                     letterSpacing: 0.0,
                   ),
             ),
@@ -128,7 +128,7 @@ class _ContratarSuportePersonalizadoWidgetState
                 iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                 color: FlutterFlowTheme.of(context).primary,
                 textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       color: FlutterFlowTheme.of(context).info,
                       letterSpacing: 0.0,
                     ),

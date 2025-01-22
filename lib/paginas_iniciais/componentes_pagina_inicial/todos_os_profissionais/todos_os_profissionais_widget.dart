@@ -74,7 +74,7 @@ class _TodosOsProfissionaisWidgetState
                         style: FlutterFlowTheme.of(context)
                             .titleMedium
                             .override(
-                              fontFamily: 'Barlow',
+                              font: GoogleFonts.barlow(),
                               color: FlutterFlowTheme.of(context).primaryText,
                               letterSpacing: 0.0,
                             ),
@@ -257,8 +257,8 @@ class _TodosOsProfissionaisWidgetState
                                                                       .of(context)
                                                                   .titleMedium
                                                                   .override(
-                                                                    fontFamily:
-                                                                        'Barlow',
+                                                                    font: GoogleFonts
+                                                                        .barlow(),
                                                                     fontSize:
                                                                         15.0,
                                                                     letterSpacing:
@@ -283,8 +283,8 @@ class _TodosOsProfissionaisWidgetState
                                                                         context)
                                                                     .bodyMedium
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       letterSpacing:
                                                                           0.0,
                                                                     ),
@@ -348,7 +348,8 @@ class _TodosOsProfissionaisWidgetState
                                                           context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)

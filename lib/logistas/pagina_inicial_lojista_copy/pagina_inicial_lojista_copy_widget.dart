@@ -168,16 +168,19 @@ class _PaginaInicialLojistaCopyWidgetState
                                                   children: [
                                                     Text(
                                                       'Sua localização',
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodySmall
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .accent4,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodySmall
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .rubik(),
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .accent4,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                              ),
                                                     ),
                                                     Flexible(
                                                       child:
@@ -196,8 +199,8 @@ class _PaginaInicialLojistaCopyWidgetState
                                                                   .of(context)
                                                               .bodyMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .accent4,

@@ -114,7 +114,7 @@ class _SearchWidgetState extends State<SearchWidget> {
                 title: Text(
                   'Pesquisar',
                   style: FlutterFlowTheme.of(context).headlineMedium.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                         fontSize: 26.0,
                         letterSpacing: 0.0,
@@ -331,8 +331,8 @@ class _SearchWidgetState extends State<SearchWidget> {
                                                                     .of(context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: Colors
                                                                       .white,
                                                                   letterSpacing:
@@ -370,8 +370,8 @@ class _SearchWidgetState extends State<SearchWidget> {
                                                                         context)
                                                                     .bodyLarge
                                                                     .override(
-                                                                      fontFamily:
-                                                                          'Rubik',
+                                                                      font: GoogleFonts
+                                                                          .rubik(),
                                                                       fontSize:
                                                                           14.0,
                                                                       letterSpacing:

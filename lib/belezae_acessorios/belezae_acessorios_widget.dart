@@ -76,7 +76,7 @@ class _BelezaeAcessoriosWidgetState extends State<BelezaeAcessoriosWidget> {
             title: Text(
               'Beleza e Acessórios',
               style: FlutterFlowTheme.of(context).headlineMedium.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     color: FlutterFlowTheme.of(context).primaryBackground,
                     letterSpacing: 0.0,
                   ),
@@ -107,7 +107,7 @@ class _BelezaeAcessoriosWidgetState extends State<BelezaeAcessoriosWidget> {
                       hintText: 'Buscar produtos...',
                       hintStyle:
                           FlutterFlowTheme.of(context).bodyMedium.override(
-                                fontFamily: 'Rubik',
+                                font: GoogleFonts.rubik(),
                                 letterSpacing: 0.0,
                               ),
                       enabledBorder: InputBorder.none,
@@ -121,7 +121,7 @@ class _BelezaeAcessoriosWidgetState extends State<BelezaeAcessoriosWidget> {
                       ),
                     ),
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Rubik',
+                          font: GoogleFonts.rubik(),
                           letterSpacing: 0.0,
                         ),
                     minLines: 1,
@@ -295,7 +295,8 @@ class _BelezaeAcessoriosWidgetState extends State<BelezaeAcessoriosWidget> {
                                                             context)
                                                         .bodySmall
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           color: Colors.white,
                                                           letterSpacing: 0.0,
                                                         ),
@@ -376,7 +377,8 @@ class _BelezaeAcessoriosWidgetState extends State<BelezaeAcessoriosWidget> {
                                                           context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         fontSize: 14.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -418,7 +420,8 @@ class _BelezaeAcessoriosWidgetState extends State<BelezaeAcessoriosWidget> {
                                                             context)
                                                         .titleMedium
                                                         .override(
-                                                          fontFamily: 'Barlow',
+                                                          font: GoogleFonts
+                                                              .barlow(),
                                                           color: FlutterFlowTheme
                                                                   .of(context)
                                                               .primaryText,
@@ -441,19 +444,22 @@ class _BelezaeAcessoriosWidgetState extends State<BelezaeAcessoriosWidget> {
                                                             .commaDecimal,
                                                         currency: 'R\$',
                                                       ),
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodySmall
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .secondaryText,
-                                                            letterSpacing: 0.0,
-                                                            decoration:
-                                                                TextDecoration
-                                                                    .lineThrough,
-                                                          ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodySmall
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .rubik(),
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .secondaryText,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                                decoration:
+                                                                    TextDecoration
+                                                                        .lineThrough,
+                                                              ),
                                                     ),
                                                   ),
                                               ].divide(SizedBox(width: 8.0)),
@@ -474,7 +480,8 @@ class _BelezaeAcessoriosWidgetState extends State<BelezaeAcessoriosWidget> {
                                                           context)
                                                       .bodySmall
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                                 ),

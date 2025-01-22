@@ -97,7 +97,7 @@ class _QueroUmaCopiaDosDadosWidgetState
                                     style: FlutterFlowTheme.of(context)
                                         .displaySmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
                                           fontSize: 20.0,
@@ -145,7 +145,8 @@ class _QueroUmaCopiaDosDadosWidgetState
                                                             context)
                                                         .bodyMedium
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                   ),
@@ -181,7 +182,7 @@ class _QueroUmaCopiaDosDadosWidgetState
                                   textStyle: FlutterFlowTheme.of(context)
                                       .titleSmall
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: Color(0xFFF6F6F6),
                                         fontSize: 14.0,
                                         letterSpacing: 0.0,

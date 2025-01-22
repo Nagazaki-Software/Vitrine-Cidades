@@ -190,6 +190,11 @@ class LojistasRecord extends FirestoreRecord {
   List<SeguidoresStruct> get seguidoresdata => _seguidoresdata ?? const [];
   bool hasSeguidoresdata() => _seguidoresdata != null;
 
+  // "suspenso" field.
+  bool? _suspenso;
+  bool get suspenso => _suspenso ?? false;
+  bool hasSuspenso() => _suspenso != null;
+
   void _initializeFields() {
     _nomeEmpresarialDoComerciante =
         snapshotData['nomeEmpresarialDoComerciante'] as String?;
@@ -233,6 +238,7 @@ class LojistasRecord extends FirestoreRecord {
       snapshotData['seguidoresdata'],
       SeguidoresStruct.fromMap,
     );
+    _suspenso = snapshotData['suspenso'] as bool?;
   }
 
   static CollectionReference get collection =>
@@ -298,6 +304,7 @@ Map<String, dynamic> createLojistasRecordData({
   bool? pix,
   bool? dinheiro,
   String? idDoLojista,
+  bool? suspenso,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
@@ -329,6 +336,7 @@ Map<String, dynamic> createLojistasRecordData({
       'pix': pix,
       'dinheiro': dinheiro,
       'idDoLojista': idDoLojista,
+      'suspenso': suspenso,
     }.withoutNulls,
   );
 
@@ -376,7 +384,8 @@ class LojistasRecordDocumentEquality implements Equality<LojistasRecord> {
         e1?.idDoLojista == e2?.idDoLojista &&
         listEquality.equals(e1?.curtiramList, e2?.curtiramList) &&
         listEquality.equals(e1?.visitas, e2?.visitas) &&
-        listEquality.equals(e1?.seguidoresdata, e2?.seguidoresdata);
+        listEquality.equals(e1?.seguidoresdata, e2?.seguidoresdata) &&
+        e1?.suspenso == e2?.suspenso;
   }
 
   @override
@@ -414,7 +423,8 @@ class LojistasRecordDocumentEquality implements Equality<LojistasRecord> {
         e?.idDoLojista,
         e?.curtiramList,
         e?.visitas,
-        e?.seguidoresdata
+        e?.seguidoresdata,
+        e?.suspenso
       ]);
 
   @override

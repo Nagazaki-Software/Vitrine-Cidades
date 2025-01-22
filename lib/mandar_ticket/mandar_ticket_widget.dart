@@ -111,7 +111,7 @@ class _MandarTicketWidgetState extends State<MandarTicketWidget>
           title: Text(
             'Crir relatório de bug',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Barlow',
+                  font: GoogleFonts.barlow(),
                   letterSpacing: 0.0,
                 ),
           ),
@@ -133,7 +133,7 @@ class _MandarTicketWidgetState extends State<MandarTicketWidget>
                     child: Text(
                       'Preencha o formulário abaixo para enviar um tiquete.',
                       style: FlutterFlowTheme.of(context).labelLarge.override(
-                            fontFamily: 'Rubik',
+                            font: GoogleFonts.rubik(),
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -151,7 +151,7 @@ class _MandarTicketWidgetState extends State<MandarTicketWidget>
                           labelStyle: FlutterFlowTheme.of(context)
                               .headlineSmall
                               .override(
-                                fontFamily: 'Barlow',
+                                font: GoogleFonts.barlow(),
                                 color:
                                     FlutterFlowTheme.of(context).secondaryText,
                                 letterSpacing: 0.0,
@@ -159,7 +159,7 @@ class _MandarTicketWidgetState extends State<MandarTicketWidget>
                               ),
                           hintStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                           enabledBorder: UnderlineInputBorder(
@@ -195,7 +195,7 @@ class _MandarTicketWidgetState extends State<MandarTicketWidget>
                         ),
                         style:
                             FlutterFlowTheme.of(context).headlineSmall.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   letterSpacing: 0.0,
                                 ),
                         cursorColor: FlutterFlowTheme.of(context).primary,
@@ -210,14 +210,14 @@ class _MandarTicketWidgetState extends State<MandarTicketWidget>
                         decoration: InputDecoration(
                           labelStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                           hintText:
                               'Breve descrição do que esta acontecendo...',
                           hintStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                           enabledBorder: UnderlineInputBorder(
@@ -252,7 +252,7 @@ class _MandarTicketWidgetState extends State<MandarTicketWidget>
                               16.0, 24.0, 16.0, 12.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Rubik',
+                              font: GoogleFonts.rubik(),
                               letterSpacing: 0.0,
                             ),
                         maxLines: 16,
@@ -313,7 +313,7 @@ class _MandarTicketWidgetState extends State<MandarTicketWidget>
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -349,7 +349,7 @@ class _MandarTicketWidgetState extends State<MandarTicketWidget>
                         color: FlutterFlowTheme.of(context).primary,
                         textStyle:
                             FlutterFlowTheme.of(context).titleSmall.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: Colors.white,
                                   letterSpacing: 0.0,
                                 ),

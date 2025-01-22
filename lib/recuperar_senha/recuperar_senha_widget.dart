@@ -127,7 +127,7 @@ class _RecuperarSenhaWidgetState extends State<RecuperarSenhaWidget> {
                         'Vitrine Cidades',
                         style:
                             FlutterFlowTheme.of(context).displaySmall.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: Colors.white,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
@@ -136,7 +136,7 @@ class _RecuperarSenhaWidgetState extends State<RecuperarSenhaWidget> {
                       Text(
                         'Recupere sua senha',
                         style: FlutterFlowTheme.of(context).bodyLarge.override(
-                              fontFamily: 'Rubik',
+                              font: GoogleFonts.rubik(),
                               color: Color(0xFFE0E0E0),
                               letterSpacing: 0.0,
                             ),
@@ -174,7 +174,7 @@ class _RecuperarSenhaWidgetState extends State<RecuperarSenhaWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         letterSpacing: 0.0,
@@ -190,13 +190,13 @@ class _RecuperarSenhaWidgetState extends State<RecuperarSenhaWidget> {
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           letterSpacing: 0.0,
                                         ),
                                     enabledBorder: OutlineInputBorder(
@@ -238,7 +238,7 @@ class _RecuperarSenhaWidgetState extends State<RecuperarSenhaWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   minLines: 1,
@@ -279,7 +279,7 @@ class _RecuperarSenhaWidgetState extends State<RecuperarSenhaWidget> {
                                     textStyle: FlutterFlowTheme.of(context)
                                         .titleMedium
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: Colors.white,
                                           letterSpacing: 0.0,
                                         ),
@@ -296,7 +296,7 @@ class _RecuperarSenhaWidgetState extends State<RecuperarSenhaWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -315,7 +315,7 @@ class _RecuperarSenhaWidgetState extends State<RecuperarSenhaWidget> {
                                         textStyle: FlutterFlowTheme.of(context)
                                             .titleSmall
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primary,
@@ -344,7 +344,7 @@ class _RecuperarSenhaWidgetState extends State<RecuperarSenhaWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   color: Colors.white,
                                   letterSpacing: 0.0,
                                 ),
@@ -364,7 +364,7 @@ class _RecuperarSenhaWidgetState extends State<RecuperarSenhaWidget> {
                               textStyle: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     color: Colors.white,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,

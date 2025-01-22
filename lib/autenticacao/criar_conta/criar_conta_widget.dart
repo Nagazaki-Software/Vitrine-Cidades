@@ -192,7 +192,7 @@ class _CriarContaWidgetState extends State<CriarContaWidget>
                           style: FlutterFlowTheme.of(context)
                               .labelMedium
                               .override(
-                                fontFamily: 'Roboto',
+                                font: GoogleFonts.roboto(),
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 25.0,
                                 letterSpacing: 0.0,
@@ -212,7 +212,7 @@ class _CriarContaWidgetState extends State<CriarContaWidget>
                           textAlign: TextAlign.start,
                           style:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Roboto',
+                                    font: GoogleFonts.roboto(),
                                     fontSize: 15.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.normal,
@@ -237,7 +237,7 @@ class _CriarContaWidgetState extends State<CriarContaWidget>
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   letterSpacing: 0.0,
                                 ),
                             enabledBorder: OutlineInputBorder(
@@ -275,7 +275,7 @@ class _CriarContaWidgetState extends State<CriarContaWidget>
                           ),
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                           keyboardType: TextInputType.emailAddress,
@@ -300,7 +300,7 @@ class _CriarContaWidgetState extends State<CriarContaWidget>
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   letterSpacing: 0.0,
                                 ),
                             enabledBorder: OutlineInputBorder(
@@ -353,7 +353,7 @@ class _CriarContaWidgetState extends State<CriarContaWidget>
                           ),
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                           validator: _model.passwordTextControllerValidator
@@ -416,7 +416,7 @@ class _CriarContaWidgetState extends State<CriarContaWidget>
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleSmall
                                 .override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: Colors.white,
                                   letterSpacing: 0.0,
                                 ),
@@ -463,7 +463,7 @@ class _CriarContaWidgetState extends State<CriarContaWidget>
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                   ),
                         ),
@@ -500,7 +500,7 @@ class _CriarContaWidgetState extends State<CriarContaWidget>
                               FlutterFlowTheme.of(context).secondaryBackground,
                           textStyle:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
                                   ),
@@ -546,7 +546,7 @@ class _CriarContaWidgetState extends State<CriarContaWidget>
                               textStyle: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
                                   ),

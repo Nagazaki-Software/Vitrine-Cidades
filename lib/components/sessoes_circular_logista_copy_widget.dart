@@ -89,7 +89,7 @@ class _SessoesCircularLogistaCopyWidgetState
                           'Vestuário',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     fontSize: 11.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.w600,
@@ -116,7 +116,7 @@ class _SessoesCircularLogistaCopyWidgetState
                           'Calçados',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     fontSize: 11.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.w600,
@@ -144,7 +144,7 @@ class _SessoesCircularLogistaCopyWidgetState
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     fontSize: 11.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.w600,
@@ -175,7 +175,7 @@ class _SessoesCircularLogistaCopyWidgetState
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Rubik',
+                                  font: GoogleFonts.rubik(),
                                   fontSize: 11.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
@@ -204,7 +204,7 @@ class _SessoesCircularLogistaCopyWidgetState
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     fontSize: 11.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.w600,

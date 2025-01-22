@@ -68,7 +68,7 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
           title: Text(
             'Gerenciar Anúncios',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Barlow',
+                  font: GoogleFonts.barlow(),
                   letterSpacing: 0.0,
                 ),
           ),
@@ -110,7 +110,7 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -182,8 +182,8 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                                                   .of(context)
                                                               .titleMedium
                                                               .override(
-                                                                fontFamily:
-                                                                    'Barlow',
+                                                                font: GoogleFonts
+                                                                    .barlow(),
                                                                 letterSpacing:
                                                                     0.0,
                                                                 fontWeight:
@@ -207,8 +207,8 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                                                   .of(context)
                                                               .bodyLarge
                                                               .override(
-                                                                fontFamily:
-                                                                    'Rubik',
+                                                                font: GoogleFonts
+                                                                    .rubik(),
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .primary,
@@ -254,16 +254,19 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                                   ))
                                                     Text(
                                                       'Visualizações: 245',
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodySmall
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .secondaryText,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodySmall
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .rubik(),
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .secondaryText,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                              ),
                                                     ),
                                                   Row(
                                                     mainAxisSize:
@@ -349,7 +352,7 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -383,7 +386,8 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                                           context)
                                                       .titleMedium
                                                       .override(
-                                                        fontFamily: 'Barlow',
+                                                        font: GoogleFonts
+                                                            .barlow(),
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -395,7 +399,8 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                                           context)
                                                       .bodyLarge
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -431,7 +436,7 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .warning,
@@ -509,7 +514,7 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -537,31 +542,29 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                           children: [
                                             Text(
                                               'Total de Visualizações',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .info,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .info,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                             Text(
                                               '434',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .headlineMedium
-                                                      .override(
-                                                        fontFamily: 'Barlow',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .info,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .headlineMedium
+                                                  .override(
+                                                    font: GoogleFonts.barlow(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .info,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ].divide(SizedBox(height: 8.0)),
                                         ),
@@ -587,31 +590,29 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                           children: [
                                             Text(
                                               'Contatos Recebidos',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .info,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .info,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                             Text(
                                               '28',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .headlineMedium
-                                                      .override(
-                                                        fontFamily: 'Barlow',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .info,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .headlineMedium
+                                                  .override(
+                                                    font: GoogleFonts.barlow(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .info,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ].divide(SizedBox(height: 8.0)),
                                         ),
@@ -638,7 +639,7 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .titleMedium
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -652,7 +653,7 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                 ),
                                           ),
@@ -661,7 +662,7 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .primary,
@@ -698,7 +699,7 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                 ),
                                           ),
@@ -707,7 +708,7 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .primary,
@@ -762,7 +763,7 @@ class _GerenciarAnunciosWidgetState extends State<GerenciarAnunciosWidget> {
                         color: FlutterFlowTheme.of(context).primary,
                         textStyle:
                             FlutterFlowTheme.of(context).titleMedium.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: FlutterFlowTheme.of(context).info,
                                   letterSpacing: 0.0,
                                 ),

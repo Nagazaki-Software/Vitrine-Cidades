@@ -99,7 +99,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .displaySmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             fontSize: 25.0,
@@ -125,7 +125,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   fontSize: 20.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
@@ -146,7 +146,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   fontSize: 18.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
@@ -167,7 +167,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -179,15 +179,15 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             Flexible(
                                               child: Text(
                                                 'Moda feminina, masculina e infantil',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                    ),
                                               ),
                                             ),
                                           ],
@@ -206,7 +206,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -219,7 +219,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -239,7 +239,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -252,7 +252,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -272,7 +272,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -283,15 +283,14 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           children: [
                                             Text(
                                               'Bijuterias e joias',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w500,
+                                                  ),
                                             ),
                                           ],
                                         ),
@@ -309,7 +308,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   fontSize: 18.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
@@ -330,7 +329,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -343,7 +342,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -363,7 +362,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -376,7 +375,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -396,7 +395,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -409,7 +408,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -429,7 +428,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -442,7 +441,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -462,7 +461,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   fontSize: 18.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
@@ -483,7 +482,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -496,7 +495,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -516,7 +515,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -529,7 +528,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -549,7 +548,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -562,7 +561,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -582,7 +581,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -595,7 +594,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -615,7 +614,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   fontSize: 18.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
@@ -636,7 +635,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -649,7 +648,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -669,7 +668,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -682,7 +681,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -702,7 +701,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -715,7 +714,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -734,16 +733,16 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             Flexible(
                                               child: Text(
                                                 '5. Brinquedos e Artigos Infantis',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          fontSize: 18.0,
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      fontSize: 18.0,
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                    ),
                                               ),
                                             ),
                                           ],
@@ -762,7 +761,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -775,7 +774,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -795,7 +794,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -808,7 +807,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -828,7 +827,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -841,7 +840,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -861,7 +860,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -874,7 +873,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -894,7 +893,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   fontSize: 20.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
@@ -913,16 +912,15 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           children: [
                                             Text(
                                               '1. Reparos e Manutenção',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        fontSize: 18.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    fontSize: 18.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w500,
+                                                  ),
                                             ),
                                           ],
                                         ),
@@ -940,7 +938,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -953,7 +951,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -973,7 +971,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -985,15 +983,15 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             Flexible(
                                               child: Text(
                                                 'Manutenção de eletrodomésticos e eletrônicos',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                    ),
                                               ),
                                             ),
                                           ],
@@ -1012,7 +1010,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1024,15 +1022,15 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             Flexible(
                                               child: Text(
                                                 'Limpeza e conservação de imóveis',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                    ),
                                               ),
                                             ),
                                           ],
@@ -1051,7 +1049,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1063,15 +1061,15 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             Flexible(
                                               child: Text(
                                                 'Reparos de móveis e objetos de decoração',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                    ),
                                               ),
                                             ),
                                           ],
@@ -1090,7 +1088,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   fontSize: 18.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
@@ -1111,7 +1109,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1124,7 +1122,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -1144,7 +1142,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1157,7 +1155,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -1177,7 +1175,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1190,7 +1188,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -1210,7 +1208,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1223,7 +1221,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -1243,7 +1241,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   fontSize: 18.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
@@ -1264,7 +1262,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1277,7 +1275,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -1297,7 +1295,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1310,7 +1308,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -1330,7 +1328,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1343,7 +1341,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -1363,7 +1361,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1376,7 +1374,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -1396,7 +1394,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   fontSize: 18.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
@@ -1417,7 +1415,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1430,7 +1428,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -1450,7 +1448,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1463,7 +1461,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -1483,7 +1481,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1496,7 +1494,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -1516,7 +1514,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -1529,7 +1527,7 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
                                                 ),
@@ -1548,16 +1546,16 @@ class _ProdutoseServicosWidgetState extends State<ProdutoseServicosWidget> {
                                             Flexible(
                                               child: Text(
                                                 'No Vitrine Cidades, a variedade de produtos e serviços é imensa, cobrindo praticamente todas as necessidades do seu dia a dia. Ao acessar o aplicativo, você encontrará uma gama de opções para facilitar suas compras e contratar serviços, tudo ao alcance de um toque!',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          fontSize: 16.0,
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      fontSize: 16.0,
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                    ),
                                               ),
                                             ),
                                           ],

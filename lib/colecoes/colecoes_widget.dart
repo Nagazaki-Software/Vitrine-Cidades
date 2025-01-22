@@ -131,7 +131,7 @@ class _ColecoesWidgetState extends State<ColecoesWidget>
               title: Text(
                 'Coleções',
                 style: FlutterFlowTheme.of(context).titleLarge.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       letterSpacing: 0.0,
                     ),
               ),
@@ -256,7 +256,8 @@ class _ColecoesWidgetState extends State<ColecoesWidget>
                                                             context)
                                                         .bodyLarge
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                   ),
@@ -271,7 +272,8 @@ class _ColecoesWidgetState extends State<ColecoesWidget>
                                                               .of(context)
                                                           .labelMedium
                                                           .override(
-                                                            fontFamily: 'Rubik',
+                                                            font: GoogleFonts
+                                                                .rubik(),
                                                             letterSpacing: 0.0,
                                                           ),
                                                     ),

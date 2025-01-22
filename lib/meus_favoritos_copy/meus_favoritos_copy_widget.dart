@@ -109,7 +109,7 @@ class _MeusFavoritosCopyWidgetState extends State<MeusFavoritosCopyWidget> {
                   '0',
                 ),
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       color: Colors.white,
                       fontSize: 22.0,
                       letterSpacing: 0.0,
@@ -223,7 +223,7 @@ class _MeusFavoritosCopyWidgetState extends State<MeusFavoritosCopyWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   fontSize: 14.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
@@ -256,7 +256,8 @@ class _MeusFavoritosCopyWidgetState extends State<MeusFavoritosCopyWidget> {
                                                               .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily: 'Rubik',
+                                                            font: GoogleFonts
+                                                                .rubik(),
                                                             color: FlutterFlowTheme
                                                                     .of(context)
                                                                 .primary,
@@ -279,7 +280,8 @@ class _MeusFavoritosCopyWidgetState extends State<MeusFavoritosCopyWidget> {
                                                               .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily: 'Rubik',
+                                                            font: GoogleFonts
+                                                                .rubik(),
                                                             color: FlutterFlowTheme
                                                                     .of(context)
                                                                 .primary,
@@ -293,7 +295,8 @@ class _MeusFavoritosCopyWidgetState extends State<MeusFavoritosCopyWidget> {
                                                           context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)

@@ -73,7 +73,7 @@ class _EotesteWidgetState extends State<EotesteWidget> {
           title: Text(
             'Page Title',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Barlow',
+                  font: GoogleFonts.barlow(),
                   color: Colors.white,
                   fontSize: 22.0,
                   letterSpacing: 0.0,

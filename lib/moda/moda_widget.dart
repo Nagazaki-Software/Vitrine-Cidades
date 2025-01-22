@@ -130,7 +130,7 @@ class _ModaWidgetState extends State<ModaWidget> {
                 title: Text(
                   'Vestuário',
                   style: FlutterFlowTheme.of(context).headlineMedium.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                         fontSize: 26.0,
                         letterSpacing: 0.0,
@@ -323,8 +323,8 @@ class _ModaWidgetState extends State<ModaWidget> {
                                                                 .of(context)
                                                             .bodySmall
                                                             .override(
-                                                              fontFamily:
-                                                                  'Rubik',
+                                                              font: GoogleFonts
+                                                                  .rubik(),
                                                               color:
                                                                   Colors.white,
                                                               letterSpacing:
@@ -406,8 +406,8 @@ class _ModaWidgetState extends State<ModaWidget> {
                                                                 .of(context)
                                                             .bodyLarge
                                                             .override(
-                                                              fontFamily:
-                                                                  'Rubik',
+                                                              font: GoogleFonts
+                                                                  .rubik(),
                                                               fontSize: 14.0,
                                                               letterSpacing:
                                                                   0.0,
@@ -451,8 +451,8 @@ class _ModaWidgetState extends State<ModaWidget> {
                                                                     context)
                                                                 .titleMedium
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Barlow',
+                                                                  font: GoogleFonts
+                                                                      .barlow(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .primary,
@@ -486,8 +486,8 @@ class _ModaWidgetState extends State<ModaWidget> {
                                                                     .of(context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryText,
@@ -521,8 +521,8 @@ class _ModaWidgetState extends State<ModaWidget> {
                                                                     context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),

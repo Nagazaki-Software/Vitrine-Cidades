@@ -116,7 +116,7 @@ class _PerfilDoLojistaParaEditarWidgetState
                   child: Text(
                     '',
                     style: FlutterFlowTheme.of(context).headlineMedium.override(
-                          fontFamily: 'Barlow',
+                          font: GoogleFonts.barlow(),
                           letterSpacing: 0.0,
                         ),
                   ),
@@ -246,7 +246,7 @@ class _PerfilDoLojistaParaEditarWidgetState
                             .nomeEmpresarialDoComerciante,
                         style:
                             FlutterFlowTheme.of(context).headlineSmall.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   letterSpacing: 0.0,
                                 ),
                       ),
@@ -282,7 +282,7 @@ class _PerfilDoLojistaParaEditarWidgetState
                                   style: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
                                       ),
@@ -323,7 +323,7 @@ class _PerfilDoLojistaParaEditarWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .titleLarge
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -333,7 +333,7 @@ class _PerfilDoLojistaParaEditarWidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -355,7 +355,7 @@ class _PerfilDoLojistaParaEditarWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .headlineLarge
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -365,7 +365,7 @@ class _PerfilDoLojistaParaEditarWidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -402,7 +402,7 @@ class _PerfilDoLojistaParaEditarWidgetState
                                             style: FlutterFlowTheme.of(context)
                                                 .titleLarge
                                                 .override(
-                                                  fontFamily: 'Barlow',
+                                                  font: GoogleFonts.barlow(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .primaryText,
@@ -417,7 +417,7 @@ class _PerfilDoLojistaParaEditarWidgetState
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -441,7 +441,7 @@ class _PerfilDoLojistaParaEditarWidgetState
                             style: FlutterFlowTheme.of(context)
                                 .titleLarge
                                 .override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   letterSpacing: 0.0,
                                 ),
                           ),
@@ -467,7 +467,7 @@ class _PerfilDoLojistaParaEditarWidgetState
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
-                                    fontFamily: 'Rubik',
+                                    font: GoogleFonts.rubik(),
                                     color: FlutterFlowTheme.of(context).primary,
                                     letterSpacing: 0.0,
                                   ),
@@ -564,7 +564,7 @@ class _PerfilDoLojistaParaEditarWidgetState
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 fontSize: 25.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w600,

@@ -74,7 +74,7 @@ class _EmConstrucaoWidgetState extends State<EmConstrucaoWidget> {
                         'Login Multiplataforma',
                         style:
                             FlutterFlowTheme.of(context).displaySmall.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: Colors.white,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
@@ -83,7 +83,7 @@ class _EmConstrucaoWidgetState extends State<EmConstrucaoWidget> {
                       Text(
                         'Versão em desenvolvimento 0.15.3',
                         style: FlutterFlowTheme.of(context).bodyLarge.override(
-                              fontFamily: 'Rubik',
+                              font: GoogleFonts.rubik(),
                               color: Color(0xFFE0E0E0),
                               letterSpacing: 0.0,
                             ),
@@ -134,7 +134,7 @@ class _EmConstrucaoWidgetState extends State<EmConstrucaoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .headlineMedium
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         letterSpacing: 0.0,
@@ -146,7 +146,7 @@ class _EmConstrucaoWidgetState extends State<EmConstrucaoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         color: FlutterFlowTheme.of(context)
                                             .secondaryText,
                                         letterSpacing: 0.0,
@@ -181,7 +181,7 @@ class _EmConstrucaoWidgetState extends State<EmConstrucaoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         letterSpacing: 0.0,
@@ -202,7 +202,7 @@ class _EmConstrucaoWidgetState extends State<EmConstrucaoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -224,7 +224,7 @@ class _EmConstrucaoWidgetState extends State<EmConstrucaoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -246,7 +246,7 @@ class _EmConstrucaoWidgetState extends State<EmConstrucaoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -268,7 +268,7 @@ class _EmConstrucaoWidgetState extends State<EmConstrucaoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -300,7 +300,7 @@ class _EmConstrucaoWidgetState extends State<EmConstrucaoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         letterSpacing: 0.0,
@@ -315,7 +315,7 @@ class _EmConstrucaoWidgetState extends State<EmConstrucaoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -329,7 +329,7 @@ class _EmConstrucaoWidgetState extends State<EmConstrucaoWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         color: FlutterFlowTheme.of(context)
                                             .primary,
                                         letterSpacing: 0.0,

@@ -72,7 +72,7 @@ class _MyFavoriteWidgetState extends State<MyFavoriteWidget> {
             title: Text(
               'Meus Favoritos',
               style: FlutterFlowTheme.of(context).headlineMedium.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     color: FlutterFlowTheme.of(context).info,
                     letterSpacing: 0.0,
                   ),
@@ -202,7 +202,8 @@ class _MyFavoriteWidgetState extends State<MyFavoriteWidget> {
                                                               .of(context)
                                                           .bodyLarge
                                                           .override(
-                                                            fontFamily: 'Rubik',
+                                                            font: GoogleFonts
+                                                                .rubik(),
                                                             letterSpacing: 0.0,
                                                             fontWeight:
                                                                 FontWeight.w600,
@@ -222,7 +223,8 @@ class _MyFavoriteWidgetState extends State<MyFavoriteWidget> {
                                                               .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily: 'Rubik',
+                                                            font: GoogleFonts
+                                                                .rubik(),
                                                             color: FlutterFlowTheme
                                                                     .of(context)
                                                                 .primary,
@@ -234,16 +236,19 @@ class _MyFavoriteWidgetState extends State<MyFavoriteWidget> {
                                                     Text(
                                                       containerSeusprodutosRecord
                                                           .description,
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodySmall
-                                                          .override(
-                                                            fontFamily: 'Rubik',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .secondaryText,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodySmall
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .rubik(),
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .secondaryText,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                              ),
                                                     ),
                                                   ],
                                                 ),

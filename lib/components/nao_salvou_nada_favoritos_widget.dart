@@ -65,7 +65,7 @@ class _NaoSalvouNadaFavoritosWidgetState
               Text(
                 'Ainda não há favoritos',
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       letterSpacing: 0.0,
                     ),
               ),
@@ -73,7 +73,7 @@ class _NaoSalvouNadaFavoritosWidgetState
                 'Você não salvou nenhum item em seus favoritos. Comece a explorar e salve os itens que você ama!',
                 textAlign: TextAlign.center,
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Rubik',
+                      font: GoogleFonts.rubik(),
                       color: FlutterFlowTheme.of(context).secondaryText,
                       letterSpacing: 0.0,
                     ),

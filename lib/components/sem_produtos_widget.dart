@@ -77,7 +77,7 @@ class _SemProdutosWidgetState extends State<SemProdutosWidget> {
               'Seu limite de produtos acabou',
               textAlign: TextAlign.center,
               style: FlutterFlowTheme.of(context).headlineSmall.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     letterSpacing: 0.0,
                   ),
             ),
@@ -85,7 +85,7 @@ class _SemProdutosWidgetState extends State<SemProdutosWidget> {
               'Confira seu plano para saber seu limite disponível para criar produtos',
               textAlign: TextAlign.center,
               style: FlutterFlowTheme.of(context).bodyMedium.override(
-                    fontFamily: 'Rubik',
+                    font: GoogleFonts.rubik(),
                     color: FlutterFlowTheme.of(context).secondaryText,
                     letterSpacing: 0.0,
                   ),
@@ -102,7 +102,7 @@ class _SemProdutosWidgetState extends State<SemProdutosWidget> {
                 iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                 color: FlutterFlowTheme.of(context).primary,
                 textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       color: FlutterFlowTheme.of(context).info,
                       letterSpacing: 0.0,
                     ),

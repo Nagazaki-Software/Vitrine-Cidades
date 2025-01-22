@@ -95,7 +95,7 @@ class _PoliticaseTermosWidgetState extends State<PoliticaseTermosWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .displaySmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
                                           fontSize: 25.0,
@@ -143,13 +143,13 @@ class _PoliticaseTermosWidgetState extends State<PoliticaseTermosWidget> {
                                             children: [
                                               Text(
                                                 'Política de Cancelamento',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Icon(
                                                 Icons.arrow_forward_ios_rounded,
@@ -186,7 +186,8 @@ class _PoliticaseTermosWidgetState extends State<PoliticaseTermosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -225,7 +226,8 @@ class _PoliticaseTermosWidgetState extends State<PoliticaseTermosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),

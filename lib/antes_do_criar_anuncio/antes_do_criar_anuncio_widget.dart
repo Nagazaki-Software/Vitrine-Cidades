@@ -122,7 +122,7 @@ class _AntesDoCriarAnuncioWidgetState extends State<AntesDoCriarAnuncioWidget> {
               title: Text(
                 'Benefícios do Anúncio',
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       letterSpacing: 0.0,
                     ),
               ),
@@ -167,7 +167,7 @@ class _AntesDoCriarAnuncioWidgetState extends State<AntesDoCriarAnuncioWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineMedium
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       color: FlutterFlowTheme.of(context).info,
                                       letterSpacing: 0.0,
                                     ),
@@ -177,7 +177,7 @@ class _AntesDoCriarAnuncioWidgetState extends State<AntesDoCriarAnuncioWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       color: FlutterFlowTheme.of(context).info,
                                       letterSpacing: 0.0,
                                     ),
@@ -210,7 +210,7 @@ class _AntesDoCriarAnuncioWidgetState extends State<AntesDoCriarAnuncioWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -244,26 +244,28 @@ class _AntesDoCriarAnuncioWidgetState extends State<AntesDoCriarAnuncioWidget> {
                                             children: [
                                               Text(
                                                 'Maior Visibilidade',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .titleMedium
-                                                        .override(
-                                                          fontFamily: 'Barlow',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .titleMedium
+                                                    .override(
+                                                      font:
+                                                          GoogleFonts.barlow(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Text(
                                                 'Seu anúncio aparece em destaque na página inicial, aumentando em 5x a visibilidade',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .secondaryText,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -297,26 +299,28 @@ class _AntesDoCriarAnuncioWidgetState extends State<AntesDoCriarAnuncioWidget> {
                                             children: [
                                               Text(
                                                 'Mais Vendas',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .titleMedium
-                                                        .override(
-                                                          fontFamily: 'Barlow',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .titleMedium
+                                                    .override(
+                                                      font:
+                                                          GoogleFonts.barlow(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Text(
                                                 'Anunciantes têm em média 3x mais contatos e vendas que usuários comuns',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .secondaryText,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -350,26 +354,28 @@ class _AntesDoCriarAnuncioWidgetState extends State<AntesDoCriarAnuncioWidget> {
                                             children: [
                                               Text(
                                                 'Credibilidade',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .titleMedium
-                                                        .override(
-                                                          fontFamily: 'Barlow',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .titleMedium
+                                                    .override(
+                                                      font:
+                                                          GoogleFonts.barlow(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Text(
                                                 'Selo de anunciante verificado que aumenta a confiança dos compradores',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .secondaryText,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -412,7 +418,7 @@ class _AntesDoCriarAnuncioWidgetState extends State<AntesDoCriarAnuncioWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
-                                            fontFamily: 'Barlow',
+                                            font: GoogleFonts.barlow(),
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -452,26 +458,28 @@ class _AntesDoCriarAnuncioWidgetState extends State<AntesDoCriarAnuncioWidget> {
                                             children: [
                                               Text(
                                                 'Estatísticas Detalhadas',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .titleMedium
-                                                        .override(
-                                                          fontFamily: 'Barlow',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .titleMedium
+                                                    .override(
+                                                      font:
+                                                          GoogleFonts.barlow(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Text(
                                                 'Acompanhe visualizações, cliques e interações com seu anúncio',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .secondaryText,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -503,26 +511,28 @@ class _AntesDoCriarAnuncioWidgetState extends State<AntesDoCriarAnuncioWidget> {
                                             children: [
                                               Text(
                                                 'Suporte Prioritário',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .titleMedium
-                                                        .override(
-                                                          fontFamily: 'Barlow',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .titleMedium
+                                                    .override(
+                                                      font:
+                                                          GoogleFonts.barlow(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Text(
                                                 'Atendimento exclusivo para resolver suas dúvidas e necessidades',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .secondaryText,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -554,26 +564,28 @@ class _AntesDoCriarAnuncioWidgetState extends State<AntesDoCriarAnuncioWidget> {
                                             children: [
                                               Text(
                                                 'Promoção Direcionada',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .titleMedium
-                                                        .override(
-                                                          fontFamily: 'Barlow',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .titleMedium
+                                                    .override(
+                                                      font:
+                                                          GoogleFonts.barlow(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Text(
                                                 'Alcance clientes específicos baseado em localização e interesses',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .secondaryText,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -611,7 +623,7 @@ class _AntesDoCriarAnuncioWidgetState extends State<AntesDoCriarAnuncioWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
-                                        fontFamily: 'Barlow',
+                                        font: GoogleFonts.barlow(),
                                         letterSpacing: 0.0,
                                       ),
                                 ),

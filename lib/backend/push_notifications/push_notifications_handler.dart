@@ -297,6 +297,11 @@ final parametersBuilderMap =
           'lojista': getParameter<DocumentReference>(data, 'lojista'),
         },
       ),
+  'detalhesDoPagamento': (data) async => ParameterData(
+        allParams: {
+          'pagamentos': getParameter<DocumentReference>(data, 'pagamentos'),
+        },
+      ),
 };
 
 Map<String, dynamic> getInitialParameterData(Map<String, dynamic> data) {

@@ -94,7 +94,7 @@ class _ProdutoAdicionadoWidgetState extends State<ProdutoAdicionadoWidget> {
                   'Produto adicionado com sucesso',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Barlow',
+                        font: GoogleFonts.barlow(),
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -102,7 +102,7 @@ class _ProdutoAdicionadoWidgetState extends State<ProdutoAdicionadoWidget> {
                   'Seu produto foi adicionado com sucesso à plataforma e agora está visível para potenciais compradores.\n',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Rubik',
+                        font: GoogleFonts.rubik(),
                         color: FlutterFlowTheme.of(context).secondaryText,
                         letterSpacing: 0.0,
                       ),
@@ -121,7 +121,7 @@ class _ProdutoAdicionadoWidgetState extends State<ProdutoAdicionadoWidget> {
                 iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                 color: FlutterFlowTheme.of(context).primary,
                 textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       color: FlutterFlowTheme.of(context).info,
                       letterSpacing: 0.0,
                     ),
@@ -141,7 +141,7 @@ class _ProdutoAdicionadoWidgetState extends State<ProdutoAdicionadoWidget> {
                 iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                 color: FlutterFlowTheme.of(context).secondaryBackground,
                 textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       color: FlutterFlowTheme.of(context).primaryText,
                       letterSpacing: 0.0,
                     ),

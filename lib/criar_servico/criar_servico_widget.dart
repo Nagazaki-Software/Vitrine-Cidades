@@ -126,7 +126,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
               title: Text(
                 'Criar Serviço',
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       color: FlutterFlowTheme.of(context).primaryText,
                       letterSpacing: 0.0,
                     ),
@@ -166,7 +166,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -180,13 +180,13 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                   labelStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   enabledBorder: OutlineInputBorder(
@@ -225,7 +225,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 minLines: 1,
@@ -242,13 +242,13 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                   labelStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   enabledBorder: OutlineInputBorder(
@@ -287,7 +287,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 maxLines: 5,
@@ -315,14 +315,14 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                               FlutterFlowTheme.of(context)
                                                   .bodyMedium
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           hintStyle:
                                               FlutterFlowTheme.of(context)
                                                   .bodyMedium
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -368,7 +368,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         keyboardType: TextInputType.number,
@@ -393,14 +393,14 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                               FlutterFlowTheme.of(context)
                                                   .bodyMedium
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           hintStyle:
                                               FlutterFlowTheme.of(context)
                                                   .bodyMedium
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     letterSpacing: 0.0,
                                                   ),
                                           enabledBorder: OutlineInputBorder(
@@ -446,7 +446,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               letterSpacing: 0.0,
                                             ),
                                         keyboardType: TextInputType.number,
@@ -487,7 +487,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -502,7 +502,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                 textStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 hintText: 'Categoria',
@@ -531,7 +531,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -563,7 +563,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                       textStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .info,
                                             letterSpacing: 0.0,
@@ -581,7 +581,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                       textStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            fontFamily: 'Rubik',
+                                            font: GoogleFonts.rubik(),
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
                                             letterSpacing: 0.0,
@@ -636,7 +636,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -740,16 +740,17 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                               ),
                                               Text(
                                                 'Adicionar Fotos',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyLarge
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyLarge
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .primary,
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -856,7 +857,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -870,13 +871,13 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                   labelStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   enabledBorder: OutlineInputBorder(
@@ -915,7 +916,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 validator: _model.textController5Validator
@@ -931,13 +932,13 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                   labelStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Rubik',
+                                        font: GoogleFonts.rubik(),
                                         letterSpacing: 0.0,
                                       ),
                                   enabledBorder: OutlineInputBorder(
@@ -976,7 +977,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
-                                      fontFamily: 'Rubik',
+                                      font: GoogleFonts.rubik(),
                                       letterSpacing: 0.0,
                                     ),
                                 validator: _model.textController6Validator
@@ -1023,7 +1024,7 @@ class _CriarServicoWidgetState extends State<CriarServicoWidget> {
                         color: FlutterFlowTheme.of(context).primary,
                         textStyle:
                             FlutterFlowTheme.of(context).titleMedium.override(
-                                  fontFamily: 'Barlow',
+                                  font: GoogleFonts.barlow(),
                                   color: FlutterFlowTheme.of(context).info,
                                   letterSpacing: 0.0,
                                 ),

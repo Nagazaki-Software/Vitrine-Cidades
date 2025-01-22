@@ -98,7 +98,7 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
               title: Text(
                 'Relatórios & Análises',
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Barlow',
+                      font: GoogleFonts.barlow(),
                       letterSpacing: 0.0,
                     ),
               ),
@@ -136,7 +136,7 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -160,7 +160,7 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .displaySmall
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primary,
@@ -172,7 +172,7 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .secondaryText,
@@ -191,7 +191,7 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .displaySmall
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .tertiary,
@@ -203,7 +203,7 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .secondaryText,
@@ -226,7 +226,7 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .displaySmall
                                             .override(
-                                              fontFamily: 'Barlow',
+                                              font: GoogleFonts.barlow(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .secondary,
@@ -238,7 +238,7 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Rubik',
+                                              font: GoogleFonts.rubik(),
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .secondaryText,
@@ -275,7 +275,7 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -331,17 +331,16 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                             ),
                                             Text(
                                               'Seg',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodySmall
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodySmall
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .secondaryText,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ],
                                         ),
@@ -379,17 +378,16 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                             ),
                                             Text(
                                               'Ter',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodySmall
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodySmall
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .secondaryText,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ],
                                         ),
@@ -427,17 +425,16 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                             ),
                                             Text(
                                               'Qua',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodySmall
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodySmall
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .secondaryText,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ],
                                         ),
@@ -475,17 +472,16 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                             ),
                                             Text(
                                               'Qui',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodySmall
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodySmall
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .secondaryText,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ],
                                         ),
@@ -523,17 +519,16 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                             ),
                                             Text(
                                               'Sex',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodySmall
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodySmall
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .secondaryText,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ],
                                         ),
@@ -571,17 +566,16 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                             ),
                                             Text(
                                               'Sab',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodySmall
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodySmall
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .secondaryText,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ],
                                         ),
@@ -619,17 +613,16 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                             ),
                                             Text(
                                               'Dom',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodySmall
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodySmall
+                                                  .override(
+                                                    font: GoogleFonts.rubik(),
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .secondaryText,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                             ),
                                           ],
                                         ),
@@ -663,7 +656,7 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -747,7 +740,8 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                                             context)
                                                         .bodyLarge
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           letterSpacing: 0.0,
                                                         ),
                                                   ),
@@ -762,7 +756,8 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                                             context)
                                                         .bodySmall
                                                         .override(
-                                                          fontFamily: 'Rubik',
+                                                          font: GoogleFonts
+                                                              .rubik(),
                                                           color: FlutterFlowTheme
                                                                   .of(context)
                                                               .secondaryText,
@@ -778,7 +773,7 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Rubik',
+                                                  font: GoogleFonts.rubik(),
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .success,
@@ -813,276 +808,11 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                'Engajamento por Hora',
-                                style: FlutterFlowTheme.of(context)
-                                    .headlineSmall
-                                    .override(
-                                      fontFamily: 'Barlow',
-                                      letterSpacing: 0.0,
-                                    ),
-                              ),
-                              Container(
-                                width: MediaQuery.sizeOf(context).width * 1.0,
-                                height: 200.0,
-                                decoration: BoxDecoration(
-                                  color: FlutterFlowTheme.of(context)
-                                      .secondaryBackground,
-                                ),
-                                child: Padding(
-                                  padding: EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    crossAxisAlignment: CrossAxisAlignment.end,
-                                    children: [
-                                      Column(
-                                        mainAxisSize: MainAxisSize.max,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
-                                        children: [
-                                          Container(
-                                            width: 20.0,
-                                            height: 80.0,
-                                            decoration: BoxDecoration(
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .tertiary,
-                                              borderRadius: BorderRadius.only(
-                                                bottomLeft:
-                                                    Radius.circular(0.0),
-                                                bottomRight:
-                                                    Radius.circular(0.0),
-                                                topLeft: Radius.circular(8.0),
-                                                topRight: Radius.circular(8.0),
-                                              ),
-                                            ),
-                                          ),
-                                          Text(
-                                            '6h',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodySmall
-                                                .override(
-                                                  fontFamily: 'Rubik',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryText,
-                                                  letterSpacing: 0.0,
-                                                ),
-                                          ),
-                                        ],
-                                      ),
-                                      Column(
-                                        mainAxisSize: MainAxisSize.max,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
-                                        children: [
-                                          Container(
-                                            width: 20.0,
-                                            height: 120.0,
-                                            decoration: BoxDecoration(
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .tertiary,
-                                              borderRadius: BorderRadius.only(
-                                                bottomLeft:
-                                                    Radius.circular(0.0),
-                                                bottomRight:
-                                                    Radius.circular(0.0),
-                                                topLeft: Radius.circular(8.0),
-                                                topRight: Radius.circular(8.0),
-                                              ),
-                                            ),
-                                          ),
-                                          Text(
-                                            '9h',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodySmall
-                                                .override(
-                                                  fontFamily: 'Rubik',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryText,
-                                                  letterSpacing: 0.0,
-                                                ),
-                                          ),
-                                        ],
-                                      ),
-                                      Column(
-                                        mainAxisSize: MainAxisSize.max,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
-                                        children: [
-                                          Container(
-                                            width: 20.0,
-                                            height: 180.0,
-                                            decoration: BoxDecoration(
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .tertiary,
-                                              borderRadius: BorderRadius.only(
-                                                bottomLeft:
-                                                    Radius.circular(0.0),
-                                                bottomRight:
-                                                    Radius.circular(0.0),
-                                                topLeft: Radius.circular(8.0),
-                                                topRight: Radius.circular(8.0),
-                                              ),
-                                            ),
-                                          ),
-                                          Text(
-                                            '12h',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodySmall
-                                                .override(
-                                                  fontFamily: 'Rubik',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryText,
-                                                  letterSpacing: 0.0,
-                                                ),
-                                          ),
-                                        ],
-                                      ),
-                                      Column(
-                                        mainAxisSize: MainAxisSize.max,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
-                                        children: [
-                                          Container(
-                                            width: 20.0,
-                                            height: 150.0,
-                                            decoration: BoxDecoration(
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .tertiary,
-                                              borderRadius: BorderRadius.only(
-                                                bottomLeft:
-                                                    Radius.circular(0.0),
-                                                bottomRight:
-                                                    Radius.circular(0.0),
-                                                topLeft: Radius.circular(8.0),
-                                                topRight: Radius.circular(8.0),
-                                              ),
-                                            ),
-                                          ),
-                                          Text(
-                                            '15h',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodySmall
-                                                .override(
-                                                  fontFamily: 'Rubik',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryText,
-                                                  letterSpacing: 0.0,
-                                                ),
-                                          ),
-                                        ],
-                                      ),
-                                      Column(
-                                        mainAxisSize: MainAxisSize.max,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
-                                        children: [
-                                          Container(
-                                            width: 20.0,
-                                            height: 200.0,
-                                            decoration: BoxDecoration(
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .tertiary,
-                                              borderRadius: BorderRadius.only(
-                                                bottomLeft:
-                                                    Radius.circular(0.0),
-                                                bottomRight:
-                                                    Radius.circular(0.0),
-                                                topLeft: Radius.circular(8.0),
-                                                topRight: Radius.circular(8.0),
-                                              ),
-                                            ),
-                                          ),
-                                          Text(
-                                            '18h',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodySmall
-                                                .override(
-                                                  fontFamily: 'Rubik',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryText,
-                                                  letterSpacing: 0.0,
-                                                ),
-                                          ),
-                                        ],
-                                      ),
-                                      Column(
-                                        mainAxisSize: MainAxisSize.max,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
-                                        children: [
-                                          Container(
-                                            width: 20.0,
-                                            height: 160.0,
-                                            decoration: BoxDecoration(
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .tertiary,
-                                              borderRadius: BorderRadius.only(
-                                                bottomLeft:
-                                                    Radius.circular(0.0),
-                                                bottomRight:
-                                                    Radius.circular(0.0),
-                                                topLeft: Radius.circular(8.0),
-                                                topRight: Radius.circular(8.0),
-                                              ),
-                                            ),
-                                          ),
-                                          Text(
-                                            '21h',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodySmall
-                                                .override(
-                                                  fontFamily: 'Rubik',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryText,
-                                                  letterSpacing: 0.0,
-                                                ),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ].divide(SizedBox(height: 16.0)),
-                          ),
-                        ),
-                      ),
-                      Container(
-                        width: MediaQuery.sizeOf(context).width * 1.0,
-                        decoration: BoxDecoration(
-                          color:
-                              FlutterFlowTheme.of(context).secondaryBackground,
-                          borderRadius: BorderRadius.circular(16.0),
-                          border: Border.all(
-                            color: FlutterFlowTheme.of(context).alternate,
-                            width: 1.0,
-                          ),
-                        ),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              20.0, 20.0, 20.0, 20.0),
-                          child: Column(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [
-                              Text(
                                 'Novos Seguidores',
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Barlow',
+                                      font: GoogleFonts.barlow(),
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -1150,8 +880,8 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                                                     context)
                                                                 .bodyLarge
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),
@@ -1163,8 +893,8 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                                                     context)
                                                                 .bodySmall
                                                                 .override(
-                                                                  fontFamily:
-                                                                      'Rubik',
+                                                                  font: GoogleFonts
+                                                                      .rubik(),
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .secondaryText,
@@ -1176,36 +906,6 @@ class _PagRelatoriosWidgetState extends State<PagRelatoriosWidget> {
                                                   ),
                                                 ),
                                               ].divide(SizedBox(width: 12.0)),
-                                            ),
-                                          ),
-                                          FFButtonWidget(
-                                            onPressed: () {
-                                              print('Button pressed ...');
-                                            },
-                                            text: 'Seguir',
-                                            options: FFButtonOptions(
-                                              width: 80.0,
-                                              height: 32.0,
-                                              padding: EdgeInsets.all(8.0),
-                                              iconPadding: EdgeInsetsDirectional
-                                                  .fromSTEB(0.0, 0.0, 0.0, 0.0),
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primary,
-                                              textStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodySmall
-                                                      .override(
-                                                        fontFamily: 'Rubik',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .info,
-                                                        letterSpacing: 0.0,
-                                                      ),
-                                              elevation: 0.0,
-                                              borderRadius:
-                                                  BorderRadius.circular(16.0),
                                             ),
                                           ),
                                         ],

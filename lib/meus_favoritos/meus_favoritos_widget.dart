@@ -73,7 +73,7 @@ class _MeusFavoritosWidgetState extends State<MeusFavoritosWidget> {
             title: Text(
               'Favoritos',
               style: FlutterFlowTheme.of(context).headlineMedium.override(
-                    fontFamily: 'Barlow',
+                    font: GoogleFonts.barlow(),
                     color: Colors.white,
                     fontSize: 22.0,
                     letterSpacing: 0.0,
@@ -172,7 +172,7 @@ class _MeusFavoritosWidgetState extends State<MeusFavoritosWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Rubik',
+                                          font: GoogleFonts.rubik(),
                                           fontSize: 14.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
@@ -202,7 +202,7 @@ class _MeusFavoritosWidgetState extends State<MeusFavoritosWidget> {
                                                       context)
                                                   .bodyMedium
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     color: FlutterFlowTheme.of(
                                                             context)
                                                         .primary,
@@ -222,7 +222,7 @@ class _MeusFavoritosWidgetState extends State<MeusFavoritosWidget> {
                                                       context)
                                                   .bodyMedium
                                                   .override(
-                                                    fontFamily: 'Rubik',
+                                                    font: GoogleFonts.rubik(),
                                                     color: FlutterFlowTheme.of(
                                                             context)
                                                         .primary,
@@ -234,7 +234,7 @@ class _MeusFavoritosWidgetState extends State<MeusFavoritosWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Rubik',
+                                                font: GoogleFonts.rubik(),
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .primary,

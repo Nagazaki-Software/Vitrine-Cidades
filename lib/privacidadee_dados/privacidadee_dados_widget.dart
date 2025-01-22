@@ -96,7 +96,7 @@ class _PrivacidadeeDadosWidgetState extends State<PrivacidadeeDadosWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .displaySmall
                                         .override(
-                                          fontFamily: 'Barlow',
+                                          font: GoogleFonts.barlow(),
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
                                           fontSize: 25.0,
@@ -144,13 +144,13 @@ class _PrivacidadeeDadosWidgetState extends State<PrivacidadeeDadosWidget> {
                                             children: [
                                               Text(
                                                 'Quero uma cópia dos meus dados',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Rubik',
-                                                          letterSpacing: 0.0,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      font: GoogleFonts.rubik(),
+                                                      letterSpacing: 0.0,
+                                                    ),
                                               ),
                                               Icon(
                                                 Icons.arrow_forward_ios_rounded,
@@ -188,7 +188,8 @@ class _PrivacidadeeDadosWidgetState extends State<PrivacidadeeDadosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -227,7 +228,8 @@ class _PrivacidadeeDadosWidgetState extends State<PrivacidadeeDadosWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Rubik',
+                                                        font:
+                                                            GoogleFonts.rubik(),
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),

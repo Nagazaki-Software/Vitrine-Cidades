@@ -66,6 +66,11 @@ class PagamentoRecord extends FirestoreRecord {
   String get invoiceUrl => _invoiceUrl ?? '';
   bool hasInvoiceUrl() => _invoiceUrl != null;
 
+  // "id" field.
+  String? _id;
+  String get id => _id ?? '';
+  bool hasId() => _id != null;
+
   DocumentReference get parentReference => reference.parent.parent!;
 
   void _initializeFields() {
@@ -79,6 +84,7 @@ class PagamentoRecord extends FirestoreRecord {
     _dia = snapshotData['dia'] as DateTime?;
     _invoiceNumber = snapshotData['invoiceNumber'] as String?;
     _invoiceUrl = snapshotData['invoiceUrl'] as String?;
+    _id = snapshotData['id'] as String?;
   }
 
   static Query<Map<String, dynamic>> collection([DocumentReference? parent]) =>
@@ -131,6 +137,7 @@ Map<String, dynamic> createPagamentoRecordData({
   DateTime? dia,
   String? invoiceNumber,
   String? invoiceUrl,
+  String? id,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
@@ -144,6 +151,7 @@ Map<String, dynamic> createPagamentoRecordData({
       'dia': dia,
       'invoiceNumber': invoiceNumber,
       'invoiceUrl': invoiceUrl,
+      'id': id,
     }.withoutNulls,
   );
 
@@ -164,7 +172,8 @@ class PagamentoRecordDocumentEquality implements Equality<PagamentoRecord> {
         e1?.valor == e2?.valor &&
         e1?.dia == e2?.dia &&
         e1?.invoiceNumber == e2?.invoiceNumber &&
-        e1?.invoiceUrl == e2?.invoiceUrl;
+        e1?.invoiceUrl == e2?.invoiceUrl &&
+        e1?.id == e2?.id;
   }
 
   @override
@@ -178,7 +187,8 @@ class PagamentoRecordDocumentEquality implements Equality<PagamentoRecord> {
         e?.valor,
         e?.dia,
         e?.invoiceNumber,
-        e?.invoiceUrl
+        e?.invoiceUrl,
+        e?.id
       ]);
 
   @override
