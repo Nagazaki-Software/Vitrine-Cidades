@@ -66,7 +66,7 @@ class CriarAssinaturaComCartaoDeCreditoCall {
       callType: ApiCallType.POST,
       headers: {
         'access_token':
-            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+            '\$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmVkYjI2ZWFkLTkyMWItNDdkZi05YmJmLTQ1ZWUwOGVkZGVkNTo6JGFhY2hfNmM5MmU0ZDItYjhkMC00NWU5LTg2MzEtODIxMWUxZGIzMjFk',
       },
       params: {},
       body: ffApiRequestBody,
@@ -91,7 +91,7 @@ class CriarAssinaturaComPIXCall {
       callType: ApiCallType.GET,
       headers: {
         'access_token':
-            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+            '\$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmVkYjI2ZWFkLTkyMWItNDdkZi05YmJmLTQ1ZWUwOGVkZGVkNTo6JGFhY2hfNmM5MmU0ZDItYjhkMC00NWU5LTg2MzEtODIxMWUxZGIzMjFk',
       },
       params: {},
       returnBody: true,
@@ -120,7 +120,7 @@ class CriarClienteCall {
       callType: ApiCallType.POST,
       headers: {
         'access_token':
-            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+            '\$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmVkYjI2ZWFkLTkyMWItNDdkZi05YmJmLTQ1ZWUwOGVkZGVkNTo6JGFhY2hfNmM5MmU0ZDItYjhkMC00NWU5LTg2MzEtODIxMWUxZGIzMjFk',
       },
       params: {
         'name': name,
@@ -200,7 +200,7 @@ class GetClienteCall {
       callType: ApiCallType.GET,
       headers: {
         'access_token':
-            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+            '\$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmVkYjI2ZWFkLTkyMWItNDdkZi05YmJmLTQ1ZWUwOGVkZGVkNTo6JGFhY2hfNmM5MmU0ZDItYjhkMC00NWU5LTg2MzEtODIxMWUxZGIzMjFk',
       },
       params: {
         'cpfCnpj': cpfCnpj,
@@ -258,7 +258,7 @@ class PixRecorrenteCall {
       callType: ApiCallType.GET,
       headers: {
         'access_token':
-            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+            '\$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmVkYjI2ZWFkLTkyMWItNDdkZi05YmJmLTQ1ZWUwOGVkZGVkNTo6JGFhY2hfNmM5MmU0ZDItYjhkMC00NWU5LTg2MzEtODIxMWUxZGIzMjFk',
       },
       params: {},
       returnBody: true,
@@ -295,7 +295,7 @@ class AssinaturaPixCall {
       callType: ApiCallType.GET,
       headers: {
         'access_token':
-            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+            '\$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmVkYjI2ZWFkLTkyMWItNDdkZi05YmJmLTQ1ZWUwOGVkZGVkNTo6JGFhY2hfNmM5MmU0ZDItYjhkMC00NWU5LTg2MzEtODIxMWUxZGIzMjFk',
       },
       params: {},
       returnBody: true,
@@ -327,7 +327,7 @@ class EstornosCall {
       callType: ApiCallType.POST,
       headers: {
         'access_token':
-            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+            '\$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmVkYjI2ZWFkLTkyMWItNDdkZi05YmJmLTQ1ZWUwOGVkZGVkNTo6JGFhY2hfNmM5MmU0ZDItYjhkMC00NWU5LTg2MzEtODIxMWUxZGIzMjFk',
       },
       params: {},
       bodyType: BodyType.MULTIPART,
@@ -360,7 +360,7 @@ class RecuperarStatusCall {
       callType: ApiCallType.GET,
       headers: {
         'access_token':
-            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+            '\$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmVkYjI2ZWFkLTkyMWItNDdkZi05YmJmLTQ1ZWUwOGVkZGVkNTo6JGFhY2hfNmM5MmU0ZDItYjhkMC00NWU5LTg2MzEtODIxMWUxZGIzMjFk',
       },
       params: {},
       returnBody: true,
@@ -386,7 +386,7 @@ class ListarTodosPixCall {
       callType: ApiCallType.GET,
       headers: {
         'access_token':
-            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+            '\$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmVkYjI2ZWFkLTkyMWItNDdkZi05YmJmLTQ1ZWUwOGVkZGVkNTo6JGFhY2hfNmM5MmU0ZDItYjhkMC00NWU5LTg2MzEtODIxMWUxZGIzMjFk',
       },
       params: {},
       returnBody: true,
@@ -445,7 +445,7 @@ class CobrancaPixCall {
       callType: ApiCallType.POST,
       headers: {
         'access_token':
-            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+            '\$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmVkYjI2ZWFkLTkyMWItNDdkZi05YmJmLTQ1ZWUwOGVkZGVkNTo6JGFhY2hfNmM5MmU0ZDItYjhkMC00NWU5LTg2MzEtODIxMWUxZGIzMjFk',
       },
       params: {
         'customer': customer,
@@ -494,7 +494,7 @@ class ListarCobrancasCall {
       callType: ApiCallType.GET,
       headers: {
         'access_token':
-            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+            '\$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmVkYjI2ZWFkLTkyMWItNDdkZi05YmJmLTQ1ZWUwOGVkZGVkNTo6JGFhY2hfNmM5MmU0ZDItYjhkMC00NWU5LTg2MzEtODIxMWUxZGIzMjFk',
       },
       params: {
         'customer': customer,
@@ -522,7 +522,7 @@ class RecuperarSaldoEmContaCall {
       callType: ApiCallType.GET,
       headers: {
         'access_token':
-            '\$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDA1MjE1NDc6OiRhYWNoX2IyODBmZThhLTMzYzMtNDRhNy1hNGNlLTRkMGUxNGZiY2E5NA==',
+            '\$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmVkYjI2ZWFkLTkyMWItNDdkZi05YmJmLTQ1ZWUwOGVkZGVkNTo6JGFhY2hfNmM5MmU0ZDItYjhkMC00NWU5LTg2MzEtODIxMWUxZGIzMjFk',
       },
       params: {},
       returnBody: true,

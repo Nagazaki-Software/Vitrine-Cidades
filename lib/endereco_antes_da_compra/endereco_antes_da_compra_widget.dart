@@ -6,6 +6,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'dart:ui';
+import '/flutter_flow/custom_functions.dart' as functions;
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -108,7 +109,7 @@ class _EnderecoAntesDaCompraWidgetState
 
     _model.textController6 ??= TextEditingController(text: _model.logradouro);
     _model.textFieldFocusNode6 ??= FocusNode();
-    _model.textFieldFocusNode6!.addListener(() => safeSetState(() {}));
+
     _model.textController7 ??= TextEditingController();
     _model.textFieldFocusNode7 ??= FocusNode();
 
@@ -219,6 +220,24 @@ class _EnderecoAntesDaCompraWidgetState
                                         .primaryText,
                                     letterSpacing: 0.0,
                                   ),
+                            ),
+                            Align(
+                              alignment: AlignmentDirectional(-1.0, 0.0),
+                              child: Text(
+                                getJsonField(
+                                  (_model.apiResultwe1?.jsonBody ?? ''),
+                                  r'''$''',
+                                ).toString(),
+                                style: FlutterFlowTheme.of(context)
+                                    .headlineSmall
+                                    .override(
+                                      font: GoogleFonts.barlow(),
+                                      color: FlutterFlowTheme.of(context)
+                                          .primaryText,
+                                      fontSize: 18.0,
+                                      letterSpacing: 0.0,
+                                    ),
+                              ),
                             ),
                             TextFormField(
                               controller: _model.textController1,
@@ -347,6 +366,15 @@ class _EnderecoAntesDaCompraWidgetState
                             TextFormField(
                               controller: _model.textController3,
                               focusNode: _model.textFieldFocusNode3,
+                              onChanged: (_) => EasyDebounce.debounce(
+                                '_model.textController3',
+                                Duration(milliseconds: 2000),
+                                () async {
+                                  _model.cpfcnpj = functions.retireOsPontos(
+                                      _model.textController3.text);
+                                  safeSetState(() {});
+                                },
+                              ),
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
@@ -562,11 +590,6 @@ class _EnderecoAntesDaCompraWidgetState
                             TextFormField(
                               controller: _model.textController6,
                               focusNode: _model.textFieldFocusNode6,
-                              onChanged: (_) => EasyDebounce.debounce(
-                                '_model.textController6',
-                                Duration(milliseconds: 1000),
-                                () => safeSetState(() {}),
-                              ),
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
@@ -973,102 +996,108 @@ class _EnderecoAntesDaCompraWidgetState
                       ),
                     ),
                   ),
-                  FFButtonWidget(
-                    onPressed: () async {
-                      _model.apiResultuhp = await CriarClienteCall.call(
-                        cpfCnpj: _model.textController3.text,
-                        email: currentUserEmail,
-                        address: _model.textController6.text,
-                        province: _model.textController11.text,
-                        postalCode: _model.textController5.text,
-                        addressNumber:
-                            double.tryParse(_model.textController7.text),
-                        name: currentUserDisplayName,
-                      );
-
-                      if ((_model.apiResultuhp?.succeeded ?? true)) {
-                        context.pushNamed(
-                          'resumoDoPedido',
-                          queryParameters: {
-                            'valor': serializeParam(
-                              widget!.valor,
-                              ParamType.String,
-                            ),
-                            'valorDouble': serializeParam(
-                              widget!.valorDouble,
-                              ParamType.double,
-                            ),
-                            'tipodePlano': serializeParam(
-                              widget!.tipoDePlano,
-                              ParamType.String,
-                            ),
-                            'cpfCnpj': serializeParam(
-                              _model.textController3.text,
-                              ParamType.String,
-                            ),
-                            'customer': serializeParam(
-                              CriarClienteCall.customerID(
-                                (_model.apiResultuhp?.jsonBody ?? ''),
-                              ),
-                              ParamType.String,
-                            ),
-                            'celular': serializeParam(
-                              _model.textController4.text,
-                              ParamType.String,
-                            ),
-                            'cep': serializeParam(
-                              _model.textController5.text,
-                              ParamType.String,
-                            ),
-                            'numberCasa': serializeParam(
-                              _model.textController7.text,
-                              ParamType.String,
-                            ),
-                          }.withoutNulls,
+                  Padding(
+                    padding:
+                        EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 12.0),
+                    child: FFButtonWidget(
+                      onPressed: () async {
+                        _model.apiResultuhp = await CriarClienteCall.call(
+                          cpfCnpj: functions
+                              .retireOsPontos(_model.textController3.text),
+                          email: currentUserEmail,
+                          address: _model.textController6.text,
+                          province: _model.textController11.text,
+                          postalCode: _model.textController5.text,
+                          addressNumber:
+                              double.tryParse(_model.textController7.text),
+                          name: currentUserDisplayName,
                         );
-                      } else {
-                        await showModalBottomSheet(
-                          isScrollControlled: true,
-                          backgroundColor: Colors.transparent,
-                          enableDrag: false,
-                          context: context,
-                          builder: (context) {
-                            return GestureDetector(
-                              onTap: () {
-                                FocusScope.of(context).unfocus();
-                                FocusManager.instance.primaryFocus?.unfocus();
-                              },
-                              child: Padding(
-                                padding: MediaQuery.viewInsetsOf(context),
-                                child: ErroEmAdicionarInformacoesWidget(),
-                              ),
-                            );
-                          },
-                        ).then((value) => safeSetState(() {}));
-                      }
 
-                      safeSetState(() {});
-                    },
-                    text: 'Continuar para Pagamento',
-                    options: FFButtonOptions(
-                      width: MediaQuery.sizeOf(context).width * 1.0,
-                      height: 56.0,
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      iconPadding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      color: FlutterFlowTheme.of(context).primary,
-                      textStyle:
-                          FlutterFlowTheme.of(context).titleMedium.override(
-                                font: GoogleFonts.barlow(),
-                                color: FlutterFlowTheme.of(context).info,
-                                letterSpacing: 0.0,
+                        if ((_model.apiResultuhp?.succeeded ?? true)) {
+                          context.pushNamed(
+                            'resumoDoPedido',
+                            queryParameters: {
+                              'valor': serializeParam(
+                                widget!.valor,
+                                ParamType.String,
                               ),
-                      elevation: 3.0,
-                      borderRadius: BorderRadius.circular(28.0),
-                      hoverColor: Color(0xFFFF5F00),
+                              'valorDouble': serializeParam(
+                                widget!.valorDouble,
+                                ParamType.double,
+                              ),
+                              'tipodePlano': serializeParam(
+                                widget!.tipoDePlano,
+                                ParamType.String,
+                              ),
+                              'cpfCnpj': serializeParam(
+                                functions.retireOsPontos(
+                                    _model.textController3.text),
+                                ParamType.String,
+                              ),
+                              'customer': serializeParam(
+                                CriarClienteCall.customerID(
+                                  (_model.apiResultuhp?.jsonBody ?? ''),
+                                ),
+                                ParamType.String,
+                              ),
+                              'celular': serializeParam(
+                                _model.textController4.text,
+                                ParamType.String,
+                              ),
+                              'cep': serializeParam(
+                                _model.textController5.text,
+                                ParamType.String,
+                              ),
+                              'numberCasa': serializeParam(
+                                _model.textController7.text,
+                                ParamType.String,
+                              ),
+                            }.withoutNulls,
+                          );
+                        } else {
+                          await showModalBottomSheet(
+                            isScrollControlled: true,
+                            backgroundColor: Colors.transparent,
+                            enableDrag: false,
+                            context: context,
+                            builder: (context) {
+                              return GestureDetector(
+                                onTap: () {
+                                  FocusScope.of(context).unfocus();
+                                  FocusManager.instance.primaryFocus?.unfocus();
+                                },
+                                child: Padding(
+                                  padding: MediaQuery.viewInsetsOf(context),
+                                  child: ErroEmAdicionarInformacoesWidget(),
+                                ),
+                              );
+                            },
+                          ).then((value) => safeSetState(() {}));
+                        }
+
+                        safeSetState(() {});
+                      },
+                      text: 'Continuar para Pagamento',
+                      options: FFButtonOptions(
+                        width: MediaQuery.sizeOf(context).width * 1.0,
+                        height: 56.0,
+                        padding:
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                        iconPadding:
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                        color: FlutterFlowTheme.of(context).primary,
+                        textStyle:
+                            FlutterFlowTheme.of(context).titleMedium.override(
+                                  font: GoogleFonts.barlow(),
+                                  color: FlutterFlowTheme.of(context).info,
+                                  letterSpacing: 0.0,
+                                ),
+                        elevation: 3.0,
+                        borderRadius: BorderRadius.circular(28.0),
+                        hoverColor: Color(0xFFFF5F00),
+                      ),
+                      showLoadingIndicator: false,
                     ),
-                    showLoadingIndicator: false,
                   ),
                 ].divide(SizedBox(height: 24.0)),
               ),

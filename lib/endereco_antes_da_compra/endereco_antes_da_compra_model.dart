@@ -6,6 +6,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'dart:ui';
+import '/flutter_flow/custom_functions.dart' as functions;
 import 'endereco_antes_da_compra_widget.dart' show EnderecoAntesDaCompraWidget;
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter/material.dart';
@@ -26,6 +27,8 @@ class EnderecoAntesDaCompraModel
   String? localidade;
 
   String? estado;
+
+  String? cpfcnpj;
 
   ///  State fields for stateful widgets in this page.
 

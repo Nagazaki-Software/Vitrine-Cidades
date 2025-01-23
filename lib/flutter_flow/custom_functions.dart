@@ -447,3 +447,8 @@ String espacoCartoes(String textfield) {
     return '';
   }
 }
+
+String retireOsPontos(String text) {
+  // Retire os pontos do cpf "., -"
+  return text.replaceAll(RegExp(r'[., -]'), '');
+}

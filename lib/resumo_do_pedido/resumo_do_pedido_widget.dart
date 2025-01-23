@@ -1358,7 +1358,8 @@ class _ResumoDoPedidoWidgetState extends State<ResumoDoPedidoWidget> {
                                             : 119.90,
                                         name: currentUserDisplayName,
                                         email: currentUserEmail,
-                                        cpfCnpj: widget!.cpfCnpj,
+                                        cpfCnpj: functions
+                                            .retireOsPontos(widget!.cpfCnpj!),
                                         phone: widget!.celular,
                                         description:
                                             'Assinatura Premium Vitrine Cidades',
